@@ -1,0 +1,2569 @@
+function,args,kwargs
+matplotlib.pyplot.matshow,data,cmap=**
+matplotlib.pyplot.title,Original dataset,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,data,cmap=**
+matplotlib.pyplot.title,Shuffled dataset,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,reordered_data,cmap=**
+matplotlib.pyplot.title,After biclustering; rearranged to show biclusters,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,**,cmap=**
+matplotlib.pyplot.title,Checkerboard structure of rearranged data,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,data,cmap=**
+matplotlib.pyplot.title,Original dataset,
+matplotlib.pyplot.matshow,data,cmap=**
+matplotlib.pyplot.title,Shuffled dataset,
+matplotlib.pyplot.matshow,fit_data,cmap=**
+matplotlib.pyplot.title,After biclustering; rearranged to show biclusters,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot,datasets,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot.subplot,classifiers,
+matplotlib.pyplot,classifiers,
+matplotlib.pyplot.plot,"features_samples_ratio, acc_clf1","color=gold, label=LDA, linestyle=solid, linewidth=2"
+matplotlib.pyplot.plot,"features_samples_ratio, acc_clf2","color=navy, label=LDA with Ledoit Wolf, linestyle=dashed, linewidth=2"
+matplotlib.pyplot.plot,"features_samples_ratio, acc_clf3","color=red, label=LDA with OAS, linestyle=dotted, linewidth=2"
+matplotlib.pyplot.xlabel,n_features / n_samples,
+matplotlib.pyplot.ylabel,Classification accuracy,
+matplotlib.pyplot.legend,,loc=lower left
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.suptitle,**,
+matplotlib.pyplot.show,,
+matplotlib.colors.LinearSegmentedColormap,"red_blue_classes, **",
+matplotlib.cm.register_cmap,,cmap=cmap
+matplotlib.pyplot.figure,,"facecolor=white, figsize=**"
+matplotlib.pyplot.suptitle,Linear Discriminant Analysis vs Quadratic Discriminant Analysis,"fontsize=15, y=0.98"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots_adjust,,top=0.92
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 2, fig_index",
+matplotlib.pyplot.scatter,"**, **","color=red, marker=."
+matplotlib.pyplot.scatter,"**, **","color=#990000, marker=x, s=20"
+matplotlib.pyplot.scatter,"**, **","color=blue, marker=."
+matplotlib.pyplot.scatter,"**, **","color=#000099, marker=x, s=20"
+matplotlib.pyplot.pcolormesh,"xx, yy, Z","cmap=red_blue_classes, norm=**, zorder=0"
+matplotlib.pyplot.contour,"xx, yy, Z, **","colors=white, linewidths=2.0"
+matplotlib.pyplot.plot,"**, **, *","color=yellow, markeredgecolor=grey, markersize=15"
+matplotlib.pyplot.plot,"**, **, *","color=yellow, markeredgecolor=grey, markersize=15"
+matplotlib.patches,"mean, **, **","angle=**, edgecolor=black, facecolor=color, linewidth=2"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,0.2,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.title,Linear Discriminant Analysis,
+matplotlib.pyplot.ylabel,"Data with
+ fixed covariance",
+matplotlib.pyplot.title,Quadratic Discriminant Analysis,
+matplotlib.pyplot.ylabel,"Data with
+ varying covariances",
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.2, top=0.95"
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.title,Probability,
+matplotlib.pyplot.colorbar,imshow_handle,"cax=ax, orientation=horizontal"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"n_classifiers, n_classes, **",
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot,name,
+matplotlib.pyplot.scatter,"**, **","c=w, edgecolor=k, marker=o"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=4, nrows=1"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=4, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.subplots,"2, 1",
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.suptitle,Decision surface of decision trees trained on pairs of features,
+matplotlib.pyplot.legend,,"borderpad=0, handletextpad=0, loc=lower right"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.title,Decision tree trained on all the iris features,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 3, **",
+matplotlib.pyplot.tight_layout,,"h_pad=0.5, pad=2.5, w_pad=0.5"
+matplotlib.pyplot,"**, **","c=color, cmap=**, edgecolor=black, label=**, s=15"
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"**, **","c=navy, edgecolor=black, label=data, s=s"
+matplotlib.pyplot.scatter,"**, **","c=cornflowerblue, edgecolor=black, label=max_depth=2, s=s"
+matplotlib.pyplot.scatter,"**, **","c=red, edgecolor=black, label=max_depth=5, s=s"
+matplotlib.pyplot.scatter,"**, **","c=orange, edgecolor=black, label=max_depth=8, s=s"
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlabel,target 1,
+matplotlib.pyplot.ylabel,target 2,
+matplotlib.pyplot.title,Multi-output Decision Tree Regression,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"X, y","c=darkorange, edgecolor=black, label=data, s=20"
+matplotlib.pyplot.plot,"X_test, y_1","color=cornflowerblue, label=max_depth=2, linewidth=2"
+matplotlib.pyplot.plot,"X_test, y_2","color=yellowgreen, label=max_depth=5, linewidth=2"
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,Decision Tree Regression,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,131,
+matplotlib.pyplot.plot,"**, discrete_test_errors","c=black, label=SAMME"
+matplotlib.pyplot.plot,"**, real_test_errors","c=black, label=SAMME.R, linestyle=dashed"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.ylim,"0.18, 0.62",
+matplotlib.pyplot.ylabel,Test Error,
+matplotlib.pyplot.xlabel,Number of Trees,
+matplotlib.pyplot.subplot,132,
+matplotlib.pyplot.plot,"**, discrete_estimator_errors, b","alpha=0.5, label=SAMME"
+matplotlib.pyplot.plot,"**, real_estimator_errors, r","alpha=0.5, label=SAMME.R"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.ylabel,Error,
+matplotlib.pyplot.xlabel,Number of Trees,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.subplot,133,
+matplotlib.pyplot.plot,"**, discrete_estimator_weights, b",label=SAMME
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.ylabel,Weight,
+matplotlib.pyplot.xlabel,Number of Trees,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.subplots_adjust,,wspace=0.25
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,121,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,"x_min, x_max",
+matplotlib.pyplot.ylim,"y_min, y_max",
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.title,Decision Boundary,
+matplotlib.pyplot.subplot,122,
+matplotlib.pyplot.axis,**,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.ylabel,Samples,
+matplotlib.pyplot.xlabel,Score,
+matplotlib.pyplot.title,Decision Scores,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots_adjust,,wspace=0.35
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=c, cmap=**, edgecolor=k, label=**, s=20"
+matplotlib.pyplot.hist,**,"alpha=0.5, bins=10, edgecolor=k, facecolor=c, label=**, range=plot_range"
+matplotlib.pyplot.xlim,"min_estimators, max_estimators",
+matplotlib.pyplot.xlabel,n_estimators,
+matplotlib.pyplot.ylabel,OOB error rate,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"xs, ys",label=label
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"X, y","color=**, label=training samples"
+matplotlib.pyplot.plot,"X, y_1","color=**, label=n_estimators=1, linewidth=2"
+matplotlib.pyplot.plot,"X, y_2","color=**, label=n_estimators=300, linewidth=2"
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,Boosted Decision Tree Regression,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,imp_reshaped,cmap=**
+matplotlib.pyplot.title,Pixel importances using impurity values,
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"2, 2",figsize=**
+matplotlib.pyplot.suptitle,Single predictors versus stacked predictors,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots_adjust,,top=0.9
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"x, cumsum","color=oob_color, label=OOB loss, linestyle=oob_line"
+matplotlib.pyplot.plot,"x, test_score","color=test_color, label=Test loss, linestyle=test_line"
+matplotlib.pyplot.plot,"x, cv_score","color=cv_color, label=CV loss, linestyle=cv_line"
+matplotlib.pyplot.axvline,,"color=oob_color, linestyle=oob_line, x=oob_best_iter"
+matplotlib.pyplot.axvline,,"color=test_color, linestyle=test_line, x=test_best_iter"
+matplotlib.pyplot.axvline,,"color=cv_color, linestyle=cv_line, x=cv_best_iter"
+matplotlib.pyplot,,
+matplotlib.pyplot.xticks,"xticks_pos, xticks_label",rotation=90
+matplotlib.pyplot.legend,,loc=upper center
+matplotlib.pyplot.ylabel,normalized loss,
+matplotlib.pyplot.xlabel,number of iterations,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 1, 1",
+matplotlib.pyplot.title,Deviance,
+matplotlib.pyplot.plot,"**, **, b-",label=Training Set Deviance
+matplotlib.pyplot.plot,"**, test_score, r-",label=Test Set Deviance
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.xlabel,Boosting Iterations,
+matplotlib.pyplot.ylabel,Deviance,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 2, 1",
+matplotlib.pyplot.barh,"pos, **",align=center
+matplotlib.pyplot.yticks,"pos, **",
+matplotlib.pyplot.title,Feature Importance (MDI),
+matplotlib.pyplot.subplot,"1, 2, 2",
+matplotlib.pyplot.boxplot,**,"labels=**, vert=False"
+matplotlib.pyplot.title,Permutation Importance (test set),
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=y, edgecolor=k, s=20"
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.legend,,"handles=handles, labels=**, title=true class"
+matplotlib.pyplot.title,"Gaussian inliers with 
+uniformly distributed outliers",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.legend,,"handles=handles, labels=**, title=true class"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.legend,,"handles=handles, labels=**, title=true class"
+matplotlib.pyplot.colorbar,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,right=0.75
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, n_estimators, **",
+matplotlib.pyplot.plot,"X_test, **, b",label=$f(x)$
+matplotlib.pyplot.plot,"**, **, .b",label=LS ~ $y = f(x)+noise$
+matplotlib.pyplot.plot,"X_test, **, c",label=$\mathbb{E}_{LS} \^y(x)$
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.title,name,
+matplotlib.pyplot.subplot,"2, n_estimators, **",
+matplotlib.pyplot.plot,"X_test, y_error, r",label=$error(x)$
+matplotlib.pyplot.plot,"X_test, y_noise, c",label=$noise(x)$
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.plot,X_test,
+matplotlib.pyplot.legend,,loc=**
+matplotlib.pyplot.plot,"X_test, y_bias, b",label=$bias^2(x)$
+matplotlib.pyplot.plot,"X_test, y_var, g",label=$variance(x)$
+matplotlib.pyplot.legend,,loc=**
+matplotlib.pyplot.plot,"X_test, **, r",label=$\^y(x)$
+matplotlib.pyplot.plot,"X_test, **, r",alpha=0.05
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,221,
+matplotlib.pyplot.subplot,222,
+matplotlib.pyplot.subplot,223,
+matplotlib.pyplot.subplot,224,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"**, **","alpha=a, c=navy, edgecolor=k, label=Data, marker=s, s=s"
+matplotlib.pyplot.scatter,"**, **","alpha=a, c=cornflowerblue, edgecolor=k, label=**, s=s"
+matplotlib.pyplot.scatter,"**, **","alpha=a, c=c, edgecolor=k, label=**, marker=^, s=s"
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlabel,target 1,
+matplotlib.pyplot.ylabel,target 2,
+matplotlib.pyplot.title,Comparing random forests and the multi-output meta estimator,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"xx, **, g:","label=$f(x) = x\,\sin(x)$, linewidth=3"
+matplotlib.pyplot.plot,"X_test, y_test, b.","label=Test observations, markersize=10"
+matplotlib.pyplot.plot,"xx, y_med, r-",label=Predicted median
+matplotlib.pyplot.plot,"xx, y_pred, r-",label=Predicted mean
+matplotlib.pyplot.plot,"xx, y_upper, k-",
+matplotlib.pyplot.plot,"xx, y_lower, k-",
+matplotlib.pyplot.fill_between,"**, y_lower, y_upper","alpha=0.4, label=Predicted 90% interval"
+matplotlib.pyplot.xlabel,$x$,
+matplotlib.pyplot.ylabel,$f(x)$,
+matplotlib.pyplot.ylim,"**, 25",
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"xx, **, g:","label=$f(x) = x\,\sin(x)$, linewidth=3"
+matplotlib.pyplot.plot,"X_test, y_test, b.","label=Test observations, markersize=10"
+matplotlib.pyplot.plot,"xx, y_upper, k-",
+matplotlib.pyplot.plot,"xx, y_lower, k-",
+matplotlib.pyplot.fill_between,"**, y_lower, y_upper","alpha=0.4, label=Predicted 90% interval"
+matplotlib.pyplot.xlabel,$x$,
+matplotlib.pyplot.ylabel,$f(x)$,
+matplotlib.pyplot.ylim,"**, 25",
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.title,Prediction with tuned hyper-parameters,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,xx,
+matplotlib.pyplot.plot,xx,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot,"index, score_gb, bar_width","color=crimson, label=Without early stopping"
+matplotlib.pyplot,"**, score_gbes, bar_width","color=coral, label=With early stopping"
+matplotlib.pyplot.xticks,"**, names",
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.grid,True,
+matplotlib.pyplot.xlabel,Datasets,
+matplotlib.pyplot.ylabel,Test score,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot,"index, time_gb, bar_width","color=crimson, label=Without early stopping"
+matplotlib.pyplot,"**, time_gbes, bar_width","color=coral, label=With early stopping"
+matplotlib.pyplot.xticks,"**, names",
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.grid,True,
+matplotlib.pyplot.xlabel,Datasets,
+matplotlib.pyplot.ylabel,Fit Time,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,"**, **, **","ha=center, va=bottom"
+matplotlib.pyplot.suptitle,Classifiers on feature subsets of the Iris dataset,fontsize=12
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.tight_layout,,"h_pad=0.2, pad=2.5, w_pad=0.2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"3, 4, plot_idx",
+matplotlib.pyplot,"**, **","c=y, cmap=**, edgecolor=k, s=20"
+matplotlib.pyplot.title,model_title,fontsize=9
+matplotlib.pyplot.contourf,"xx, yy, Z",cmap=cmap
+matplotlib.pyplot.contourf,"xx, yy, Z","alpha=estimator_alpha, cmap=cmap"
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot,,
+matplotlib.pyplot.axvline,2.8,"color=k, linestyle=dashed"
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.title,Class probabilities for sample 1 by different classifiers,
+matplotlib.pyplot.legend,"**, **",loc=upper left
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.xlabel,Boosting Iterations,
+matplotlib.pyplot.ylabel,Test Set Deviance,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"**, **, -","color=color, label=label"
+matplotlib.pyplot.subplots,"2, 2","figsize=**, sharex=col, sharey=row"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.plot,"pred1, gd",label=GradientBoostingRegressor
+matplotlib.pyplot.plot,"pred2, b^",label=RandomForestRegressor
+matplotlib.pyplot.plot,"pred3, ys",label=LinearRegression
+matplotlib.pyplot.plot,"pred4, r*","label=VotingRegressor, ms=10"
+matplotlib.pyplot.tick_params,,"axis=x, bottom=False, labelbottom=False, top=False, which=both"
+matplotlib.pyplot.ylabel,predicted,
+matplotlib.pyplot.xlabel,training samples,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.title,Regressor predictions and their average,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"3, 1",figsize=**
+matplotlib.pyplot.subplots,"1, 1",figsize=**
+matplotlib.pyplot.subplots,"3, 1",figsize=**
+matplotlib.pyplot.subplots,"2, 1",figsize=**
+matplotlib.pyplot.subplots,"3, 1",figsize=**
+matplotlib.pyplot.subplots,"3, 1",figsize=**
+matplotlib.pyplot.subplots,"**, 1",figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.cm,each,
+matplotlib.pyplot,unique_labels,
+matplotlib.pyplot.close,all,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.show,,
+matplotlib.cm,**,
+matplotlib.pyplot.scatter,"**, **","color=**, marker=."
+matplotlib.pyplot.scatter,"**, **","color=**, marker=o, s=14"
+matplotlib.pyplot,"**, **",color=**
+matplotlib.pyplot,"**, **",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,131,
+matplotlib.pyplot.title,Ward Linkage,
+matplotlib.pyplot.subplot,132,
+matplotlib.pyplot.title,Unknown instances,
+matplotlib.pyplot.subplot,133,
+matplotlib.pyplot.title,Classify unknown instances,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","alpha=alpha, c=color, edgecolor=k"
+matplotlib.pyplot.close,all,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 3, 1",
+matplotlib.pyplot.imshow,coef,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.title,True weights,
+matplotlib.pyplot.subplot,"1, 3, 2",
+matplotlib.pyplot.imshow,coef_selection_,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.title,Feature Selection,
+matplotlib.pyplot.subplot,"1, 3, 3",
+matplotlib.pyplot.imshow,coef_agglomeration_,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.title,Feature Agglomeration,
+matplotlib.pyplot.subplots_adjust,"0.04, 0.0, 0.98, 0.94, 0.16, 0.26",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.tight_layout,,rect=**
+matplotlib.pyplot,**,"alpha=0.5, c=**, marker=**, s=50"
+matplotlib.pyplot.title,title,size=17
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.001, hspace=0.01, left=0.02, right=0.98, top=0.96, wspace=0.05"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"**, **, plot_num",
+matplotlib.pyplot.scatter,"**, **","color=**, s=10"
+matplotlib.pyplot.xlim,"**, 2.5",
+matplotlib.pyplot.ylim,"**, 2.5",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot,"0.99, 0.01, **","horizontalalignment=right, size=15, transform=**"
+matplotlib.pyplot.subplot,datasets,
+matplotlib.pyplot.title,name,size=18
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.scatter,"**, **","c=b, s=50"
+matplotlib.pyplot.title,K-Means++ Initialization,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=col, marker=., s=10"
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.title,"Original image (96,615 colors)",
+matplotlib.pyplot.imshow,china,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.imshow,**,
+matplotlib.pyplot.figure,3,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.imshow,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.001, hspace=0.01, left=0.02, right=0.98, top=0.95, wspace=0.05"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"**, **, plot_num",
+matplotlib.pyplot.scatter,"**, **","color=**, s=10"
+matplotlib.pyplot.xlim,"**, 2.5",
+matplotlib.pyplot.ylim,"**, 2.5",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot,"0.99, 0.01, **","horizontalalignment=right, size=15, transform=**"
+matplotlib.pyplot.subplot,datasets,
+matplotlib.pyplot.title,name,size=18
+matplotlib.pyplot.figure,1,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.subplots_adjust,,"bottom=0.01, left=0.01, right=0.99, top=0.91"
+matplotlib.pyplot.subplot,"3, 4, 10",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,Labels,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"3, 4, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest, vmax=16"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplot,"3, 4, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest, vmax=16"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,Original data,
+matplotlib.pyplot.title,Agglomerated data,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.colors,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.suptitle,Ground truth,"size=20, y=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,**,"alpha=0.5, c=color"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.imshow,avg_dist,"cmap=cividis, interpolation=nearest, vmin=0"
+matplotlib.pyplot.xticks,"**, labels",rotation=45
+matplotlib.pyplot.yticks,"**, labels",
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.suptitle,**,"size=18, y=1"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.suptitle,**,"size=20, y=1"
+matplotlib.pyplot.plot,**,"alpha=0.5, c=color"
+matplotlib.patheffects.withStroke,,"alpha=0.5, foreground=w, linewidth=5"
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.ylabel,Score value,
+matplotlib.pyplot.ylim,,"bottom=**, top=1.05"
+matplotlib.pyplot.legend,"plots, names",bbox_to_anchor=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot.title,"Clustering measures for 2 random uniform labelings
+with equal number of clusters",
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.ylabel,Score value,
+matplotlib.pyplot.legend,"plots, names",
+matplotlib.pyplot.ylim,,"bottom=**, top=1.05"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.errorbar,"n_clusters_range, **, **","alpha=0.8, linewidth=1, marker=marker"
+matplotlib.pyplot.errorbar,"n_clusters_range, **, **","alpha=0.8, linewidth=2, marker=marker"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.text,"**, 1.8, **",
+matplotlib.pyplot.text,"**, 1.8, **",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"**, **, **",color=col
+matplotlib.pyplot.plot,"**, **, **","markeredgecolor=k, markerfacecolor=col, markersize=14"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,**,fontsize=16
+matplotlib.pyplot.subplots_adjust,"0.08, 0.02, 0.92, 0.85, 0.08, 0.23",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"9, 9, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.imshow,rescaled_coins,cmap=**
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.contour,**,colors=colors
+matplotlib.pyplot,**,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,**,
+matplotlib.pyplot,**,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"hspace=0.25, wspace=0.25"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.subplots,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.subplots,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.suptitle,**,"fontsize=14, fontweight=bold"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 4, **",
+matplotlib.pyplot.scatter,"**, **","c=**, cmap=**"
+matplotlib.pyplot.axis,equal,
+matplotlib.pyplot,off,
+matplotlib.pyplot.subplots_adjust,,"bottom=0, left=0, right=1, top=0.83, wspace=0"
+matplotlib.pyplot,**,size=17
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.xlabel,n_init,
+matplotlib.pyplot.ylabel,inertia,
+matplotlib.pyplot.legend,"plots, legends",
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.errorbar,"n_init_range, **, **",fmt=format
+matplotlib.pyplot.plot,"**, **, .",c=color
+matplotlib.pyplot.plot,"**, **, o","markeredgecolor=k, markerfacecolor=color, markersize=6"
+matplotlib.pyplot.title,"Example cluster allocation with a single random init
+with MiniBatchKMeans",
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.imshow,Z,"aspect=auto, cmap=**, extent=**, interpolation=nearest, origin=lower"
+matplotlib.pyplot.plot,"**, **, k.",markersize=2
+matplotlib.pyplot.scatter,"**, **","color=w, linewidths=3, marker=x, s=169, zorder=10"
+matplotlib.pyplot.title,"K-means clustering on the digits dataset (PCA-reduced data)
+Centroids are marked with white cross",
+matplotlib.pyplot.xlim,"x_min, x_max",
+matplotlib.pyplot.ylim,"y_min, y_max",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **",c=y_pred
+matplotlib.pyplot.title,Optimal Number of Clusters,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **",c=y_pred
+matplotlib.pyplot.title,"Unevenly Sized Blobs 
+with several initializations",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.suptitle,Ground truth clusters,
+matplotlib.pyplot.suptitle,Unexpected KMeans clusters,
+matplotlib.pyplot.suptitle,Gaussian mixture clusters,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.imshow,rescaled_coins,cmap=**
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.contour,**,colors=**
+matplotlib.cm,n_clusters,
+matplotlib.pyplot.scatter,"**, **",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"**, **, o","markeredgecolor=k, markerfacecolor=**, markersize=14"
+matplotlib.pyplot.plot,"**, **, o","markeredgecolor=k, markerfacecolor=**, markersize=6"
+matplotlib.pyplot.title,Hierarchical Clustering Dendrogram,
+matplotlib.pyplot.xlabel,Number of points in node (or index of point if no parenthesis).,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.gridspec.GridSpec,"2, 3",
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,211,
+matplotlib.pyplot.subplot,212,sharex=ax1
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.scatter,"**, **","color=navy, label=outer labeled, lw=0, marker=s, s=10"
+matplotlib.pyplot.scatter,"**, **","color=c, label=inner labeled, lw=0, marker=s, s=10"
+matplotlib.pyplot.scatter,"**, **","color=darkorange, label=unlabeled, marker=."
+matplotlib.pyplot.legend,,"loc=center, scatterpoints=1, shadow=False"
+matplotlib.pyplot.title,Raw data (2 classes=outer and inner),
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.scatter,"**, **","color=navy, label=outer learned, lw=0, marker=s, s=10"
+matplotlib.pyplot.scatter,"**, **","color=c, label=inner learned, lw=0, marker=s, s=10"
+matplotlib.pyplot.legend,,"loc=center, scatterpoints=1, shadow=False"
+matplotlib.pyplot.title,Labels learned with Label Spreading (KNN),
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.subplots_adjust,,"bottom=0.03, hspace=0.85, left=0.2, right=0.9, top=0.9, wspace=0.2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.suptitle,Unlabeled points are colored white,y=0.1
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"3, 2, **",
+matplotlib.pyplot.contourf,"xx, yy, Z",cmap=**
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.scatter,"**, **","c=colors, edgecolors=black"
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.title,Data,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.plot,"**, r",label=**
+matplotlib.pyplot.plot,"**, g","label=**, linewidth=3"
+matplotlib.pyplot.plot,"**, b","label=**, linewidth=3"
+matplotlib.pyplot.plot,"**, **, k","label=Empirical, linewidth=3"
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlabel,Instances sorted according to predicted probability (uncalibrated GNB),
+matplotlib.pyplot.ylabel,P(y=1),
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.title,Gaussian naive Bayes probabilities,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, c=**, edgecolor=k, label=**, s=**"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.gridspec.GridSpec,"4, 2",
+matplotlib.pyplot.get_cmap,Dark2,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.gridspec.GridSpec,"4, 2",
+matplotlib.pyplot.get_cmap,Dark2,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.gridspec.GridSpec,"4, 2",
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"**, **, ro","label=Class 1, ms=20"
+matplotlib.pyplot.plot,"**, **, go","label=Class 2, ms=20"
+matplotlib.pyplot.plot,"**, **, bo","label=Class 3, ms=20"
+matplotlib.pyplot.plot,"**, **, k",label=Simplex
+matplotlib.pyplot.annotate,"($\frac{1}{3}$, $\frac{1}{3}$, $\frac{1}{3}$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.plot,"**, **, ko",ms=5
+matplotlib.pyplot.annotate,"($\frac{1}{2}$, $0$, $\frac{1}{2}$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.annotate,"($0$, $\frac{1}{2}$, $\frac{1}{2}$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.annotate,"($\frac{1}{2}$, $\frac{1}{2}$, $0$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.annotate,"($0$, $0$, $1$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.annotate,"($1$, $0$, $0$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.annotate,"($0$, $1$, $0$)","arrowprops=**, horizontalalignment=center, verticalalignment=center, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.grid,False,
+matplotlib.pyplot.title,Change of predicted probabilities on test samples after sigmoid calibration,
+matplotlib.pyplot.xlabel,Probability class 1,
+matplotlib.pyplot.ylabel,Probability class 2,
+matplotlib.pyplot.xlim,"**, 1.05",
+matplotlib.pyplot.ylim,"**, 1.05",
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"**, **, k",label=Simplex
+matplotlib.pyplot.grid,False,
+matplotlib.pyplot.title,Learned sigmoid calibration map,
+matplotlib.pyplot.xlabel,Probability class 1,
+matplotlib.pyplot.ylabel,Probability class 2,
+matplotlib.pyplot.xlim,"**, 1.05",
+matplotlib.pyplot.ylim,"**, 1.05",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.arrow,"**, **, **, **","color=**, head_width=0.01"
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.arrow,"**, **, **, **","color=**, head_width=0.01"
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.plot,"**, **, k",alpha=0.2
+matplotlib.pyplot.plot,"data, target","label=True signal, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,"Illustration of the true generative process and 
+noisy measurements available during training",
+matplotlib.pyplot.plot,"data, target","label=True signal, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.plot,"data, **",label=Ridge regression
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,Limitation of a linear model such as ridge,
+matplotlib.pyplot.plot,"data, target","label=True signal, linestyle=dashed, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.plot,"data, **","label=Kernel ridge, linestyle=dashdot, linewidth=2"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,"Kernel ridge regression with an exponential sine squared
+ kernel using default hyperparameters",
+matplotlib.pyplot.plot,"data, target","label=True signal, linestyle=dashed, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.plot,"data, predictions_kr","label=Kernel ridge, linestyle=dashdot, linewidth=2"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,"Kernel ridge regression with an exponential sine squared
+ kernel using tuned hyperparameters",
+matplotlib.pyplot.plot,"data, target","label=True signal, linestyle=dashed, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.plot,"data, predictions_kr","label=Kernel ridge, linestyle=dashdot, linewidth=2"
+matplotlib.pyplot.plot,"data, mean_predictions_gpr","label=Gaussian process regressor, linestyle=dotted, linewidth=2"
+matplotlib.pyplot.fill_between,"**, **, **","alpha=0.2, color=tab:green"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,Comparison between kernel ridge and gaussian process regressor,
+matplotlib.pyplot.plot,"data, target","label=True signal, linestyle=dashed, linewidth=2"
+matplotlib.pyplot.scatter,"training_data, training_noisy_target","color=black, label=Noisy measurements"
+matplotlib.pyplot.plot,"data, predictions_kr","label=Kernel ridge, linestyle=dashdot, linewidth=2"
+matplotlib.pyplot.plot,"data, mean_predictions_gpr","label=Gaussian process regressor, linestyle=dotted, linewidth=2"
+matplotlib.pyplot.fill_between,"**, **, **","alpha=0.2, color=tab:green"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,Effect of using a radial basis function kernel,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.contour,"xx, yy, Z","colors=**, levels=**, linewidths=2"
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=**, s=30"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.axis,**,
+matplotlib.pyplot.colorbar,image,
+matplotlib.pyplot.title,**,fontsize=12
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.xlabel,$x_1$,
+matplotlib.pyplot.ylabel,$x_2$,
+matplotlib.pyplot.imshow,y_prob,"alpha=0.8, cmap=**, extent=**"
+matplotlib.colors.Normalize,,"vmax=0.9, vmin=0.0"
+matplotlib.pyplot.colorbar,cax,"norm=norm, ticks=**"
+matplotlib.pyplot.clim,"0, 1",
+matplotlib.pyplot.plot,"**, **, r.",markersize=12
+matplotlib.pyplot.plot,"**, **, b.",markersize=12
+matplotlib.pyplot.contour,"x1, x2, y_true, **","colors=k, linestyles=dashdot"
+matplotlib.pyplot.contour,"x1, x2, y_prob, **","colors=b, linestyles=solid"
+matplotlib.pyplot.clabel,cs,fontsize=11
+matplotlib.pyplot.contour,"x1, x2, y_prob, **","colors=k, linestyles=dashed"
+matplotlib.pyplot.clabel,cs,fontsize=11
+matplotlib.pyplot.contour,"x1, x2, y_prob, **","colors=r, linestyles=solid"
+matplotlib.pyplot.clabel,cs,fontsize=11
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"X, y",label=Expected signal
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.plot,"X, y",label=Expected signal
+matplotlib.pyplot.scatter,,"alpha=0.4, color=black, label=Observations, x=**, y=y_train"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.plot,"X, y",label=Expected signal
+matplotlib.pyplot.scatter,,"alpha=0.4, color=black, label=Observations, x=**, y=y_train"
+matplotlib.pyplot.errorbar,"X, y_mean, y_std",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.title,**,fontsize=8
+matplotlib.pyplot.plot,"X, y",label=Expected signal
+matplotlib.pyplot.scatter,,"alpha=0.4, color=black, label=Observations, x=**, y=y_train"
+matplotlib.pyplot.errorbar,"X, y_mean, y_std",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.title,**,fontsize=8
+matplotlib.pyplot.contour,"length_scale_grid, noise_level_grid, **","levels=level, norm=**"
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.xscale,log,
+matplotlib.pyplot.yscale,log,
+matplotlib.pyplot.xlabel,Length-scale,
+matplotlib.pyplot.ylabel,Noise-level,
+matplotlib.pyplot.title,Log-marginal-likelihood,
+matplotlib.pyplot.show,,
+matplotlib.colors.LogNorm,,"vmax=vmax, vmin=vmin"
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"**, **","c=k, edgecolors=**, label=Train data"
+matplotlib.pyplot.scatter,"**, **","c=g, edgecolors=**, label=Test data"
+matplotlib.pyplot.plot,"X_, **, r",label=**
+matplotlib.pyplot.plot,"X_, **, b",label=**
+matplotlib.pyplot.xlabel,Feature,
+matplotlib.pyplot.ylabel,Class 1 probability,
+matplotlib.pyplot.xlim,"0, 5",
+matplotlib.pyplot.ylim,"**, 1.5",
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.plot,"**, **, ko",zorder=10
+matplotlib.pyplot.plot,"**, **, ko",zorder=10
+matplotlib.pyplot.pcolor,"Theta0, Theta1, LML",
+matplotlib.pyplot.xscale,log,
+matplotlib.pyplot.yscale,log,
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.xlabel,Magnitude,
+matplotlib.pyplot.ylabel,Length-scale,
+matplotlib.pyplot.title,Log-marginal-likelihood,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.imshow,Z,"extent=**, origin=lower"
+matplotlib.pyplot.scatter,"**, **","c=**, edgecolors=**"
+matplotlib.pyplot.xlabel,Sepal length,
+matplotlib.pyplot.ylabel,Sepal width,
+matplotlib.pyplot.xlim,"**, **",
+matplotlib.pyplot.ylim,"**, **",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.ylabel,CO$_2$ concentration (ppm),
+matplotlib.pyplot.title,Raw air samples measurements from the Mauna Loa Observatory,
+matplotlib.pyplot.ylabel,Monthly average of CO$_2$ concentration (ppm),
+matplotlib.pyplot.title,"Monthly average of air samples measurements
+from the Mauna Loa Observatory",
+matplotlib.pyplot.plot,"X, y","color=black, label=Measurements, linestyle=dashed"
+matplotlib.pyplot.plot,"X_test, mean_y_pred","alpha=0.4, color=tab:blue, label=Gaussian process"
+matplotlib.pyplot.fill_between,"**, **, **","alpha=0.2, color=tab:blue"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,Year,
+matplotlib.pyplot.ylabel,Monthly average of CO$_2$ concentration (ppm),
+matplotlib.pyplot.title,"Monthly average of air samples measurements
+from the Mauna Loa Observatory",
+matplotlib.pyplot.plot,"X, y","label=$f(x) = x \sin(x)$, linestyle=dotted"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,$x$,
+matplotlib.pyplot.ylabel,$f(x)$,
+matplotlib.pyplot.title,True generative process,
+matplotlib.pyplot.plot,"X, y","label=$f(x) = x \sin(x)$, linestyle=dotted"
+matplotlib.pyplot.scatter,"X_train, y_train",label=Observations
+matplotlib.pyplot.plot,"X, mean_prediction",label=Mean prediction
+matplotlib.pyplot.fill_between,"**, **, **","alpha=0.5, label=95% confidence interval"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,$x$,
+matplotlib.pyplot.ylabel,$f(x)$,
+matplotlib.pyplot.title,Gaussian process regression on noise-free dataset,
+matplotlib.pyplot.plot,"X, y","label=$f(x) = x \sin(x)$, linestyle=dotted"
+matplotlib.pyplot.errorbar,"X_train, y_train_noisy, noise_std","color=tab:blue, label=Observations, linestyle=None, marker=., markersize=10"
+matplotlib.pyplot.plot,"X, mean_prediction",label=Mean prediction
+matplotlib.pyplot.fill_between,"**, **, **","alpha=0.5, color=tab:orange, label=95% confidence interval"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,$x$,
+matplotlib.pyplot.ylabel,$f(x)$,
+matplotlib.pyplot.title,Gaussian process regression on a noisy dataset,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.imshow,**,
+matplotlib.pyplot.xticks,"**, X",
+matplotlib.pyplot.yticks,"**, X",
+matplotlib.pyplot.title,Sequence similarity under the kernel,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.bar,"**, **","color=b, label=prediction"
+matplotlib.pyplot.bar,"training_idx, **","alpha=1, color=r, label=training, width=0.2"
+matplotlib.pyplot.xticks,"**, X",
+matplotlib.pyplot.title,Regression on sequences,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.scatter,"**, **","edgecolor=none, facecolor=**, label=training, marker=o, s=100"
+matplotlib.pyplot.scatter,"**, **","edgecolor=none, facecolor=r, label=truth, marker=o, s=100"
+matplotlib.pyplot.scatter,"**, **","facecolor=b, label=prediction, linewidth=2, marker=x, s=100"
+matplotlib.pyplot.xticks,"**, **",
+matplotlib.pyplot.yticks,"**, **",
+matplotlib.pyplot.title,Classification on sequences,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.xticks,X,
+matplotlib.pyplot.yticks,X,
+matplotlib.pyplot.bar,X,
+matplotlib.pyplot.xticks,X,
+matplotlib.pyplot.xticks,X_test,
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True"
+matplotlib.pyplot.xlim,"**, 70",
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,"1, 2",
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,"1, 2",sharey=True
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot,"1, 2",
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,"2, 2","figsize=**, sharey=row"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.05, left=0.05, right=0.95, top=0.9"
+matplotlib.pyplot.subplot,321,
+matplotlib.pyplot.title,"One informative feature, one cluster per class",fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y1, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.subplot,322,
+matplotlib.pyplot.title,"Two informative features, one cluster per class",fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y1, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.subplot,323,
+matplotlib.pyplot.title,"Two informative features, two clusters per class",fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y2, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.subplot,324,
+matplotlib.pyplot.title,"Multi-class, two informative features, one cluster",fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y1, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.subplot,325,
+matplotlib.pyplot.title,Three blobs,fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y1, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.subplot,326,
+matplotlib.pyplot.title,Gaussian divided into three quantiles,fontsize=small
+matplotlib.pyplot.scatter,"**, **","c=Y1, edgecolor=k, marker=o, s=25"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2","figsize=**, sharex=row, sharey=row"
+matplotlib.pyplot.subplots_adjust,,bottom=0.15
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,2,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=**, edgecolor=k"
+matplotlib.pyplot.xlabel,Sepal length,
+matplotlib.pyplot.ylabel,Sepal width,
+matplotlib.pyplot.xlim,"x_min, x_max",
+matplotlib.pyplot.ylim,"y_min, y_max",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.figure,1,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,figsize=**
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2, sharex=row, sharey=row"
+matplotlib.pyplot.plot,"X, y_true_mean","color=black, label=True mean, linestyle=dashed"
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, color=black, label=Outside interval, marker=+"
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, color=black, label=Inside interval"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,x,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.title,Quantiles of heteroscedastic Normal distributed target,
+matplotlib.pyplot.plot,"X, y_true_mean","color=black, label=True mean, linestyle=dashed"
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, color=black, label=Outside interval, marker=+"
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, color=black, label=Inside interval"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.xlabel,x,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.title,Quantiles of asymmetric Pareto distributed target,
+matplotlib.pyplot.plot,"X, y_pred",label=**
+matplotlib.pyplot.plot,"X, y_pred",label=**
+matplotlib.pyplot.scatter,"diabetes_X_test, diabetes_y_test",color=black
+matplotlib.pyplot.plot,"diabetes_X_test, diabetes_y_pred","color=blue, linewidth=3"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","color=yellowgreen, label=Inliers, marker=."
+matplotlib.pyplot.scatter,"**, **","color=gold, label=Outliers, marker=."
+matplotlib.pyplot.plot,"line_X, line_y","color=navy, label=Linear regressor, linewidth=lw"
+matplotlib.pyplot.plot,"line_X, line_y_ransac","color=cornflowerblue, label=RANSAC regressor, linewidth=lw"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.xlabel,Input,
+matplotlib.pyplot.ylabel,Response,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"3, 3",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,121,
+matplotlib.pyplot,,
+matplotlib.pyplot.xlabel,alpha,
+matplotlib.pyplot.ylabel,weights,
+matplotlib.pyplot.title,Ridge coefficients as a function of the regularization,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.subplot,122,
+matplotlib.pyplot,,
+matplotlib.pyplot.xlabel,alpha,
+matplotlib.pyplot.ylabel,error,
+matplotlib.pyplot.title,Coefficient error as a function of the regularization,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1, sharey=True"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.contour,"X1, X2, Z, levels","colors=colors, linestyles=linestyles"
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolor=black, s=20"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.xlabel,-Log(alpha),
+matplotlib.pyplot.ylabel,coefficients,
+matplotlib.pyplot.title,Lasso and Elastic-Net Paths,
+matplotlib.pyplot.legend,"**, **",loc=lower left
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot.xlabel,-Log(alpha),
+matplotlib.pyplot.ylabel,coefficients,
+matplotlib.pyplot.title,Lasso and positive Lasso,
+matplotlib.pyplot.legend,"**, **",loc=lower left
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.figure,3,
+matplotlib.pyplot.xlabel,-Log(alpha),
+matplotlib.pyplot.ylabel,coefficients,
+matplotlib.pyplot.title,Elastic-Net and positive Elastic-Net,
+matplotlib.pyplot.legend,"**, **",loc=lower left
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"neg_log_alphas_lasso, coef_l",c=c
+matplotlib.pyplot.plot,"neg_log_alphas_enet, coef_e","c=c, linestyle=--"
+matplotlib.pyplot.plot,"neg_log_alphas_lasso, coef_l",c=c
+matplotlib.pyplot.plot,"neg_log_alphas_positive_lasso, coef_pl","c=c, linestyle=--"
+matplotlib.pyplot.plot,"neg_log_alphas_enet, coef_e",c=c
+matplotlib.pyplot.plot,"neg_log_alphas_positive_enet, coef_pe","c=c, linestyle=--"
+matplotlib.pyplot.plot,"X, y, b.",
+matplotlib.pyplot.plot,"x, coef_, g-",label=ridge regression
+matplotlib.pyplot.title,Comparison of HuberRegressor vs Ridge,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.legend,,loc=0
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"x, coef_, **",label=**
+matplotlib.pyplot.plot,"**, coefs_",marker=o
+matplotlib.pyplot.xlabel,log(C),
+matplotlib.pyplot.ylabel,Coefficients,
+matplotlib.pyplot.title,Logistic Regression Path,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"xx, **",
+matplotlib.pyplot.vlines,"xx, ymin, ymax",linestyle=dashed
+matplotlib.pyplot.xlabel,|coef| / max|coef|,
+matplotlib.pyplot.ylabel,Coefficients,
+matplotlib.pyplot.title,LASSO Path,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,Classification vector for...,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 5, **",
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.ylabel,linear model,
+matplotlib.pyplot.xlabel,coefficients,
+matplotlib.pyplot.tight_layout,,rect=**
+matplotlib.pyplot.title,Models' coefficients,
+matplotlib.pyplot.plot,ard_scores,"color=navy, label=ARD"
+matplotlib.pyplot.plot,brr_scores,"color=red, label=BayesianRidge"
+matplotlib.pyplot.ylabel,Log-likelihood,
+matplotlib.pyplot.xlabel,Iterations,
+matplotlib.pyplot.xlim,"1, 30",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.title,Models log-likelihood,
+matplotlib.colors.SymLogNorm,,"linthresh=0.001, vmax=80, vmin=**"
+matplotlib.rc,font,**font
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.title,One Class SVM,
+matplotlib.pyplot.contourf,"xx, yy, Z","cmap=**, levels=**"
+matplotlib.pyplot.contour,"xx, yy, Z","colors=darkred, levels=**, linewidths=2"
+matplotlib.pyplot.contourf,"xx, yy, Z","colors=palevioletred, levels=**"
+matplotlib.pyplot.scatter,"**, **","c=white, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=blueviolet, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=gold, edgecolors=k, s=s"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **",loc=upper left
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.title,Online One-Class SVM,
+matplotlib.pyplot.contourf,"xx, yy, Z_sgd","cmap=**, levels=**"
+matplotlib.pyplot.contour,"xx, yy, Z_sgd","colors=darkred, levels=**, linewidths=2"
+matplotlib.pyplot.contourf,"xx, yy, Z_sgd","colors=palevioletred, levels=**"
+matplotlib.pyplot.scatter,"**, **","c=white, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=blueviolet, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=gold, edgecolors=k, s=s"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **",loc=upper left
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=1, nrows=2"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.plot,,
+matplotlib.pyplot.semilogx,"**, **",linestyle=:
+matplotlib.pyplot.plot,"**, **","color=black, label=Average across the folds, linewidth=2"
+matplotlib.pyplot.axvline,**,"color=black, label=alpha: CV estimate, linestyle=--"
+matplotlib.pyplot.ylim,"ymin, ymax",
+matplotlib.pyplot.xlabel,$\alpha$,
+matplotlib.pyplot.ylabel,Mean square error,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.semilogx,"**, **, :",
+matplotlib.pyplot.semilogx,"**, **","color=black, label=Average across the folds, linewidth=2"
+matplotlib.pyplot.axvline,**,"color=black, label=alpha CV, linestyle=--"
+matplotlib.pyplot.ylim,"ymin, ymax",
+matplotlib.pyplot.xlabel,$\alpha$,
+matplotlib.pyplot.ylabel,Mean square error,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot,,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.title,Decision surface of multi-class SGD,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=color, cmap=**, edgecolor=black, label=**, s=20"
+matplotlib.pyplot.plot,"**, **","color=color, ls=--"
+matplotlib.pyplot.plot,xmin,
+matplotlib.pyplot.plot,xmax,
+matplotlib.pyplot,,
+matplotlib.pyplot.xlabel,alpha,
+matplotlib.pyplot.ylabel,weights,
+matplotlib.pyplot.title,Ridge coefficients as a function of the regularization,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=3"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=4, nrows=2, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2"
+matplotlib.pyplot.subplots_adjust,,wspace=0.3
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.xlabel,Proportion train,
+matplotlib.pyplot.ylabel,Test Error Rate,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"xx, yy",label=name
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 2, 1",
+matplotlib.pyplot.spy,coef_lasso_,
+matplotlib.pyplot.xlabel,Feature,
+matplotlib.pyplot.ylabel,Time (or Task),
+matplotlib.pyplot.text,"10, 5, Lasso",
+matplotlib.pyplot.subplot,"1, 2, 2",
+matplotlib.pyplot.spy,coef_multi_task_lasso_,
+matplotlib.pyplot.xlabel,Feature,
+matplotlib.pyplot.ylabel,Time (or Task),
+matplotlib.pyplot.text,"10, 5, MultiTaskLasso",
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.plot,**,"color=seagreen, label=Ground truth, linewidth=lw"
+matplotlib.pyplot.plot,**,"color=cornflowerblue, label=Lasso, linewidth=lw"
+matplotlib.pyplot.plot,**,"color=gold, label=MultiTaskLasso, linewidth=lw"
+matplotlib.pyplot.legend,,loc=upper center
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,"dpi=100, figsize=**"
+matplotlib.pyplot,,
+matplotlib.pyplot.contour,"xx, yy, l2","colors=l2_color, levels=**"
+matplotlib.pyplot.contour,"xx, yy, l1","colors=l1_color, levels=**"
+matplotlib.pyplot.clabel,elastic_net_contour,"fmt=**, fontsize=18, inline=1, manual=**"
+matplotlib.pyplot.clabel,l2_contour,"fmt=**, fontsize=18, inline=1, manual=**"
+matplotlib.pyplot.clabel,l1_contour,"fmt=**, fontsize=18, inline=1, manual=**"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,fig_num,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.scatter,"x, y","color=indigo, marker=x, s=40"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.title,Corrupt y,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"x, y","color=indigo, marker=x, s=40"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.title,Corrupt x,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"line_x, y_pred","color=**, label=**, linewidth=lw"
+matplotlib.pyplot.plot,"line_x, y_pred","color=**, label=**, linewidth=lw"
+matplotlib.pyplot.plot,"time_step, y",
+matplotlib.pyplot.ylabel,target signal,
+matplotlib.pyplot.xlabel,time,
+matplotlib.pyplot.title,Superposition of sinusoidal signals,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.ylabel,linear model,
+matplotlib.pyplot.xlabel,coefficients,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.tight_layout,,
+matplotlib.colors.SymLogNorm,,"linthresh=0.001, vmax=1, vmin=**"
+matplotlib.pyplot.figure,1,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.scatter,"**, y","color=black, label=example data, zorder=20"
+matplotlib.pyplot.plot,"X_test, loss","color=red, label=Logistic Regression Model, linewidth=3"
+matplotlib.pyplot.plot,"X_test, **","label=Linear Regression Model, linewidth=1"
+matplotlib.pyplot.axhline,0.5,color=.5
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.xlabel,X,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.ylim,"**, 1.25",
+matplotlib.pyplot.xlim,"**, 10",
+matplotlib.pyplot.legend,,"fontsize=small, loc=lower right"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot,"**, **","c=color, cmap=**, edgecolor=black, s=20"
+matplotlib.pyplot.plot,"**, **","color=color, ls=--"
+matplotlib.pyplot,xmin,
+matplotlib.pyplot,xmax,
+matplotlib.pyplot.plot,aic_criterion,"color=tab:blue, label=AIC criterion, marker=o"
+matplotlib.pyplot.plot,bic_criterion,"color=tab:orange, label=BIC criterion, marker=o"
+matplotlib.pyplot.vlines,"index_alpha_path_bic, **, **","color=black, label=Selected alpha, linestyle=--"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.ylabel,Information criterion,
+matplotlib.pyplot.xlabel,Lasso model sequence,
+matplotlib.pyplot.title,Lasso model selection via AIC and BIC,
+matplotlib.pyplot.plot,"**, **","color=gold, label=Zero-one loss, lw=lw"
+matplotlib.pyplot.plot,"xx, **","color=teal, label=Hinge loss, lw=lw"
+matplotlib.pyplot.plot,"xx, **","color=yellowgreen, label=Perceptron loss, lw=lw"
+matplotlib.pyplot.plot,"xx, **","color=cornflowerblue, label=Log loss, lw=lw"
+matplotlib.pyplot.plot,"xx, **","color=orange, label=Squared hinge loss, lw=lw"
+matplotlib.pyplot.plot,"xx, **","color=darkorchid, label=Modified Huber loss, linestyle=--, lw=lw"
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.xlabel,Decision function $f(x)$,
+matplotlib.pyplot.ylabel,"$L(y=1, f(x))$",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"4, 1, 1",
+matplotlib.pyplot.xlim,"0, 512",
+matplotlib.pyplot.title,Sparse signal,
+matplotlib.pyplot.stem,"idx, **",
+matplotlib.pyplot.subplot,"4, 1, 2",
+matplotlib.pyplot.xlim,"0, 512",
+matplotlib.pyplot.title,Recovered signal from noise-free measurements,
+matplotlib.pyplot.stem,"idx_r, **",
+matplotlib.pyplot.subplot,"4, 1, 3",
+matplotlib.pyplot.xlim,"0, 512",
+matplotlib.pyplot.title,Recovered signal from noisy measurements,
+matplotlib.pyplot.stem,"idx_r, **",
+matplotlib.pyplot.subplot,"4, 1, 4",
+matplotlib.pyplot.xlim,"0, 512",
+matplotlib.pyplot.title,Recovered signal from noisy measurements with CV,
+matplotlib.pyplot.stem,"idx_r, **",
+matplotlib.pyplot.subplots_adjust,"0.06, 0.04, 0.94, 0.9, 0.2, 0.38",
+matplotlib.pyplot.suptitle,Sparse signal recovery with Orthogonal Matching Pursuit,fontsize=16
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=k"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.plot,"**, this_y, b+",
+matplotlib.pyplot.xlim,"**, 10.2",
+matplotlib.pyplot.ylim,"**, 10.2",
+matplotlib.pyplot.title,title,
+matplotlib.pyplot,"x_plot, y_plot","color=**, label=**, linestyle=**, linewidth=lw"
+matplotlib.pyplot,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,121,
+matplotlib.pyplot.subplot,122,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,pad=1
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots_adjust,,wspace=0.6
+matplotlib.pyplot.show,,
+matplotlib.font_manager.FontProperties,,size=11
+matplotlib.pyplot.subplot,"2, 1, 1",
+matplotlib.pyplot.errorbar,"range_n_outliers, **","color=m, label=Robust location, lw=lw, yerr=**"
+matplotlib.pyplot.errorbar,"range_n_outliers, **","color=green, label=Full data set mean, lw=lw, yerr=**"
+matplotlib.pyplot.errorbar,"range_n_outliers, **","color=black, label=Pure data set mean, lw=lw, yerr=**"
+matplotlib.pyplot.title,Influence of outliers on the location estimation,
+matplotlib.pyplot.ylabel,Error ($||\mu - \hat{\mu}||_2^2$),
+matplotlib.pyplot.legend,,"loc=upper left, prop=font_prop"
+matplotlib.pyplot.subplot,"2, 1, 2",
+matplotlib.pyplot.errorbar,"range_n_outliers, **","color=m, label=Robust covariance (mcd), yerr=**"
+matplotlib.pyplot.errorbar,"**, **","color=green, label=Full data set empirical covariance, yerr=**"
+matplotlib.pyplot.plot,"**, **","color=green, ls=--"
+matplotlib.pyplot.errorbar,"range_n_outliers, **","color=black, label=Pure data set empirical covariance, yerr=**"
+matplotlib.pyplot.title,Influence of outliers on the covariance estimation,
+matplotlib.pyplot.xlabel,Amount of contamination (%),
+matplotlib.pyplot.ylabel,RMSE,
+matplotlib.pyplot.legend,,"loc=upper center, prop=font_prop"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.title,Regularized covariance: likelihood and shrinkage coefficient,
+matplotlib.pyplot.xlabel,Regularization parameter: shrinkage coefficient,
+matplotlib.pyplot.ylabel,Error: negative log-likelihood on test data,
+matplotlib.pyplot.loglog,"shrinkages, negative_logliks",label=Negative log-likelihood
+matplotlib.pyplot.plot,"**, **, --r",label=Real covariance likelihood
+matplotlib.pyplot.vlines,"**, ymin, **","color=magenta, label=Ledoit-Wolf estimate, linewidth=3"
+matplotlib.pyplot.vlines,"**, ymin, **","color=purple, label=OAS estimate, linewidth=3"
+matplotlib.pyplot.vlines,"**, ymin, **","color=cyan, label=Cross-validation best estimate, linewidth=3"
+matplotlib.pyplot.ylim,"ymin, ymax",
+matplotlib.pyplot.xlim,"xmin, xmax",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.subplot,"2, 1, 1",
+matplotlib.pyplot.errorbar,"n_samples_range, **","color=navy, label=Ledoit-Wolf, lw=2, yerr=**"
+matplotlib.pyplot.errorbar,"n_samples_range, **","color=darkorange, label=OAS, lw=2, yerr=**"
+matplotlib.pyplot.ylabel,Squared error,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.title,Comparison of covariance estimators,
+matplotlib.pyplot.xlim,"5, 31",
+matplotlib.pyplot.subplot,"2, 1, 2",
+matplotlib.pyplot.errorbar,"n_samples_range, **","color=navy, label=Ledoit-Wolf, lw=2, yerr=**"
+matplotlib.pyplot.errorbar,"n_samples_range, **","color=darkorange, label=OAS, lw=2, yerr=**"
+matplotlib.pyplot.xlabel,n_samples,
+matplotlib.pyplot.ylabel,Shrinkage,
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.ylim,"**, **",
+matplotlib.pyplot.xlim,"5, 31",
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"left=0.02, right=0.98"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.plot,"**, **, o-",
+matplotlib.pyplot.axvline,**,color=.5
+matplotlib.pyplot.title,Model selection,
+matplotlib.pyplot.ylabel,Cross-validation score,
+matplotlib.pyplot.xlabel,alpha,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 4, **",
+matplotlib.pyplot.imshow,this_cov,"cmap=**, interpolation=nearest, vmax=vmax, vmin=**"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.subplot,"2, 4, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest, vmax=vmax, vmin=**"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,"0.04, 0.02, 0.97, 0.94, 0.09, 0.2",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"xx, yy, linestyle",label=label
+matplotlib.pyplot.subplot,"2, 2, subplot",
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.scatter,"**, **","c=gray, edgecolors=**, s=40"
+matplotlib.pyplot.scatter,"**, **","edgecolors=b, facecolors=none, label=Class 1, linewidths=2, s=160"
+matplotlib.pyplot.scatter,"**, **","edgecolors=orange, facecolors=none, label=Class 2, linewidths=2, s=80"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.xlim,"**, **",
+matplotlib.pyplot.ylim,"**, **",
+matplotlib.pyplot.xlabel,First principal component,
+matplotlib.pyplot.ylabel,Second principal component,
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.subplots,"rows, cols","figsize=**, sharex=True, sharey=True"
+matplotlib.pyplot.tight_layout,,pad=2.0
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,**,loc=lower right
+matplotlib.pyplot.xlabel,Number of observations to eps-embed,
+matplotlib.pyplot.ylabel,Minimum number of dimensions,
+matplotlib.pyplot.title,"Johnson-Lindenstrauss bounds:
+n_samples vs n_components",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,**,loc=upper right
+matplotlib.pyplot.xlabel,Distortion eps,
+matplotlib.pyplot.ylabel,Minimum number of dimensions,
+matplotlib.pyplot.title,"Johnson-Lindenstrauss bounds:
+n_components vs eps",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.loglog,"n_samples_range, min_n_components",color=color
+matplotlib.pyplot.semilogy,"eps_range, min_n_components",color=color
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.hexbin,"dists, projected_dists","cmap=**, extent=**, gridsize=100"
+matplotlib.pyplot.xlabel,Pairwise squared distances in original space,
+matplotlib.pyplot.ylabel,Pairwise squared distances in projected space,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.hist,rates,"bins=50, density=True, edgecolor=k, range=**"
+matplotlib.pyplot.xlabel,Squared distances rate: projected / original,
+matplotlib.pyplot.ylabel,Distribution of samples pairs,
+matplotlib.pyplot.title,**,
+matplotlib.cm,eps_range,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.001, hspace=0.01, left=0.02, right=0.98, top=0.96, wspace=0.05"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"**, **, plot_num",
+matplotlib.pyplot.scatter,"**, **","color=**, s=10"
+matplotlib.pyplot.xlim,"**, 7",
+matplotlib.pyplot.ylim,"**, 7",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot,"0.99, 0.01, **","horizontalalignment=right, size=15, transform=**"
+matplotlib.pyplot.subplot,datasets,
+matplotlib.pyplot.title,name,size=18
+matplotlib.pyplot.contour,"xx, yy, Z","colors=black, levels=**, linewidths=2"
+matplotlib.pyplot.scatter,"**, **","c=r, edgecolors=**, label=SVR support vectors, s=50, zorder=2"
+matplotlib.pyplot.scatter,"**, **","c=k, edgecolors=**, label=data, zorder=1"
+matplotlib.pyplot.plot,"X_plot, y_svr","c=r, label=**"
+matplotlib.pyplot.plot,"X_plot, y_kr","c=g, label=**"
+matplotlib.pyplot.xlabel,data,
+matplotlib.pyplot.ylabel,target,
+matplotlib.pyplot.title,SVR versus Kernel Ridge,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.xscale,log,
+matplotlib.pyplot.yscale,log,
+matplotlib.pyplot.xlabel,Train size,
+matplotlib.pyplot.ylabel,Time (seconds),
+matplotlib.pyplot.title,Execution Time,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.subplots,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"sizes, train_time, o-","color=**, label=**"
+matplotlib.pyplot.plot,"sizes, test_time, o--","color=**, label=**"
+matplotlib.collections.LineCollection,segments,zorder=0
+matplotlib.cm.ScalarMappable.set_array,**,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.show,,
+matplotlib.cm.ScalarMappable.set_array,y,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,"2, 1",figsize=**
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,121,
+matplotlib.pyplot,122,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 3, **",
+matplotlib.pyplot.contourf,"multiples, multiples, Z","alpha=0.7, cmap=**, levels=**, vmax=10, vmin=0"
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.scatter,"**, **","c=targets_train, cmap=**, edgecolors=**, vmax=10, vmin=0"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,Face completion with multi-output estimators,size=16
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"n_faces, n_cols, **",
+matplotlib.pyplot.subplot,"n_faces, n_cols, **",title=true faces
+matplotlib.pyplot.subplot,"n_faces, n_cols, **",
+matplotlib.pyplot.subplot,"n_faces, n_cols, **",title=est
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.xlabel,Number of features selected,
+matplotlib.pyplot.ylabel,Mean test accuracy,
+matplotlib.pyplot.errorbar,"**, **",yerr=**
+matplotlib.pyplot.title,"Recursive Feature Elimination 
+with correlated features",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.matshow,ranking,cmap=**
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.title,Ranking of pixels with RFE,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.bar,"**, scores",width=0.2
+matplotlib.pyplot.title,Feature univariate score,
+matplotlib.pyplot.xlabel,Feature number,
+matplotlib.pyplot.ylabel,Univariate score ($-Log(p_{value})$),
+matplotlib.pyplot.show,,
+matplotlib.pyplot.bar,"**, scores","label=Univariate score ($-Log(p_{value})$), width=0.2"
+matplotlib.pyplot.bar,"**, svm_weights","label=SVM weight, width=0.2"
+matplotlib.pyplot.bar,"**, svm_weights_selected","label=SVM weights after selection, width=0.2"
+matplotlib.pyplot.title,Comparing feature selection,
+matplotlib.pyplot.xlabel,Feature number,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,loc=upper right
+matplotlib.pyplot.show,,
+matplotlib.pyplot.bar,,"height=importance, x=feature_names"
+matplotlib.pyplot.title,Feature importances via coefficients,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 3, **",
+matplotlib.pyplot.scatter,"**, y","edgecolor=black, s=20"
+matplotlib.pyplot.xlabel,**,fontsize=14
+matplotlib.pyplot.title,**,fontsize=16
+matplotlib.pyplot.ylabel,$y$,fontsize=14
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2, sharex=True, sharey=True"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=3, nrows=2"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=3, nrows=2"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=2, sharey=True"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=2, sharey=True"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=3"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=3"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**, ncols=3"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.colorbar,surf,"aspect=10, pad=0.08, shrink=0.6"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.title,"Ridge model, small regularization",
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.xlabel,Raw coefficient values,
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.title,Feature ranges,
+matplotlib.pyplot.xlabel,Std. dev. of feature values,
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.xlabel,Coefficient values corrected by the feature's std. dev.,
+matplotlib.pyplot.title,"Ridge model, small regularization",
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.xlabel,Coefficient importance,
+matplotlib.pyplot.title,Coefficient importance and its variability,
+matplotlib.pyplot.suptitle,"Ridge model, small regularization",
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.ylabel,Age coefficient,
+matplotlib.pyplot.xlabel,Experience coefficient,
+matplotlib.pyplot.grid,True,
+matplotlib.pyplot.xlim,"**, 0.5",
+matplotlib.pyplot.ylim,"**, 0.5",
+matplotlib.pyplot.scatter,"**, **",
+matplotlib.pyplot.title,Co-variations of coefficients for AGE and EXPERIENCE across folds,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.title,Coefficient importance and its variability,
+matplotlib.pyplot.xlabel,Coefficient importance,
+matplotlib.pyplot.suptitle,"Ridge model, small regularization, AGE dropped",
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.title,"Ridge model, small regularization, normalized variables",
+matplotlib.pyplot.xlabel,Raw coefficient values,
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.title,Coefficient variability,
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.title,"Ridge model, with regularization, normalized variables",
+matplotlib.pyplot.xlabel,Raw coefficient values,
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.ylabel,Age coefficient,
+matplotlib.pyplot.xlabel,Experience coefficient,
+matplotlib.pyplot.grid,True,
+matplotlib.pyplot.xlim,"**, 0.5",
+matplotlib.pyplot.ylim,"**, 0.5",
+matplotlib.pyplot.scatter,"**, **",
+matplotlib.pyplot.title,Co-variations of coefficients for AGE and EXPERIENCE across folds,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.title,"Lasso model, optimum regularization, normalized variables",
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.axvline,,"color=.5, x=0"
+matplotlib.pyplot.title,Coefficient variability,
+matplotlib.pyplot.subplots_adjust,,left=0.3
+matplotlib.pyplot.imshow,Z,"aspect=auto, cmap=**, extent=**, interpolation=nearest, origin=lower"
+matplotlib.pyplot.contour,"xx, yy, Z","levels=**, linestyles=dashed, linewidths=2"
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=k, s=30"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.axis,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=**, s=30"
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=k"
+matplotlib.pyplot.title,3-Class classification using Support Vector Machine with custom kernel,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,fignum,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.plot,"xx, yy, k-",
+matplotlib.pyplot.plot,"xx, yy_down, k--",
+matplotlib.pyplot.plot,"xx, yy_up, k--",
+matplotlib.pyplot.scatter,"**, **","cmap=**, edgecolors=k, facecolors=none, s=80, zorder=10"
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=k, zorder=10"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.contourf,"XX, YY, Z","alpha=0.5, cmap=**, linestyles=**"
+matplotlib.pyplot.xlim,"x_min, x_max",
+matplotlib.pyplot.ylim,"y_min, y_max",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.get_cmap,RdBu,
+matplotlib.pyplot.subplots,"2, 2",
+matplotlib.pyplot.subplots_adjust,,"hspace=0.4, wspace=0.4"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.errorbar,"percentiles, score_means, **",
+matplotlib.pyplot.title,Performance of the SVM-Anova varying the percentile of features selected,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.xlabel,Percentile,
+matplotlib.pyplot.ylabel,Accuracy Score,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.15, left=0.2, right=0.95, top=0.95"
+matplotlib.pyplot.imshow,scores,"cmap=**, interpolation=nearest, norm=**"
+matplotlib.pyplot.xlabel,gamma,
+matplotlib.pyplot.ylabel,C,
+matplotlib.pyplot.colorbar,,
+matplotlib.pyplot.xticks,"**, gamma_range",rotation=45
+matplotlib.pyplot.yticks,"**, C_range",
+matplotlib.pyplot.title,Validation accuracy,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"**, **, **",
+matplotlib.pyplot.title,**,size=medium
+matplotlib.pyplot.pcolormesh,"xx, yy, **",cmap=**
+matplotlib.pyplot.scatter,"**, **","c=y_2d, cmap=**, edgecolors=k"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.colors.Normalize.__init__,"self, vmin, vmax, clip",
+matplotlib.pyplot.subplot,C_2d_range,
+matplotlib.pyplot.title,C,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=**, edgecolors=k"
+matplotlib.pyplot,,
+matplotlib.pyplot.legend,"**, **",loc=upper right
+matplotlib.pyplot.show,,
+matplotlib.pyplot.title,Novelty Detection,
+matplotlib.pyplot.contourf,"xx, yy, Z","cmap=**, levels=**"
+matplotlib.pyplot.contour,"xx, yy, Z","colors=darkred, levels=**, linewidths=2"
+matplotlib.pyplot.contourf,"xx, yy, Z","colors=palevioletred, levels=**"
+matplotlib.pyplot.scatter,"**, **","c=white, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=blueviolet, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=gold, edgecolors=k, s=s"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **","loc=upper left, prop=**"
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.show,,
+matplotlib.font_manager.FontProperties,,size=11
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1, sharey=True"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1, sharey=True"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"2, 1",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot,i,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,fignum,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.scatter,"**, **","edgecolors=k, facecolors=none, s=80, zorder=10"
+matplotlib.pyplot.scatter,"**, **","c=Y, cmap=**, edgecolors=k, zorder=10"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.figure,fignum,figsize=**
+matplotlib.pyplot.pcolormesh,"XX, YY, **",cmap=**
+matplotlib.pyplot.contour,"XX, YY, Z","colors=**, levels=**, linestyles=**"
+matplotlib.pyplot.xlim,"x_min, x_max",
+matplotlib.pyplot.ylim,"y_min, y_max",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=3, nrows=1, sharey=True"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=**, s=30"
+matplotlib.pyplot.scatter,"**, **","edgecolors=k, facecolors=none, linewidth=1, s=100"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot,C,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.scatter,"**, **","color=navy, label=True Position, lw=0, s=s"
+matplotlib.pyplot.scatter,"**, **","color=turquoise, label=MDS, lw=0, s=s"
+matplotlib.pyplot.scatter,"**, **","color=darkorange, label=NMDS, lw=0, s=s"
+matplotlib.pyplot.legend,,"loc=best, scatterpoints=1, shadow=False"
+matplotlib.collections.LineCollection,segments,"cmap=**, norm=**, zorder=0"
+matplotlib.cm.ScalarMappable.set_array,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,"0, **",
+matplotlib.pyplot,,"constrained_layout=True, facecolor=white, figsize=**, ncols=2, nrows=2"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"constrained_layout=True, facecolor=white, figsize=**"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=10, nrows=10"
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.offsetbox,"**, **",
+matplotlib.artist.Artist.__init_subclass__.set,,zorder=1
+matplotlib.offsetbox.OffsetImage,**,cmap=**
+matplotlib.pyplot,digit,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,**,fontsize=14
+matplotlib.pyplot.scatter,"**, **","c=colors, cmap=**"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.scatter,"**, **","c=colors, cmap=**"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.scatter,"**, **","c=colors, cmap=**"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.scatter,"**, **","c=colors, cmap=**"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","c=colors, cmap=**"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots,,"figsize=**, nrows=2"
+matplotlib.pyplot.subplots,"3, 5",figsize=**
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.semilogx,"alphas, scores",
+matplotlib.pyplot.semilogx,"alphas, **, b--",
+matplotlib.pyplot.semilogx,"alphas, **, b--",
+matplotlib.pyplot.fill_between,"alphas, **, **",alpha=0.2
+matplotlib.pyplot.ylabel,CV score +/- std error,
+matplotlib.pyplot.xlabel,alpha,
+matplotlib.pyplot.axhline,**,"color=.5, linestyle=--"
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.semilogx,"C_s, scores",
+matplotlib.pyplot.semilogx,"C_s, **, b--",
+matplotlib.pyplot.semilogx,"C_s, **, b--",
+matplotlib.pyplot.yticks,"locs, **",
+matplotlib.pyplot.ylabel,CV score,
+matplotlib.pyplot.xlabel,Parameter C,
+matplotlib.pyplot.ylim,"0, 1.1",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=**, edgecolor=k, s=20, zorder=10"
+matplotlib.pyplot.scatter,"**, **","edgecolor=k, facecolors=none, s=80, zorder=10"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.pcolormesh,"XX, YY, **",cmap=**
+matplotlib.pyplot.contour,"XX, YY, Z","colors=**, levels=**, linestyles=**"
+matplotlib.pyplot.title,kernel,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0, hspace=0.35, left=0.01, right=0.99, top=0.9"
+matplotlib.pyplot.subplot,"n_row, n_col, **",
+matplotlib.pyplot.imshow,**,cmap=**
+matplotlib.pyplot.title,**,size=12
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.title,Outlier detection on a real data set (wine recognition),
+matplotlib.pyplot.scatter,"**, **",color=black
+matplotlib.pyplot.annotate,outlying points,"arrowprops=arrow_args, bbox=bbox_args, textcoords=data, xy=**, xycoords=data, xytext=**"
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **","loc=upper center, prop=**"
+matplotlib.pyplot.ylabel,ash,
+matplotlib.pyplot.xlabel,malic_acid,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot.title,Outlier detection on a real data set (wine recognition),
+matplotlib.pyplot.scatter,"**, **",color=black
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **","loc=upper center, prop=**"
+matplotlib.pyplot.ylabel,color_intensity,
+matplotlib.pyplot.xlabel,flavanoids,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot.xlim,,
+matplotlib.pyplot.xlim,,
+matplotlib.pyplot.ylim,,
+matplotlib.pyplot.ylim,,
+matplotlib.font_manager.FontProperties,,size=11
+matplotlib.pyplot.xlim,,
+matplotlib.pyplot.xlim,,
+matplotlib.pyplot.ylim,,
+matplotlib.pyplot.ylim,,
+matplotlib.font_manager.FontProperties,,size=11
+matplotlib.pyplot.figure,1,"facecolor=w, figsize=**"
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.axes,**,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.scatter,"**, **","c=labels, cmap=**, s=**"
+matplotlib.collections.LineCollection,segments,"cmap=**, norm=**, zorder=0"
+matplotlib.cm.ScalarMappable.set_array,values,
+matplotlib.pyplot.xlim,"**, **",
+matplotlib.pyplot.ylim,"**, **",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.text,"x, y, name","bbox=**, horizontalalignment=horizontalalignment, size=10, verticalalignment=verticalalignment"
+matplotlib.cm,"0, **",
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,cls_names,loc=best
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,cls_names,loc=best
+matplotlib.pyplot.figure,,
+matplotlib.pyplot,,
+matplotlib.pyplot.subplot,111,
+matplotlib.pyplot.bar,"**, cls_runtime","color=bar_colors, width=0.5"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.subplot,111,
+matplotlib.pyplot.bar,"**, cls_runtime","color=bar_colors, width=0.5"
+matplotlib.pyplot.setp,**,rotation=30
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.ylabel,Accuracy,
+matplotlib.pyplot.grid,True,
+matplotlib.pyplot.plot,"x, y",
+matplotlib.pyplot.bar,**,
+matplotlib.pyplot.bar,**,
+matplotlib.pyplot,cls_names,
+matplotlib.pyplot.setp,**,rotation=30
+matplotlib.pyplot,cls_names,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot,runtimes,
+matplotlib.pyplot.setp,ax1,xticklabels=cls_infos
+matplotlib.pyplot.setp,**,color=black
+matplotlib.pyplot.setp,**,color=black
+matplotlib.pyplot.setp,**,"color=red, marker=+"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.bar,"**, cls_values","color=colors, width=0.5"
+matplotlib.pyplot.show,,
+matplotlib.pyplot,"x, y",color=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.contourf,"X, Y, Z","cmap=**, levels=levels"
+matplotlib.pyplot.colorbar,,format=%.2f
+matplotlib.pyplot,"**, **","c=black, label=train, marker=^, s=**"
+matplotlib.pyplot,"**, **","c=black, label=test, marker=x, s=**"
+matplotlib.pyplot,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,equal,
+matplotlib.pyplot.text,"**, **, **",ha=right
+matplotlib.pyplot,**,
+matplotlib.pyplot,**,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.title,Trigonometric encoding for the 'hour' feature,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.title,Periodic spline-based encoding for the 'hour' feature,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,"figsize=**, ncols=3, nrows=2, sharex=True, sharey=row"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.legend,"**, **",loc=upper center
+matplotlib.pyplot.title,**,
+matplotlib.use,TkAgg,
+matplotlib.figure.FigureBase.add_subplot,111,
+matplotlib.backends.backend_tkagg.FigureCanvasTkAgg,f,master=root
+matplotlib.backend_bases.FigureCanvasBase.mpl_connect,"button_press_event, **",
+matplotlib.backends.backend_tkagg.NavigationToolbar2Tk,"canvas, root",
+matplotlib.backends._backend_tk.NavigationToolbar2Tk,,
+matplotlib.backends.backend_tkagg.FigureCanvasTkAgg,,
+matplotlib.backends.backend_tkagg.FigureCanvasTkAgg,,
+matplotlib.backends.backend_tkagg.FigureCanvasTkAgg,,
+matplotlib.backends._backend_tk.FigureCanvasTk.get_tk_widget,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,131,
+matplotlib.pyplot.imshow,data,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.title,original image,
+matplotlib.pyplot.subplot,132,
+matplotlib.pyplot.imshow,rec_l2,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.title,L2 penalization,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.subplot,133,
+matplotlib.pyplot.imshow,rec_l1,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.title,L1 penalization,
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.subplots_adjust,,"bottom=0, hspace=0.01, left=0, right=1, top=1, wspace=0.01"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=10, nrows=10"
+matplotlib.pyplot.subplots,"2, 5","figsize=**, sharex=True"
+matplotlib.pyplot.subplots_adjust,,"bottom=0.05, hspace=0.3, top=0.9, wspace=0.9"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.04, hspace=0.05, left=0.03, right=0.99, top=0.9, wspace=0.05"
+matplotlib.gridspec.GridSpec,"3, **",
+matplotlib.patches,"**, **, **","angle=**, edgecolor=black"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,**,
+matplotlib.patches.Patch.set_facecolor,#56B4E9,
+matplotlib.gridspec.GridSpec,concentrations_prior,
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.subplot,**,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.01, hspace=0.15, left=0.01, right=0.99, top=0.95, wspace=0.05"
+matplotlib.pyplot.legend,,"loc=lower right, prop=**, scatterpoints=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, **, **",
+matplotlib.pyplot.text,"0.05, 0.9, **",transform=**
+matplotlib.pyplot.text,"0.05, 0.8, **",transform=**
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,name,
+matplotlib.patches,"**, **, **","angle=**, color=color"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,0.5,
+matplotlib.pyplot,"**, **","color=color, label=**, s=0.8"
+matplotlib.pyplot.scatter,"**, **","color=color, marker=x"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 1, **",
+matplotlib.pyplot.xlim,"**, 5.0",
+matplotlib.pyplot.ylim,"**, 6.0",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.scatter,"**, **, 0.8",color=color
+matplotlib.patches.Ellipse,"mean, **, **","angle=**, color=color"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,0.5,
+matplotlib.pyplot.scatter,"**, **",s=0.8
+matplotlib.pyplot.scatter,"**, **",s=0.8
+matplotlib.pyplot.title,Gaussian Mixture components,
+matplotlib.pyplot.axis,equal,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,equal,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **, 0.8",color=color
+matplotlib.patches.Ellipse,"mean, **, **","angle=**, color=color"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,0.5,
+matplotlib.pyplot.contour,"X, Y, Z","levels=**, norm=**"
+matplotlib.pyplot.colorbar,CS,"extend=both, shrink=0.8"
+matplotlib.pyplot.scatter,"**, **, 0.8",
+matplotlib.pyplot.title,Negative log-likelihood predicted by a GMM,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.show,,
+matplotlib.colors.LogNorm,,"vmax=1000.0, vmin=1.0"
+matplotlib.colors.LogNorm,"0, 3, 10",
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.1, hspace=0.15, left=0.05, right=0.95, top=0.9, wspace=0.05"
+matplotlib.pyplot.suptitle,GMM iterations and relative time taken to initialize,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, **, **",
+matplotlib.pyplot.scatter,"**, **","c=orange, edgecolors=black, lw=1.5, marker=D, s=75"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.title,method,"fontsize=12, loc=left"
+matplotlib.pyplot.title,**,"fontsize=10, loc=right"
+matplotlib.pyplot.scatter,"**, **","color=color, marker=x"
+matplotlib.pyplot.subplot,methods,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,,"bottom=0.04, hspace=0.2, left=0.03, right=0.97, top=0.95, wspace=0.05"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"5, 1, **",
+matplotlib.pyplot.xlim,"**, **",
+matplotlib.pyplot.ylim,"**, 5.0",
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplot,"5, 1, **",
+matplotlib.pyplot.xlim,"**, **",
+matplotlib.pyplot.ylim,"**, 5.0",
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.scatter,"**, **, 0.8",color=color
+matplotlib.patches.Ellipse,"mean, **, **","angle=**, color=color"
+matplotlib.artist.Artist.set_clip_box,**,
+matplotlib.patches.Patch.set_alpha,0.5,
+matplotlib.pyplot.scatter,"**, **, 0.8",color=color
+matplotlib.pyplot.subplots,"2, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,100 components extracted by RBM,fontsize=16
+matplotlib.pyplot.subplots_adjust,"0.08, 0.02, 0.92, 0.85, 0.08, 0.23",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"10, 10, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplots,"4, 4",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot,datasets,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot.subplot,classifiers,
+matplotlib.pyplot,classifiers,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.subplots,,"constrained_layout=True, figsize=**"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=3, nrows=8"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,2,
+matplotlib.pyplot,,"figsize=**, ncols=**, nrows=**"
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots_adjust,,top=0.9
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot,X_list,
+matplotlib.pyplot.subplot,"**, **, i",
+matplotlib.pyplot.subplot,strategies,
+matplotlib.pyplot,strategies,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=figsize
+matplotlib.pyplot.axes,rect_scatter,
+matplotlib.pyplot.axes,rect_histx,
+matplotlib.pyplot.axes,rect_histy,
+matplotlib.pyplot.axes,rect_colorbar,
+matplotlib.colors.Normalize,"**, **",
+matplotlib.colorbar.ColorbarBase,ax_colorbar,"cmap=cmap, label=Color mapping for values of y, norm=norm, orientation=vertical"
+matplotlib,,
+matplotlib,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.xlabel,False Positive Rate,
+matplotlib.pyplot.ylabel,True Positive Rate,
+matplotlib.pyplot.title,"One-vs-Rest ROC curves:
+Virginica vs (Setosa & Versicolor)",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.xlabel,False Positive Rate,
+matplotlib.pyplot.ylabel,True Positive Rate,
+matplotlib.pyplot.title,"Micro-averaged One-vs-Rest
+Receiver Operating Characteristic",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.plot,"**, **","color=deeppink, label=**, linestyle=:, linewidth=4"
+matplotlib.pyplot.plot,"**, **","color=navy, label=**, linestyle=:, linewidth=4"
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.xlabel,False Positive Rate,
+matplotlib.pyplot.ylabel,True Positive Rate,
+matplotlib.pyplot.title,"Extension of Receiver Operating Characteristic
+to One-vs-Rest multiclass",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.plot,"fpr_grid, ovo_tpr","label=**, linestyle=:, linewidth=4"
+matplotlib.pyplot.plot,"**, **, k--",label=Chance level (AUC = 0.5)
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.xlabel,False Positive Rate,
+matplotlib.pyplot.ylabel,True Positive Rate,
+matplotlib.pyplot.title,"Extension of Receiver Operating Characteristic
+to One-vs-One multiclass",
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.plot,"fpr_grid, **","label=**, linestyle=:, linewidth=4"
+matplotlib.pyplot.axis,square,
+matplotlib.pyplot.xlabel,False Positive Rate,
+matplotlib.pyplot.ylabel,True Positive Rate,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"fpr_grid, **",label=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 1, 1",
+matplotlib.pyplot.semilogx,"alphas, train_errors",label=Train
+matplotlib.pyplot.semilogx,"alphas, test_errors",label=Test
+matplotlib.pyplot.vlines,"alpha_optim, **, **","color=k, label=Optimum on test, linewidth=3"
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlabel,Regularization parameter,
+matplotlib.pyplot.ylabel,Performance,
+matplotlib.pyplot.subplot,"2, 1, 2",
+matplotlib.pyplot.plot,coef,label=True coef
+matplotlib.pyplot.plot,coef_,label=Estimated coef
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.subplots_adjust,"0.09, 0.04, 0.94, 0.94, 0.26, 0.26",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.ylim,,
+matplotlib.pyplot.subplots,,"ncols=2, sharey=True"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.setp,**,"ha=right, rotation=45, rotation_mode=anchor"
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, **, **",
+matplotlib.pyplot.setp,ax,"xticks=**, yticks=**"
+matplotlib.pyplot.plot,"X_test, **",label=Model
+matplotlib.pyplot.plot,"X_test, **",label=True function
+matplotlib.pyplot.scatter,"X, y","edgecolor=b, label=Samples, s=20"
+matplotlib.pyplot.xlabel,x,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.title,**,
+matplotlib.pyplot,degrees,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"x, **",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.fill_between,"x, **, 0","alpha=0.2, facecolor=blue"
+matplotlib.pyplot.ylabel,Probability density,
+matplotlib.pyplot.xlabel,Mean difference ($\mu$),
+matplotlib.pyplot.title,Posterior distribution,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"x, **",
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.vlines,**,"ymax=**, ymin=0"
+matplotlib.pyplot.fill_between,"x_rope, **, 0","alpha=0.2, facecolor=blue"
+matplotlib.pyplot.ylabel,Probability density,
+matplotlib.pyplot.xlabel,Mean difference ($\mu$),
+matplotlib.pyplot.title,Posterior distribution under the ROPE,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.fill_between,x,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.patches.Patch,,color=**
+matplotlib.patches.Patch,,color=**
+matplotlib.patches.Patch,0.8,
+matplotlib.patches.Patch,0.02,
+matplotlib.patches.Patch,0.8,
+matplotlib.patches.Patch,0.02,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1, sharey=True"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=2, sharex=True"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.subplot,211,
+matplotlib.pyplot.plot,non_nested_scores,color=r
+matplotlib.pyplot.plot,nested_scores,color=b
+matplotlib.pyplot.ylabel,score,fontsize=14
+matplotlib.pyplot.legend,"**, **",bbox_to_anchor=**
+matplotlib.pyplot.title,Non-Nested and Nested Cross Validation on Iris Dataset,"fontsize=15, x=0.5, y=1.1"
+matplotlib.pyplot.subplot,212,
+matplotlib.pyplot.bar,"**, score_difference",
+matplotlib.pyplot.xlabel,Individual Trial #,
+matplotlib.pyplot.legend,"**, **",bbox_to_anchor=**
+matplotlib.pyplot.ylabel,score difference,fontsize=14
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"**, **","alpha=0.2, color=gray"
+matplotlib.pyplot.annotate,**,xy=**
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.bar,"n_components, test_scores","color=b, width=1.3"
+matplotlib.pyplot.axhline,**,"color=y, label=Best score, linestyle=--"
+matplotlib.pyplot.axhline,lower,"color=.5, label=Best score - 1 std, linestyle=--"
+matplotlib.pyplot.title,Balance model complexity and cross-validated score,
+matplotlib.pyplot.xlabel,Number of PCA components used,
+matplotlib.pyplot.ylabel,Digit classification accuracy,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,,loc=upper left
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=3"
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, nrows=1"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.title,GridSearchCV evaluating using multiple scorers simultaneously,fontsize=16
+matplotlib.pyplot.xlabel,min_samples_split,
+matplotlib.pyplot.ylabel,Score,
+matplotlib.pyplot,,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.grid,False,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.legend,,"loc=best, scatterpoints=1, shadow=False"
+matplotlib.pyplot.axis,**,
+matplotlib.pyplot,"**, **","color=color, label=target_name, lw=2"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=2, sharex=True, sharey=True"
+matplotlib.pyplot.figure,,"facecolor=white, figsize=**, tight_layout=True"
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest, vmax=vmax, vmin=**"
+matplotlib.pyplot.axis,off,
+matplotlib.pyplot.title,"Pixelwise variance from 
+ Factor Analysis (FA)","size=16, wrap=True"
+matplotlib.pyplot.colorbar,,"orientation=horizontal, pad=0.03, shrink=0.8"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,,"loc=best, scatterpoints=1, shadow=False"
+matplotlib.pyplot.title,PCA of IRIS dataset,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.legend,,"loc=best, scatterpoints=1, shadow=False"
+matplotlib.pyplot.title,LDA of IRIS dataset,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","alpha=0.8, color=color, label=target_name, lw=lw"
+matplotlib.pyplot.scatter,"**, **","alpha=0.8, color=color, label=target_name"
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.suptitle,**,fontsize=16
+matplotlib.pyplot.subplots_adjust,"0.08, 0.02, 0.92, 0.85, 0.08, 0.23",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,"1, 2, 1",
+matplotlib.pyplot.title,Image,
+matplotlib.pyplot.imshow,image,"cmap=**, interpolation=nearest, vmax=1, vmin=0"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplot,"1, 2, 2",
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.imshow,difference,"cmap=**, interpolation=nearest, vmax=0.5, vmin=**"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.suptitle,title,size=16
+matplotlib.pyplot.subplots_adjust,"0.02, 0.02, 0.98, 0.79, 0.02, 0.2",
+matplotlib.pyplot.subplot,"10, 10, **",
+matplotlib.pyplot.imshow,**,"cmap=**, interpolation=nearest"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.plot,"n_components, pca_scores, b",label=PCA scores
+matplotlib.pyplot.plot,"n_components, fa_scores, r",label=FA scores
+matplotlib.pyplot.axvline,rank,"color=g, label=**, linestyle=-"
+matplotlib.pyplot.axvline,n_components_pca,"color=b, label=**, linestyle=--"
+matplotlib.pyplot.axvline,n_components_fa,"color=r, label=**, linestyle=--"
+matplotlib.pyplot.axvline,n_components_pca_mle,"color=k, label=**, linestyle=--"
+matplotlib.pyplot.axhline,**,"color=violet, label=Shrunk Covariance MLE, linestyle=-."
+matplotlib.pyplot.axhline,**,"color=orange, label=**, linestyle=-."
+matplotlib.pyplot.xlabel,nb of components,
+matplotlib.pyplot.ylabel,CV scores,
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.title,title,
+matplotlib.pyplot.figure,1,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.cla,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"4, 1, ii",
+matplotlib.pyplot.title,name,
+matplotlib.pyplot.plot,sig,color=color
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,fig_num,figsize=**
+matplotlib.pyplot.clf,,
+matplotlib.pyplot.axes,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.subplots,,"figsize=**, ncols=**, sharey=True"
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.colorbar,im,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplots_adjust,"0.04, 0.07, 0.97, 0.9, 0.09, 0.2",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.plot,y,"label=Original signal, linestyle=--, lw=lw"
+matplotlib.pyplot.plot,x,"color=darkorange, label=**, lw=lw"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,"loc=best, shadow=False"
+matplotlib.pyplot,x,"color=color, label=**, lw=lw"
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.subplot,"2, 2, 1",
+matplotlib.pyplot.title,True Independent Sources,
+matplotlib.pyplot.subplot,"2, 2, 2",
+matplotlib.pyplot.legend,,loc=lower right
+matplotlib.pyplot.title,Observations,
+matplotlib.pyplot.subplot,"2, 2, 3",
+matplotlib.pyplot.title,PCA recovered signals,
+matplotlib.pyplot.subplot,"2, 2, 4",
+matplotlib.pyplot.title,ICA recovered signals,
+matplotlib.pyplot.subplots_adjust,"0.09, 0.04, 0.94, 0.94, 0.26, 0.36",
+matplotlib.pyplot.show,,
+matplotlib.pyplot.scatter,"**, **","alpha=0.5, color=steelblue, marker=o, s=2, zorder=10"
+matplotlib.pyplot.hlines,"0, **, 3",
+matplotlib.pyplot.vlines,"0, **, 3",
+matplotlib.pyplot.xlim,"**, 3",
+matplotlib.pyplot.ylim,"**, 3",
+matplotlib.pyplot.xlabel,x,
+matplotlib.pyplot.ylabel,y,
+matplotlib.pyplot.scatter,"**, **","alpha=0.3, label=samples"
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.plot,"**, **","color=**, label=**, linewidth=5"
+matplotlib.pyplot.gca,,
+matplotlib.pyplot.figure,,figsize=**
+matplotlib.pyplot.subplot,221,
+matplotlib.pyplot.scatter,"**, **","label=train, marker=o, s=25"
+matplotlib.pyplot.scatter,"**, **","label=test, marker=o, s=25"
+matplotlib.pyplot.xlabel,x scores,
+matplotlib.pyplot.ylabel,y scores,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.subplot,224,
+matplotlib.pyplot.scatter,"**, **","label=train, marker=o, s=25"
+matplotlib.pyplot.scatter,"**, **","label=test, marker=o, s=25"
+matplotlib.pyplot.xlabel,x scores,
+matplotlib.pyplot.ylabel,y scores,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.subplot,222,
+matplotlib.pyplot.scatter,"**, **","label=train, marker=*, s=50"
+matplotlib.pyplot.scatter,"**, **","label=test, marker=*, s=50"
+matplotlib.pyplot.xlabel,X comp. 1,
+matplotlib.pyplot.ylabel,X comp. 2,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.subplot,223,
+matplotlib.pyplot.scatter,"**, **","label=train, marker=*, s=50"
+matplotlib.pyplot.scatter,"**, **","label=test, marker=*, s=50"
+matplotlib.pyplot.xlabel,Y comp. 1,
+matplotlib.pyplot.ylabel,Y comp. 2,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.legend,,loc=best
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"1, 2, **",
+matplotlib.pyplot.contourf,"X, Y, Z","cmap=**, levels=levels"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot,"X, Y, land_reference","colors=k, levels=**, linestyles=solid"
+matplotlib.pyplot.xticks,**,
+matplotlib.pyplot.yticks,**,
+matplotlib.colors.ListedColormap,**,
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=cmap_bold, edgecolor=k, s=20"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.text,"0.9, 0.1, **","ha=center, size=15, transform=**, va=center"
+matplotlib.colors.ListedColormap,**,
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=cmap_bold, edgecolor=k, s=20"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.subplots,"1, 2",figsize=**
+matplotlib.pyplot.show,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,,
+matplotlib.pyplot.scatter,"**, **","c=y, cmap=Set1, s=30"
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.scatter,"**, **","color=k, label=Data points, s=3.0"
+matplotlib.pyplot,"**, **","edgecolors=r, facecolors=none, label=Outlier scores, s=**"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.legend,,handler_map=**
+matplotlib.pyplot.title,Local Outlier Factor (LOF),
+matplotlib.pyplot.show,,
+matplotlib.legend_handler.HandlerPathCollection,,update_func=update_legend_marker_size
+matplotlib.pyplot.figure,1,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.figure,2,
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.title,Novelty Detection with LOF,
+matplotlib.pyplot.contourf,"xx, yy, Z","cmap=**, levels=**"
+matplotlib.pyplot.contour,"xx, yy, Z","colors=darkred, levels=**, linewidths=2"
+matplotlib.pyplot.contourf,"xx, yy, Z","colors=palevioletred, levels=**"
+matplotlib.pyplot.scatter,"**, **","c=white, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=blueviolet, edgecolors=k, s=s"
+matplotlib.pyplot.scatter,"**, **","c=gold, edgecolors=k, s=s"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.xlim,**,
+matplotlib.pyplot.ylim,**,
+matplotlib.pyplot.legend,"**, **","loc=upper left, prop=**"
+matplotlib.pyplot.xlabel,**,
+matplotlib.pyplot.show,,
+matplotlib.font_manager.FontProperties,,size=11
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.contourf,,
+matplotlib.pyplot.tight_layout,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplot,"2, 1, **",
+matplotlib.pyplot.scatter,"X, y","color=darkorange, label=data"
+matplotlib.pyplot.plot,"T, y_","color=navy, label=prediction"
+matplotlib.pyplot.axis,tight,
+matplotlib.pyplot.legend,,
+matplotlib.pyplot.title,**,
+matplotlib.colors.ListedColormap,**,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,
+matplotlib.pyplot.title,**,
+matplotlib.pyplot.subplots,"2, 2","sharex=True, sharey=True"
+matplotlib.pyplot.subplots,"2, 3","sharex=True, sharey=True"
+matplotlib.pyplot,,
+matplotlib.pyplot.show,,
+matplotlib.pyplot,,"figsize=**, ncols=ncols, nrows=nrows, squeeze=False"
+matplotlib.pyplot.show,,
+matplotlib.pyplot.subplots,"9, 11",subplot_kw=**
+matplotlib.pyplot.show,,

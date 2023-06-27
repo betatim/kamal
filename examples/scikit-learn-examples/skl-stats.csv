@@ -1,0 +1,2663 @@
+function,args,kwargs
+sklearn.datasets.fetch_20newsgroups,,categories=categories
+sklearn.cluster.SpectralCoclustering,,"n_clusters=**, random_state=0, svd_method=arpack"
+sklearn.cluster.MiniBatchKMeans,,"batch_size=20000, n_clusters=**, n_init=3, random_state=0"
+sklearn.feature_extraction.text.TfidfVectorizer.fit_transform,**,
+sklearn.cluster._bicluster.BaseSpectral.fit,X,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.cluster._bicluster.SpectralCoclustering,i,
+sklearn.cluster._bicluster.SpectralCoclustering,cluster,
+sklearn.metrics.cluster.v_measure_score,"y_cocluster, y_true",
+sklearn.metrics.cluster.v_measure_score,"y_kmeans, y_true",
+sklearn.cluster.SpectralBiclustering,,"method=log, n_clusters=n_clusters, random_state=0"
+sklearn.cluster._bicluster.BaseSpectral.fit,data,
+sklearn.metrics.consensus_score,"**, **",
+sklearn.cluster._bicluster.SpectralBiclustering._fit.row_labels_,**,
+sklearn.cluster.SpectralCoclustering,,"n_clusters=5, random_state=0"
+sklearn.cluster._bicluster.BaseSpectral.fit,data,
+sklearn.metrics.consensus_score,"**, **",
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0, random_state=1"
+sklearn.neighbors.KNeighborsClassifier,3,
+sklearn.svm.SVC,,"C=0.025, kernel=linear"
+sklearn.svm.SVC,,"C=1, gamma=2"
+sklearn.gaussian_process.GaussianProcessClassifier,**,
+sklearn.tree.DecisionTreeClassifier,,max_depth=5
+sklearn.ensemble.RandomForestClassifier,,"max_depth=5, max_features=1, n_estimators=10"
+sklearn.neural_network.MLPClassifier,,"alpha=1, max_iter=1000"
+sklearn.ensemble.AdaBoostClassifier,,
+sklearn.naive_bayes.GaussianNB,,
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis,,
+sklearn.datasets.make_moons,,"noise=0.3, random_state=0"
+sklearn.datasets.make_circles,,"factor=0.5, noise=0.2, random_state=1"
+sklearn.pipeline.make_pipeline,"**, clf",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.8, ax=ax, cmap=cm, eps=0.5"
+sklearn.gaussian_process.GaussianProcessClassifier,1.0,
+sklearn.pipeline.make_pipeline,,
+sklearn.datasets.make_blobs,,"centers=**, n_features=1, n_samples=n_samples"
+sklearn.covariance.OAS,,"assume_centered=False, store_precision=False"
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,"shrinkage=None, solver=lsqr"
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,"shrinkage=auto, solver=lsqr"
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,"covariance_estimator=oa, solver=lsqr"
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.predict_proba,**,
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,"solver=svd, store_covariance=True"
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis,,store_covariance=True
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"C=C, kernel=linear, probability=True, random_state=0"
+sklearn.gaussian_process.GaussianProcessClassifier,kernel,
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.metrics.accuracy_score,"y, y_pred",
+sklearn.datasets.load_digits,,
+sklearn.svm.SVC,,gamma=0.001
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.svm._base.BaseSVC.predict,X_test,
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_predictions,"y_test, predicted",
+sklearn.metrics.classification_report,"y_test, predicted",
+sklearn.metrics.classification_report,"y_true, y_pred",
+sklearn.datasets.load_iris,,
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.tree.DecisionTreeClassifier,,"max_leaf_nodes=3, random_state=0"
+sklearn.tree._classes.DecisionTreeClassifier.fit,"X_train, y_train",
+sklearn.tree.plot_tree,clf,
+sklearn.tree._classes.BaseDecisionTree.decision_path,X_test,
+sklearn.tree._classes.BaseDecisionTree.apply,X_test,
+sklearn.datasets.load_breast_cancer,,return_X_y=True
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.tree.DecisionTreeClassifier,,random_state=0
+sklearn.tree._classes.BaseDecisionTree.cost_complexity_pruning_path,"X_train, y_train",
+sklearn.tree.DecisionTreeClassifier,,"ccp_alpha=ccp_alpha, random_state=0"
+sklearn.tree._classes.DecisionTreeClassifier.fit,"X_train, y_train",
+sklearn.base.ClassifierMixin.score,"X_train, y_train",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.datasets.load_iris,,
+sklearn.tree._classes.DecisionTreeClassifier.fit,"**, **",
+sklearn.tree.plot_tree,clf,filled=True
+sklearn.tree._classes.DecisionTreeClassifier,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=**, response_method=predict, xlabel=**, ylabel=**"
+sklearn.tree.DecisionTreeClassifier,,
+sklearn.tree.DecisionTreeClassifier,,
+sklearn.tree.DecisionTreeRegressor,,max_depth=2
+sklearn.tree.DecisionTreeRegressor,,max_depth=5
+sklearn.tree.DecisionTreeRegressor,,max_depth=8
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.tree._classes.BaseDecisionTree.predict,X_test,
+sklearn.tree._classes.BaseDecisionTree.predict,X_test,
+sklearn.tree._classes.BaseDecisionTree.predict,X_test,
+sklearn.tree.DecisionTreeRegressor,,max_depth=2
+sklearn.tree.DecisionTreeRegressor,,max_depth=5
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.tree._classes.BaseDecisionTree.predict,X_test,
+sklearn.tree._classes.BaseDecisionTree.predict,X_test,
+sklearn.datasets.make_classification,,"n_classes=2, n_features=10, n_informative=3, n_redundant=0, n_repeated=0, n_samples=1000, random_state=0, shuffle=False"
+sklearn.model_selection.train_test_split,"X, y","random_state=42, stratify=y"
+sklearn.ensemble.RandomForestClassifier,,random_state=0
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.inspection.permutation_importance,"forest, X_test, y_test","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=42165, parser=pandas, return_X_y=True"
+sklearn.compose.make_column_transformer,**,remainder=passthrough
+sklearn.pipeline.make_pipeline,"dropper, **",
+sklearn.compose.make_column_transformer,**,remainder=passthrough
+sklearn.compose.make_column_transformer,**,"remainder=passthrough, verbose_feature_names_out=False"
+sklearn.pipeline.Pipeline,,transform=pandas
+sklearn.model_selection.cross_validate,"hist_dropped, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_one_hot, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_ordinal, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_native, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_dropped, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_one_hot, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_ordinal, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.model_selection.cross_validate,"hist_native, X, y","cv=n_cv_folds, scoring=scoring"
+sklearn.ensemble.HistGradientBoostingRegressor,,random_state=42
+sklearn.ensemble.HistGradientBoostingRegressor,,random_state=42
+sklearn.ensemble.HistGradientBoostingRegressor,,random_state=42
+sklearn.pipeline.Pipeline.set_params,,"histgradientboostingregressor__max_depth=3, histgradientboostingregressor__max_iter=15"
+sklearn.compose.make_column_selector,,dtype_include=category
+sklearn.preprocessing.OneHotEncoder,,"handle_unknown=ignore, sparse_output=False"
+sklearn.compose.make_column_selector,,dtype_include=category
+sklearn.preprocessing.OrdinalEncoder,,"handle_unknown=use_encoded_value, unknown_value=**"
+sklearn.compose.make_column_selector,,dtype_include=category
+sklearn.ensemble.HistGradientBoostingRegressor,,"categorical_features=categorical_columns, random_state=42"
+sklearn.datasets.make_gaussian_quantiles,,"n_classes=3, n_features=10, n_samples=13000, random_state=1"
+sklearn.ensemble.AdaBoostClassifier,**,"learning_rate=1, n_estimators=300"
+sklearn.ensemble.AdaBoostClassifier,**,"algorithm=SAMME, learning_rate=1.5, n_estimators=300"
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X_train, y_train",
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X_train, y_train",
+sklearn.tree.DecisionTreeClassifier,,max_depth=2
+sklearn.tree.DecisionTreeClassifier,,max_depth=2
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.staged_predict,X_test,
+sklearn.metrics.accuracy_score,"real_test_predict, y_test",
+sklearn.metrics.accuracy_score,"discrete_test_predict, y_test",
+sklearn.datasets.make_gaussian_quantiles,,"cov=2.0, n_classes=2, n_features=2, n_samples=200, random_state=1"
+sklearn.datasets.make_gaussian_quantiles,,"cov=1.5, mean=**, n_classes=2, n_features=2, n_samples=300, random_state=1"
+sklearn.ensemble.AdaBoostClassifier,**,"algorithm=SAMME, n_estimators=200"
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"bdt, X","ax=ax, cmap=**, response_method=predict, xlabel=x, ylabel=y"
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.decision_function,X,
+sklearn.tree.DecisionTreeClassifier,,max_depth=1
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=25, n_informative=15, n_samples=500, random_state=RANDOM_STATE"
+sklearn.ensemble.RandomForestClassifier,,"max_features=sqrt, oob_score=True, random_state=RANDOM_STATE, warm_start=True"
+sklearn.ensemble.RandomForestClassifier,,"max_features=log2, oob_score=True, random_state=RANDOM_STATE, warm_start=True"
+sklearn.ensemble.RandomForestClassifier,,"max_features=None, oob_score=True, random_state=RANDOM_STATE, warm_start=True"
+sklearn.base.BaseEstimator.set_params,,n_estimators=i
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.tree.DecisionTreeRegressor,,max_depth=4
+sklearn.ensemble.AdaBoostRegressor,**,"n_estimators=300, random_state=rng"
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X, y",
+sklearn.tree._classes.BaseDecisionTree.predict,X,
+sklearn.ensemble._weight_boosting.AdaBoostRegressor.predict,X,
+sklearn.tree.DecisionTreeRegressor,,max_depth=4
+sklearn.datasets.fetch_olivetti_faces,,
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=750, n_jobs=n_jobs, random_state=42"
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.ensemble.HistGradientBoostingRegressor,,
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.BaseHistGradientBoosting.fit,"X, y",
+sklearn.ensemble.HistGradientBoostingRegressor,,monotonic_cst=**
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.BaseHistGradientBoosting.fit,"X, y",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"gbdt_no_cst, X","ax=ax, feature_names=**, features=**, line_kw=**"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"gbdt_with_monotonic_cst, X","ax=**, features=**, line_kw=**"
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor,"X_df, y",
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor.predict,X_df,
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor.predict,X,
+sklearn.ensemble.HistGradientBoostingRegressor,,monotonic_cst=**
+sklearn.compose.make_column_selector,,dtype_include=object
+sklearn.compose.make_column_selector,,dtype_include=**
+sklearn.compose._column_transformer.make_column_selector,X,
+sklearn.compose._column_transformer.make_column_selector,X,
+sklearn.preprocessing._encoders.OrdinalEncoder,,"encoded_missing_value=**, handle_unknown=use_encoded_value, unknown_value=**"
+sklearn.impute.SimpleImputer,,"add_indicator=True, strategy=mean"
+sklearn.compose.make_column_transformer,"**, **",
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.compose.make_column_transformer,"**, **",
+sklearn.pipeline.make_pipeline,"linear_preprocessor, **",
+sklearn.pipeline.make_pipeline,"tree_preprocessor, **",
+sklearn.pipeline.Pipeline,"tree_preprocessor, **",
+sklearn.ensemble.StackingRegressor,,"estimators=estimators, final_estimator=**"
+sklearn.datasets.fetch_openml,,"as_frame=True, name=house_prices, parser=pandas"
+sklearn.utils.shuffle,"X, y",random_state=0
+sklearn.preprocessing.StandardScaler,,
+sklearn.impute.SimpleImputer,,"add_indicator=True, strategy=mean"
+sklearn.pipeline.Pipeline,,
+sklearn.compose._column_transformer.ColumnTransformer,,random_state=42
+sklearn.ensemble.HistGradientBoostingRegressor,,random_state=0
+sklearn.model_selection.cross_validate,"est, X, y","n_jobs=**, scoring=**, verbose=0"
+sklearn.model_selection.cross_val_predict,"est, X, y","n_jobs=**, verbose=0"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,,"ax=ax, kind=actual_vs_predicted, line_kwargs=**, scatter_kwargs=**, y_pred=y_pred, y_true=y"
+sklearn.ensemble._stacking.StackingRegressor,,
+sklearn.model_selection.train_test_split,"X, y","random_state=9, test_size=0.5"
+sklearn.ensemble.GradientBoostingClassifier,,**params
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.model_selection.KFold,,n_splits=n_splits
+sklearn.ensemble.GradientBoostingClassifier,,**params
+sklearn.model_selection._split.KFold,"X_train, y_train",
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"**, **",
+sklearn.metrics.log_loss,"y_test, **",
+sklearn.datasets.load_diabetes,,
+sklearn.ensemble.GradientBoostingRegressor,,**params
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.metrics.mean_squared_error,"y_test, **",
+sklearn.inspection.permutation_importance,"reg, X_test, y_test","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.metrics.mean_squared_error,X_test,
+sklearn.metrics.mean_squared_error,"y_test, y_pred",
+sklearn.model_selection.train_test_split,"X, y","random_state=42, stratify=y"
+sklearn.ensemble.IsolationForest,,"max_samples=100, random_state=0"
+sklearn.ensemble._iforest.IsolationForest.fit,X_train,
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.5, response_method=predict"
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.5, response_method=decision_function"
+sklearn.tree.DecisionTreeRegressor,,
+sklearn.ensemble.BaggingRegressor,**,
+sklearn.ensemble.BaggingRegressor,,
+sklearn.datasets.fetch_california_housing,,"as_frame=True, return_X_y=True"
+sklearn.model_selection.KFold,,"n_splits=4, random_state=0, shuffle=True"
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor,,
+sklearn.ensemble.RandomForestRegressor,,"min_samples_leaf=5, n_jobs=N_CORES, random_state=0"
+sklearn.model_selection._search.GridSearchCV,"X, y",
+sklearn.model_selection._search.GridSearchCV,,"cv=cv, estimator=model, param_grid=**, return_train_score=True"
+sklearn.datasets.make_classification,,"n_samples=80000, random_state=10"
+sklearn.ensemble.RandomForestClassifier,,"max_depth=max_depth, n_estimators=n_estimators, random_state=10"
+sklearn.ensemble._forest.BaseForest.fit,"X_train_ensemble, y_train_ensemble",
+sklearn.ensemble.GradientBoostingClassifier,,"max_depth=max_depth, n_estimators=n_estimators, random_state=10"
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train_ensemble, y_train_ensemble",
+sklearn.ensemble._forest.RandomTreesEmbedding,,"max_depth=max_depth, n_estimators=n_estimators, random_state=0"
+sklearn.pipeline.make_pipeline,"random_tree_embedding, **",
+sklearn.preprocessing.FunctionTransformer,rf_apply,kw_args=**
+sklearn.pipeline.make_pipeline,"rf_leaves_yielder, **, **",
+sklearn.preprocessing._function_transformer.FunctionTransformer,gbdt_apply,kw_args=**
+sklearn.pipeline.make_pipeline,"gbdt_leaves_yielder, **, **",
+sklearn.ensemble._forest.RandomTreesEmbedding,,max_iter=1000
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.linear_model.LogisticRegression,,max_iter=1000
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.linear_model.LogisticRegression,,max_iter=1000
+sklearn.metrics.RocCurveDisplay,"pipeline, X_test, y_test","ax=ax, name=name"
+sklearn.datasets.make_circles,,"factor=0.5, noise=0.05, random_state=0"
+sklearn.ensemble.RandomTreesEmbedding,,"max_depth=3, n_estimators=10, random_state=0"
+sklearn.ensemble._forest.RandomTreesEmbedding,X,
+sklearn.decomposition.TruncatedSVD,,n_components=2
+sklearn.decomposition._truncated_svd.TruncatedSVD.fit_transform,X_transformed,
+sklearn.naive_bayes.BernoulliNB,,
+sklearn.naive_bayes._BaseDiscreteNB.fit,"X_transformed, y",
+sklearn.ensemble.ExtraTreesClassifier,,"max_depth=3, n_estimators=10, random_state=0"
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.ensemble._forest.RandomTreesEmbedding.transform,**,
+sklearn.naive_bayes._BaseNB.predict_proba,transformed_grid,
+sklearn.ensemble._forest.ForestClassifier.predict_proba,**,
+sklearn.multioutput.MultiOutputRegressor,**,
+sklearn.multioutput._MultiOutputEstimator.fit,"X_train, y_train",
+sklearn.ensemble.RandomForestRegressor,,"max_depth=max_depth, n_estimators=100, random_state=2"
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.multioutput._MultiOutputEstimator.predict,X_test,
+sklearn.ensemble._forest.ForestRegressor.predict,X_test,
+sklearn.ensemble.RandomForestRegressor,,"max_depth=max_depth, n_estimators=100, random_state=0"
+sklearn.ensemble._forest.RandomForestRegressor,"X_test, y_test",
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.ensemble.GradientBoostingRegressor,,"loss=squared_error, **common_params"
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,xx,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,xx,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,xx,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,xx,
+sklearn.ensemble.GradientBoostingRegressor,,"alpha=alpha, loss=quantile, random_state=0"
+sklearn.ensemble.GradientBoostingRegressor,,"alpha=alpha, loss=quantile, **common_params"
+sklearn.metrics.mean_squared_error,"y_train, y_pred",
+sklearn.metrics.mean_squared_error,"y_test, y_pred",
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,X_train,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,X_train,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,X_test,
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,X_test,
+sklearn.metrics.mean_pinball_loss,"y_train, y_pred",alpha=alpha
+sklearn.metrics.mean_pinball_loss,"y_test, y_pred",alpha=alpha
+sklearn.model_selection.HalvingRandomSearchCV,"gbr, param_grid","max_resources=250, min_resources=50, n_jobs=2, random_state=0, resource=n_estimators, scoring=neg_mean_pinball_loss_05p_scorer"
+sklearn.base.clone,search_05p,
+sklearn.datasets.make_hastie_10_2,,"n_samples=12000, random_state=1"
+sklearn.tree.DecisionTreeClassifier,,"max_depth=1, min_samples_leaf=1"
+sklearn.tree._classes.DecisionTreeClassifier.fit,"X_train, y_train",
+sklearn.tree.DecisionTreeClassifier,,"max_depth=9, min_samples_leaf=1"
+sklearn.tree._classes.DecisionTreeClassifier.fit,"X_train, y_train",
+sklearn.ensemble.AdaBoostClassifier,,"algorithm=SAMME, estimator=dt_stump, learning_rate=learning_rate, n_estimators=n_estimators"
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X_train, y_train",
+sklearn.ensemble.AdaBoostClassifier,,"algorithm=SAMME.R, estimator=dt_stump, learning_rate=learning_rate, n_estimators=n_estimators"
+sklearn.ensemble._weight_boosting.BaseWeightBoosting.fit,"X_train, y_train",
+sklearn.tree._classes.DecisionTreeClassifier,"X_test, y_test",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.ensemble._weight_boosting.AdaBoostClassifier,X_test,
+sklearn.metrics.zero_one_loss,"y_pred, y_test",
+sklearn.ensemble._weight_boosting.AdaBoostClassifier,X_train,
+sklearn.ensemble._weight_boosting.AdaBoostClassifier,X_test,
+sklearn.metrics.zero_one_loss,"y_pred, y_test",
+sklearn.ensemble._weight_boosting.AdaBoostClassifier,X_train,
+sklearn.metrics.zero_one_loss,"y_pred, y_train",
+sklearn.datasets.load_iris,,return_X_y=True
+sklearn.datasets.make_classification,,"n_samples=800, random_state=0"
+sklearn.datasets.make_hastie_10_2,,"n_samples=2000, random_state=0"
+sklearn.ensemble.GradientBoostingClassifier,,"n_estimators=n_estimators, n_iter_no_change=5, random_state=0, tol=0.01, validation_fraction=0.2"
+sklearn.ensemble.GradientBoostingClassifier,,"n_estimators=n_estimators, random_state=0"
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.ensemble._gb.GradientBoostingClassifier,"X_test, y_test",
+sklearn.datasets.load_iris,,
+sklearn.tree.DecisionTreeClassifier,,max_depth=None
+sklearn.ensemble.RandomForestClassifier,,n_estimators=n_estimators
+sklearn.ensemble.ExtraTreesClassifier,,n_estimators=n_estimators
+sklearn.ensemble.AdaBoostClassifier,**,n_estimators=n_estimators
+sklearn.tree.DecisionTreeClassifier,,max_depth=3
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.ensemble._forest.ForestClassifier.predict,**,
+sklearn.linear_model.LogisticRegression,,"max_iter=1000, random_state=123"
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=100, random_state=123"
+sklearn.naive_bayes.GaussianNB,,
+sklearn.ensemble.VotingClassifier,,"estimators=**, voting=soft, weights=**"
+sklearn.linear_model._logistic.LogisticRegression.predict_proba,X,
+sklearn.ensemble._voting.VotingClassifier,"X, y",
+sklearn.datasets.make_hastie_10_2,,"n_samples=4000, random_state=1"
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.8"
+sklearn.ensemble.GradientBoostingClassifier,,**params
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X_train, y_train",
+sklearn.datasets.load_iris,,
+sklearn.tree.DecisionTreeClassifier,,max_depth=4
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=7
+sklearn.svm.SVC,,"gamma=0.1, kernel=rbf, probability=True"
+sklearn.ensemble.VotingClassifier,,"estimators=**, voting=soft, weights=**"
+sklearn.tree._classes.DecisionTreeClassifier.fit,"X, y",
+sklearn.neighbors._classification.KNeighborsClassifier.fit,"X, y",
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.ensemble._voting.VotingClassifier.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.4, ax=**, response_method=predict"
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.ensemble.GradientBoostingRegressor,,random_state=1
+sklearn.ensemble.RandomForestRegressor,,random_state=1
+sklearn.linear_model.LinearRegression,,
+sklearn.ensemble._gb.BaseGradientBoosting.fit,"X, y",
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.ensemble.VotingRegressor,**,
+sklearn.ensemble._voting.VotingRegressor.fit,"X, y",
+sklearn.ensemble._gb.GradientBoostingRegressor.predict,xt,
+sklearn.ensemble._forest.ForestRegressor.predict,xt,
+sklearn.linear_model._base.LinearModel.predict,xt,
+sklearn.ensemble._voting.VotingRegressor.predict,xt,
+sklearn.cluster.DBSCAN,,eps=0.3
+sklearn.cluster._dbscan.DBSCAN.fit,**,
+sklearn.cluster.HDBSCAN,,
+sklearn.cluster._dbscan.DBSCAN,X,
+sklearn.cluster._dbscan.DBSCAN,X,
+sklearn.cluster.HDBSCAN,,
+sklearn.cluster._dbscan.DBSCAN.fit,**,
+sklearn.cluster.DBSCAN,,eps=0.9
+sklearn.cluster.DBSCAN,,**params
+sklearn.cluster.DBSCAN,,**params
+sklearn.cluster.HDBSCAN,,
+sklearn.cluster.HDBSCAN,,**param
+sklearn.cluster.HDBSCAN,,**param
+sklearn.cluster._affinity_propagation.AffinityPropagation.fit,X,
+sklearn.cluster.AffinityPropagation,,"preference=**, random_state=0"
+sklearn.metrics.homogeneity_score,"labels_true, labels",
+sklearn.metrics.completeness_score,"labels_true, labels",
+sklearn.metrics.v_measure_score,"labels_true, labels",
+sklearn.metrics.adjusted_rand_score,"labels_true, labels",
+sklearn.metrics.adjusted_mutual_info_score,"labels_true, labels",
+sklearn.metrics.silhouette_score,"X, labels",metric=sqeuclidean
+sklearn.datasets.make_blobs,,"centers=2, n_samples=n_samples, random_state=random_state"
+sklearn.datasets.make_blobs,,"centers=**, cluster_std=**, n_samples=N_SAMPLES, random_state=RANDOM_STATE"
+sklearn.cluster.AgglomerativeClustering,,n_clusters=3
+sklearn.cluster._agglomerative.AgglomerativeClustering,X,
+sklearn.ensemble.RandomForestClassifier,,random_state=RANDOM_STATE
+sklearn.cluster._agglomerative.AgglomerativeClustering,X,
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"inductive_learner, X","alpha=0.4, ax=ax, response_method=predict"
+sklearn.utils.metaestimators.available_if,**,
+sklearn.utils.metaestimators.available_if,**,
+sklearn.utils.validation.check_is_fitted,self,
+sklearn.utils.validation.check_is_fitted,self,
+sklearn.model_selection.KFold,2,
+sklearn.linear_model.BayesianRidge,,
+sklearn.feature_extraction.image.grid_to_graph,,"n_x=size, n_y=size"
+sklearn.cluster.FeatureAgglomeration,,"connectivity=connectivity, memory=mem, n_clusters=10"
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.GridSearchCV,"clf, **","cv=cv, n_jobs=1"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.feature_selection.SelectPercentile,f_regression,
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.GridSearchCV,"clf, **",cv=cv
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.model_selection._search.BaseSearchCV.fit.best_estimator_,"1, **",
+sklearn.datasets.load_digits,,
+sklearn.manifold._spectral_embedding.SpectralEmbedding.fit_transform,X,
+sklearn.cluster.AgglomerativeClustering,,"linkage=linkage, n_clusters=10"
+sklearn.cluster._agglomerative.AgglomerativeClustering.fit,X_red,
+sklearn.manifold.SpectralEmbedding,,n_components=2
+sklearn.datasets.make_circles,,"factor=0.5, n_samples=n_samples, noise=0.05"
+sklearn.datasets.make_moons,,"n_samples=n_samples, noise=0.05"
+sklearn.datasets.make_blobs,,"n_samples=n_samples, random_state=8"
+sklearn.datasets.make_blobs,,"n_samples=n_samples, random_state=random_state"
+sklearn.datasets.make_blobs,,"cluster_std=**, n_samples=n_samples, random_state=random_state"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.cluster.AgglomerativeClustering,,"linkage=ward, n_clusters=**"
+sklearn.cluster.AgglomerativeClustering,,"linkage=complete, n_clusters=**"
+sklearn.cluster.AgglomerativeClustering,,"linkage=average, n_clusters=**"
+sklearn.cluster.AgglomerativeClustering,,"linkage=single, n_clusters=**"
+sklearn.preprocessing.StandardScaler,,
+sklearn.cluster._agglomerative.AgglomerativeClustering,X,
+sklearn.cluster._agglomerative.AgglomerativeClustering,int,
+sklearn.cluster.kmeans_plusplus,X,"n_clusters=4, random_state=0"
+sklearn.datasets.load_sample_image,china.jpg,
+sklearn.utils.shuffle,image_array,"n_samples=1000, random_state=0"
+sklearn.cluster._kmeans._BaseKMeans.predict,image_array,
+sklearn.utils.shuffle,image_array,"n_samples=n_colors, random_state=0"
+sklearn.metrics.pairwise_distances_argmin,"codebook_random, image_array",axis=0
+sklearn.cluster.KMeans,,"n_clusters=n_colors, n_init=auto, random_state=0"
+sklearn.datasets.make_circles,,"factor=0.5, n_samples=n_samples, noise=0.05"
+sklearn.datasets.make_moons,,"n_samples=n_samples, noise=0.05"
+sklearn.datasets.make_blobs,,"n_samples=n_samples, random_state=8"
+sklearn.datasets.make_blobs,,"n_samples=n_samples, random_state=random_state"
+sklearn.datasets.make_blobs,,"cluster_std=**, n_samples=n_samples, random_state=random_state"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.cluster.estimate_bandwidth,X,quantile=**
+sklearn.cluster.MeanShift,,"bandwidth=bandwidth, bin_seeding=True"
+sklearn.cluster.MiniBatchKMeans,,"n_clusters=**, n_init=auto"
+sklearn.cluster.AgglomerativeClustering,,"connectivity=connectivity, linkage=ward, n_clusters=**"
+sklearn.cluster.SpectralClustering,,"affinity=nearest_neighbors, eigen_solver=arpack, n_clusters=**"
+sklearn.cluster.DBSCAN,,eps=**
+sklearn.cluster,,"allow_single_cluster=**, min_cluster_size=**, min_samples=**"
+sklearn.cluster,,"min_cluster_size=**, min_samples=**, xi=**"
+sklearn.cluster,,"damping=**, preference=**, random_state=0"
+sklearn.cluster.AgglomerativeClustering,,"connectivity=connectivity, linkage=average, metric=cityblock, n_clusters=**"
+sklearn.cluster.Birch,,n_clusters=**
+sklearn.mixture.GaussianMixture,,"covariance_type=full, n_components=**"
+sklearn.preprocessing.StandardScaler,,
+sklearn.cluster._agglomerative.AgglomerativeClustering,X,
+sklearn.cluster._agglomerative.AgglomerativeClustering,int,
+sklearn.datasets.load_digits,,
+sklearn.feature_extraction.image.grid_to_graph,**,
+sklearn.cluster.FeatureAgglomeration,,"connectivity=connectivity, n_clusters=32"
+sklearn.cluster._agglomerative.FeatureAgglomeration.fit,X,
+sklearn.cluster._agglomerative.FeatureAgglomeration,X,
+sklearn.cluster._feature_agglomeration.AgglomerationTransform.inverse_transform,X_reduced,
+sklearn.datasets.make_blobs,,"centers=n_centers, n_samples=25000, random_state=0"
+sklearn.cluster.MiniBatchKMeans,,"batch_size=**, init=k-means++, max_no_improvement=10, n_clusters=100, n_init=10, random_state=0, verbose=0"
+sklearn.cluster._kmeans.MiniBatchKMeans.fit,X,
+sklearn.cluster.Birch,,"n_clusters=None, threshold=1.7"
+sklearn.cluster.Birch,,"n_clusters=100, threshold=1.7"
+sklearn.cluster.AgglomerativeClustering,,"linkage=average, metric=metric, n_clusters=n_clusters"
+sklearn.cluster._agglomerative.AgglomerativeClustering.fit,X,
+sklearn.feature_extraction.image.img_to_graph,img,mask=mask
+sklearn.cluster.spectral_clustering,graph,"eigen_solver=arpack, n_clusters=4"
+sklearn.feature_extraction.image.img_to_graph,img,mask=mask
+sklearn.cluster.spectral_clustering,graph,"eigen_solver=arpack, n_clusters=2"
+sklearn.datasets.make_blobs,,"centers=centers, cluster_std=0.7, n_samples=3000"
+sklearn.cluster.KMeans,,"init=k-means++, n_clusters=3, n_init=10"
+sklearn.cluster._kmeans.KMeans.fit,X,
+sklearn.cluster.MiniBatchKMeans,,"batch_size=batch_size, init=k-means++, max_no_improvement=10, n_clusters=3, n_init=10, verbose=0"
+sklearn.cluster._kmeans.MiniBatchKMeans.fit,X,
+sklearn.metrics.pairwise.pairwise_distances_argmin,"**, **",
+sklearn.metrics.pairwise.pairwise_distances_argmin,"X, k_means_cluster_centers",
+sklearn.metrics.pairwise.pairwise_distances_argmin,"X, mbk_means_cluster_centers",
+sklearn.datasets.make_blobs,,"centers=centers, cluster_std=0.6, n_samples=10000"
+sklearn.cluster.estimate_bandwidth,X,"n_samples=500, quantile=0.2"
+sklearn.cluster.MeanShift,,"bandwidth=bandwidth, bin_seeding=True"
+sklearn.cluster._mean_shift.MeanShift.fit,X,
+sklearn.datasets.fetch_olivetti_faces,,
+sklearn.cluster.MiniBatchKMeans,,"n_clusters=81, n_init=3, random_state=rng, verbose=True"
+sklearn.feature_extraction.image.extract_patches_2d,"img, patch_size","max_patches=50, random_state=rng"
+sklearn.cluster._kmeans.MiniBatchKMeans.partial_fit,data,
+sklearn.feature_extraction.image.img_to_graph,rescaled_coins,
+sklearn.cluster.spectral_clustering,graph,"assign_labels=assign_labels, eigen_tol=1e-07, n_clusters=**, random_state=42"
+sklearn.datasets.make_swiss_roll,n_samples,noise=noise
+sklearn.neighbors.kneighbors_graph,X,"include_self=False, n_neighbors=10"
+sklearn.cluster.AgglomerativeClustering,,"linkage=ward, n_clusters=6"
+sklearn.cluster.AgglomerativeClustering,,"connectivity=connectivity, linkage=ward, n_clusters=6"
+sklearn.datasets.load_iris,,
+sklearn.cluster.KMeans,,"n_clusters=8, n_init=auto"
+sklearn.cluster.KMeans,,"n_clusters=3, n_init=auto"
+sklearn.cluster.KMeans,,"init=random, n_clusters=3, n_init=1"
+sklearn.preprocessing.KBinsDiscretizer,,"encode=ordinal, n_bins=n_bins, random_state=0, strategy=uniform"
+sklearn.preprocessing.KBinsDiscretizer,,"encode=ordinal, n_bins=n_bins, random_state=0, strategy=kmeans"
+sklearn.base.TransformerMixin.fit_transform,**,
+sklearn.base.TransformerMixin.fit_transform,**,
+sklearn.datasets.make_blobs,,"center_box=**, centers=4, cluster_std=1, n_features=2, n_samples=500, random_state=1, shuffle=True"
+sklearn.cluster.KMeans,,"n_clusters=n_clusters, n_init=auto, random_state=10"
+sklearn.cluster._kmeans.KMeans,X,
+sklearn.metrics.silhouette_score,"X, cluster_labels",
+sklearn.metrics.silhouette_samples,"X, cluster_labels",
+sklearn.neighbors.kneighbors_graph,"X, 30",include_self=False
+sklearn.cluster.AgglomerativeClustering,,"connectivity=connectivity, linkage=linkage, n_clusters=n_clusters"
+sklearn.utils.check_random_state,random_state,
+sklearn.utils.shuffle,"X, y",random_state=random_state
+sklearn.cluster.MiniBatchKMeans,,"init=random, n_clusters=n_clusters, n_init=1, random_state=random_state"
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.cluster.KMeans,,"init=k-means++, n_clusters=n_digits, n_init=4, random_state=0"
+sklearn.cluster.KMeans,,"init=random, n_clusters=n_digits, n_init=4, random_state=0"
+sklearn.decomposition._pca.PCA.fit,data,
+sklearn.cluster.KMeans,,"init=**, n_clusters=n_digits, n_init=1"
+sklearn.decomposition._pca.PCA.fit_transform,data,
+sklearn.cluster.KMeans,,"init=k-means++, n_clusters=n_digits, n_init=4"
+sklearn.cluster._kmeans.KMeans.fit,reduced_data,
+sklearn.cluster._kmeans._BaseKMeans.predict,**,
+sklearn.cluster._kmeans.KMeans,data,
+sklearn.metrics.cluster._supervised.homogeneity_score,"labels, **",
+sklearn.metrics.silhouette_score,"data, **","metric=euclidean, sample_size=300"
+sklearn.decomposition.PCA,,n_components=n_digits
+sklearn.decomposition.PCA,,n_components=2
+sklearn.pipeline.make_pipeline,"**, kmeans",
+sklearn.cluster._kmeans.KMeans,,
+sklearn.cluster._kmeans.KMeans,,
+sklearn.datasets.make_blobs,,"n_samples=n_samples, random_state=random_state"
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X_aniso,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X_varied,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X_filtered,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X,
+sklearn.cluster._kmeans._BaseKMeans.fit_predict,X_filtered,
+sklearn.mixture._base.BaseMixture.fit_predict,X_aniso,
+sklearn.mixture._base.BaseMixture.fit_predict,X_varied,
+sklearn.cluster.KMeans,,"n_clusters=2, **common_params"
+sklearn.cluster.KMeans,,"n_clusters=3, **common_params"
+sklearn.cluster.KMeans,,"n_clusters=3, **common_params"
+sklearn.cluster.KMeans,,"n_clusters=3, **common_params"
+sklearn.cluster.KMeans,,"n_clusters=3, **common_params"
+sklearn.cluster.KMeans,,"n_clusters=3, n_init=10, random_state=random_state"
+sklearn.mixture.GaussianMixture,,n_components=3
+sklearn.mixture.GaussianMixture,,n_components=3
+sklearn.feature_extraction.image.grid_to_graph,**,
+sklearn.cluster.AgglomerativeClustering,,"connectivity=connectivity, linkage=ward, n_clusters=n_clusters"
+sklearn.cluster._agglomerative.AgglomerativeClustering.fit,X,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.cluster._dbscan.DBSCAN.fit,X,
+sklearn.preprocessing.StandardScaler,,
+sklearn.cluster.DBSCAN,,"eps=0.3, min_samples=10"
+sklearn.metrics.homogeneity_score,"labels_true, labels",
+sklearn.metrics.completeness_score,"labels_true, labels",
+sklearn.metrics.v_measure_score,"labels_true, labels",
+sklearn.metrics.adjusted_rand_score,"labels_true, labels",
+sklearn.metrics.adjusted_mutual_info_score,"labels_true, labels",
+sklearn.metrics,"X, labels",
+sklearn.datasets.load_iris,,
+sklearn.cluster.AgglomerativeClustering,,"distance_threshold=0, n_clusters=None"
+sklearn.cluster._agglomerative.AgglomerativeClustering,X,
+sklearn.cluster.OPTICS,,"min_cluster_size=0.05, min_samples=50, xi=0.05"
+sklearn.cluster._optics.OPTICS.fit,X,
+sklearn.cluster.cluster_optics_dbscan,,"core_distances=**, eps=0.5, ordering=**, reachability=**"
+sklearn.cluster.cluster_optics_dbscan,,"core_distances=**, eps=2, ordering=**, reachability=**"
+sklearn.datasets.load_breast_cancer,,return_X_y=True
+sklearn.utils.shuffle,"X, y",random_state=42
+sklearn.svm.SVC,,"gamma=0.001, probability=True, random_state=42"
+sklearn.semi_supervised.SelfTrainingClassifier,base_classifier,threshold=threshold
+sklearn.model_selection.StratifiedKFold,,n_splits=n_splits
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.fit,"X_train, y_train",
+sklearn.semi_supervised._self_training.SelfTrainingClassifier,X_test,
+sklearn.metrics.accuracy_score,"y_test_true, y_pred",
+sklearn.datasets.make_circles,,"n_samples=n_samples, shuffle=False"
+sklearn.semi_supervised.LabelSpreading,,"alpha=0.8, kernel=knn"
+sklearn.semi_supervised._label_propagation.BaseLabelPropagation.fit,"X, labels",
+sklearn.datasets.load_digits,,
+sklearn.semi_supervised.LabelSpreading,,"gamma=0.25, max_iter=20"
+sklearn.semi_supervised._label_propagation.BaseLabelPropagation.fit,"X, y_train",
+sklearn.metrics.confusion_matrix,"true_labels, predicted_labels",labels=**
+sklearn.metrics.classification_report,"true_labels, predicted_labels",
+sklearn.datasets.fetch_20newsgroups,,"categories=**, subset=train"
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_test,
+sklearn.feature_extraction.text.CountVectorizer,,**vectorizer_params
+sklearn.linear_model.SGDClassifier,,**sdg_params
+sklearn.feature_extraction.text.CountVectorizer,,**vectorizer_params
+sklearn.semi_supervised.SelfTrainingClassifier,**,verbose=True
+sklearn.feature_extraction.text.CountVectorizer,,**vectorizer_params
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.metrics.f1_score,"y_test, y_pred",average=micro
+sklearn.semi_supervised.SelfTrainingClassifier,,**sdg_params
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"gamma=0.5, kernel=rbf, probability=True"
+sklearn.semi_supervised._label_propagation.BaseLabelPropagation.fit,"X, y_30",
+sklearn.semi_supervised._label_propagation.BaseLabelPropagation.fit,"X, y_50",
+sklearn.semi_supervised._label_propagation.LabelSpreading,"X, y",
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.fit,"X, y_30",
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.fit,"X, y_50",
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.predict,**,
+sklearn.semi_supervised.LabelSpreading,,
+sklearn.semi_supervised.LabelSpreading,,
+sklearn.semi_supervised.LabelSpreading,,
+sklearn.semi_supervised.SelfTrainingClassifier,base_classifier,
+sklearn.semi_supervised.SelfTrainingClassifier,base_classifier,
+sklearn.svm.SVC,,"gamma=0.5, kernel=rbf"
+sklearn.datasets.load_digits,,
+sklearn.semi_supervised.LabelSpreading,,"gamma=0.25, max_iter=20"
+sklearn.semi_supervised._label_propagation.BaseLabelPropagation.fit,"X, y_train",
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_predictions,"true_labels, predicted_labels",labels=**
+sklearn.metrics.classification_report,"true_labels, predicted_labels",
+sklearn.datasets.fetch_covtype,,return_X_y=True
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit_transform,X_train,
+sklearn.pipeline.Pipeline.transform,X_test,
+sklearn.svm.LinearSVC,,dual=auto
+sklearn.svm._classes.LinearSVC.fit,"X_train, y_train",
+sklearn.svm.SVC,,"C=500.0, coef0=0, degree=4, gamma=1.0, kernel=poly"
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.kernel_approximation.PolynomialCountSketch,,"degree=4, n_components=n_components"
+sklearn.svm.LinearSVC,,dual=auto
+sklearn.datasets.make_blobs,,"centers=centers, n_samples=n_samples, random_state=42, shuffle=False"
+sklearn.naive_bayes.GaussianNB,,
+sklearn.naive_bayes.GaussianNB.fit,"X_train, y_train",
+sklearn.calibration.CalibratedClassifierCV,clf,"cv=2, method=isotonic"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",sample_weight=sw_train
+sklearn.calibration.CalibratedClassifierCV,clf,"cv=2, method=sigmoid"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",sample_weight=sw_train
+sklearn.metrics.brier_score_loss,"y_test, prob_pos_clf",sample_weight=sw_test
+sklearn.metrics.brier_score_loss,"y_test, prob_pos_isotonic",sample_weight=sw_test
+sklearn.metrics.brier_score_loss,"y_test, prob_pos_sigmoid",sample_weight=sw_test
+sklearn.naive_bayes._BaseNB.predict_proba,X_test,
+sklearn.calibration.CalibratedClassifierCV.predict_proba,X_test,
+sklearn.calibration.CalibratedClassifierCV.predict_proba,X_test,
+sklearn.datasets.make_classification,,"n_features=20, n_informative=2, n_redundant=2, n_samples=100000, random_state=42"
+sklearn.linear_model.LogisticRegression,,
+sklearn.naive_bayes.GaussianNB,,
+sklearn.ensemble.RandomForestClassifier,,
+sklearn.naive_bayes.GaussianNB.fit,"X_train, y_train",
+sklearn.calibration.CalibrationDisplay.from_estimator,"clf, X_test, y_test","ax=ax_calibration_curve, color=**, marker=**, n_bins=10, name=name"
+sklearn.svm._classes.LinearSVC.fit,"X, y",
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,X,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,X,
+sklearn.datasets.make_classification,,"n_features=20, n_informative=2, n_redundant=10, n_samples=100000, random_state=42"
+sklearn.linear_model.LogisticRegression,,C=1.0
+sklearn.naive_bayes.GaussianNB,,
+sklearn.calibration.CalibratedClassifierCV,gnb,"cv=2, method=isotonic"
+sklearn.calibration.CalibratedClassifierCV,gnb,"cv=2, method=sigmoid"
+sklearn.linear_model.LogisticRegression,,C=1.0
+sklearn.calibration.CalibratedClassifierCV,svc,"cv=2, method=isotonic"
+sklearn.calibration.CalibratedClassifierCV,svc,"cv=2, method=sigmoid"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",
+sklearn.calibration.CalibrationDisplay.from_estimator,"clf, X_test, y_test","ax=ax_calibration_curve, color=**, n_bins=10, name=name"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",
+sklearn.naive_bayes._BaseNB.predict_proba,X_test,
+sklearn.calibration.CalibratedClassifierCV.predict,X_test,
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",
+sklearn.calibration.CalibrationDisplay.from_estimator,"clf, X_test, y_test","ax=ax_calibration_curve, color=**, n_bins=10, name=name"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_train, y_train",
+sklearn.calibration.CalibratedClassifierCV.predict,X_test,
+sklearn.svm._classes.LinearSVC.fit,"X, y",
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,X,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,X,
+sklearn.datasets.make_blobs,,"centers=3, cluster_std=5.0, n_features=2, n_samples=2000, random_state=42"
+sklearn.ensemble.RandomForestClassifier,,n_estimators=25
+sklearn.ensemble._forest.BaseForest.fit,"X_train_valid, y_train_valid",
+sklearn.ensemble.RandomForestClassifier,,n_estimators=25
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.calibration.CalibratedClassifierCV,clf,"cv=prefit, method=sigmoid"
+sklearn.calibration.CalibratedClassifierCV.fit,"X_valid, y_valid",
+sklearn.ensemble._forest.ForestClassifier.predict_proba,X_test,
+sklearn.calibration.CalibratedClassifierCV.predict_proba,X_test,
+sklearn.metrics.log_loss,"y_test, clf_probs",
+sklearn.metrics.log_loss,"y_test, cal_clf_probs",
+sklearn.linear_model._ridge.Ridge.fit,"training_data, training_noisy_target",
+sklearn.kernel_ridge.KernelRidge,,kernel=**
+sklearn.kernel_ridge.KernelRidge.fit,"training_data, training_noisy_target",
+sklearn.model_selection._search.RandomizedSearchCV,kernel_ridge,"n_iter=500, param_distributions=param_distributions, random_state=0"
+sklearn.model_selection._search.BaseSearchCV.fit,"training_data, training_noisy_target",
+sklearn.model_selection._search.RandomizedSearchCV,data,
+sklearn.gaussian_process.GaussianProcessRegressor,,kernel=kernel
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"training_data, training_noisy_target",
+sklearn.gaussian_process.GaussianProcessRegressor,,kernel=kernel
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"training_data, training_noisy_target",
+sklearn.linear_model._ridge._BaseRidge,data,
+sklearn.kernel_ridge.KernelRidge.predict,data,
+sklearn.gaussian_process.kernels.WhiteKernel,0.1,
+sklearn.kernel_ridge.KernelRidge,,
+sklearn.gaussian_process.kernels.ExpSineSquared,"1.0, 5.0",periodicity_bounds=**
+sklearn.gaussian_process.kernels.ExpSineSquared,"1.0, 5.0",periodicity_bounds=**
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, random_state=0"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, random_state=0"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, random_state=0"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, random_state=0"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, random_state=0"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.predict,X,return_std=True
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.sample_y,"X, n_samples",
+sklearn.gaussian_process.kernels.RBF,,"length_scale=1.0, length_scale_bounds=**"
+sklearn.gaussian_process.kernels.RationalQuadratic,,"alpha=0.1, alpha_bounds=**, length_scale=1.0"
+sklearn.gaussian_process.kernels.ConstantKernel,"0.1, **",
+sklearn.gaussian_process.kernels.Matern,,"length_scale=1.0, length_scale_bounds=**, nu=1.5"
+sklearn.gaussian_process.kernels.DotProduct,,"sigma_0=1.0, sigma_0_bounds=**"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process.kernels.RBF,,length_scale=1.15
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.predict_proba,**,
+sklearn.gaussian_process.GaussianProcessClassifier,,"kernel=kernel, warm_start=True"
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier,,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier,,
+sklearn.gaussian_process.GaussianProcessClassifier,,kernel=kernel
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.fit,"X, y",
+sklearn.gaussian_process.kernels.ConstantKernel,"0.1, **",
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.predict_proba,xx,
+sklearn.gaussian_process.GaussianProcessRegressor,,"alpha=0.0, kernel=kernel"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.predict,X,return_std=True
+sklearn.gaussian_process.GaussianProcessRegressor,,"alpha=0.0, kernel=kernel"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.predict,X,return_std=True
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,,theta=**
+sklearn.gaussian_process.kernels.RBF,,"length_scale=10.0, length_scale_bounds=**"
+sklearn.gaussian_process.kernels.RBF,,"length_scale=0.1, length_scale_bounds=**"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.log_marginal_likelihood,**,
+sklearn.gaussian_process.GaussianProcessClassifier,,"kernel=**, optimizer=None"
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.fit,"**, **",
+sklearn.gaussian_process.GaussianProcessClassifier,,kernel=**
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.fit,"**, **",
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.predict_proba,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.predict_proba,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.log_marginal_likelihood,**,
+sklearn.gaussian_process.kernels.CompoundKernel.theta,**,
+sklearn.gaussian_process.GaussianProcessClassifier,,length_scale=1.0
+sklearn.gaussian_process.GaussianProcessClassifier,,length_scale=1.0
+sklearn.metrics.accuracy_score,"**, **",
+sklearn.metrics.accuracy_score,"**, **",
+sklearn.metrics.log_loss,"**, **",
+sklearn.metrics.log_loss,"**, **",
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.log_marginal_likelihood,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier,**,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier,**,
+sklearn.datasets.load_iris,,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.predict_proba,**,
+sklearn.gaussian_process.GaussianProcessClassifier,,kernel=kernel
+sklearn.gaussian_process.GaussianProcessClassifier,,kernel=kernel
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=41187, parser=pandas"
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=co2_kernel, normalize_y=False"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X, **",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.predict,X_test,return_std=True
+sklearn.gaussian_process.kernels.ExpSineSquared,,"length_scale=1.0, periodicity=1.0, periodicity_bounds=fixed"
+sklearn.gaussian_process.kernels.RationalQuadratic,,"alpha=1.0, length_scale=1.0"
+sklearn.gaussian_process.kernels.RBF,,length_scale=100.0
+sklearn.gaussian_process.GaussianProcessRegressor,,"kernel=kernel, n_restarts_optimizer=9"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor,X,return_std=True
+sklearn.gaussian_process.GaussianProcessRegressor,,"alpha=**, kernel=kernel, n_restarts_optimizer=9"
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"X_train, y_train_noisy",
+sklearn.gaussian_process._gpr.GaussianProcessRegressor,X,return_std=True
+sklearn.gaussian_process.kernels.RBF,,"length_scale=1.0, length_scale_bounds=**"
+sklearn.gaussian_process.GaussianProcessRegressor,,kernel=kernel
+sklearn.gaussian_process._gpr.GaussianProcessRegressor.fit,"**, **",
+sklearn.gaussian_process.GaussianProcessClassifier,kernel,
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.fit,"X_train, Y_train",
+sklearn.preprocessing.StandardScaler,,
+sklearn.linear_model.LogisticRegression,,"max_iter=10000, tol=0.1"
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.model_selection.GridSearchCV,"pipe, param_grid",n_jobs=2
+sklearn.model_selection._search.BaseSearchCV.fit,"X_digits, y_digits",
+sklearn.decomposition._pca.PCA.fit,X_digits,
+sklearn.datasets.load_iris,,
+sklearn.decomposition.PCA,,n_components=2
+sklearn.feature_selection.SelectKBest,,k=1
+sklearn.pipeline.FeatureUnion,**,
+sklearn.svm.SVC,,kernel=linear
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.GridSearchCV,pipeline,"param_grid=param_grid, verbose=10"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.pipeline.FeatureUnion,"X, y",
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=1, remove=**, return_X_y=True, subset=test"
+sklearn.preprocessing.FunctionTransformer,subject_body_extractor,
+sklearn.preprocessing.FunctionTransformer,text_stats,
+sklearn.pipeline.Pipeline,**,verbose=True
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_test,
+sklearn.compose.ColumnTransformer,**,transformer_weights=**
+sklearn.svm.LinearSVC,,dual=False
+sklearn.datasets.make_regression,,"n_samples=10000, noise=100, random_state=0"
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.linear_model._ridge.RidgeCV.fit,"X_train, y_train",
+sklearn.linear_model._ridge.RidgeCV,X_test,
+sklearn.compose._target.TransformedTargetRegressor,"X_train, y_train",
+sklearn.compose._target.TransformedTargetRegressor,X_test,
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge","ax=ax0, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge_with_trans_target","ax=ax1, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.datasets.fetch_openml,,"as_frame=True, name=house_prices, parser=pandas"
+sklearn.model_selection.train_test_split,"X, y",random_state=1
+sklearn.linear_model._ridge.RidgeCV.fit,"X_train, y_train",
+sklearn.linear_model._ridge.RidgeCV,X_test,
+sklearn.compose._target.TransformedTargetRegressor,"X_train, y_train",
+sklearn.compose._target.TransformedTargetRegressor,X_test,
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge","ax=**, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge_with_trans_target","ax=**, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge","ax=**, kind=residual_vs_predicted, scatter_kwargs=**"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred_ridge_with_trans_target","ax=**, kind=residual_vs_predicted, scatter_kwargs=**"
+sklearn.linear_model._ridge.RidgeCV,,
+sklearn.compose._target.TransformedTargetRegressor,,"func=**, inverse_func=**, regressor=**"
+sklearn.preprocessing.quantile_transform,**,"copy=True, n_quantiles=900, output_distribution=normal"
+sklearn.linear_model._ridge.RidgeCV,,
+sklearn.compose._target.TransformedTargetRegressor,,"regressor=**, transformer=**"
+sklearn.metrics.r2_score,"y_true, y_pred",
+sklearn.metrics.median_absolute_error,"y_true, y_pred",
+sklearn.preprocessing.QuantileTransformer,,"n_quantiles=900, output_distribution=normal"
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.compose.ColumnTransformer,,transformers=**
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.2"
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.compose.ColumnTransformer,,transformers=**
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.model_selection.RandomizedSearchCV,"clf, param_grid","n_iter=10, random_state=0"
+sklearn.model_selection._search.BaseSearchCV.fit,"X_train, y_train",
+sklearn.compose.make_column_selector,,dtype_exclude=category
+sklearn.compose.make_column_selector,,dtype_include=category
+sklearn.model_selection._search.BaseSearchCV.score,"X_test, y_test",
+sklearn.impute.SimpleImputer,,strategy=median
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.feature_selection.SelectPercentile,chi2,percentile=50
+sklearn.pipeline.Pipeline,,dtype_exclude=category
+sklearn.pipeline.Pipeline,,dtype_include=category
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.GridSearchCV,pipe,"n_jobs=1, param_grid=param_grid"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.pipeline.Pipeline,**,memory=memory
+sklearn.svm.LinearSVC,,"dual=False, max_iter=10000"
+sklearn.feature_selection.SelectKBest,mutual_info_classif,
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=1, n_redundant=0"
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0"
+sklearn.datasets.make_classification,,"n_features=2, n_informative=2, n_redundant=0"
+sklearn.datasets.make_classification,,"n_classes=3, n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0"
+sklearn.datasets.make_blobs,,"centers=3, n_features=2"
+sklearn.datasets.make_gaussian_quantiles,,"n_classes=3, n_features=2"
+sklearn.datasets.load_iris,,
+sklearn.decomposition._pca.PCA.fit_transform,**,
+sklearn.decomposition.PCA,,n_components=3
+sklearn.datasets.load_digits,,
+sklearn.linear_model._base.LinearRegression,,
+sklearn.linear_model.QuantileRegressor,,"alpha=0, quantile=0.5, solver=solver"
+sklearn.linear_model.QuantileRegressor,,"alpha=0, quantile=quantile, solver=solver"
+sklearn.linear_model.QuantileRegressor,,"alpha=0, quantile=quantile, solver=solver"
+sklearn.utils.fixes.sp_version,1.6.0,
+sklearn.linear_model._base.LinearRegression.fit,"X, y_pareto",
+sklearn.linear_model._quantile.QuantileRegressor.fit,"X, y_pareto",
+sklearn.linear_model._quantile.QuantileRegressor.fit,"X, y_normal",
+sklearn.linear_model._quantile.QuantileRegressor.fit,"X, y_pareto",
+sklearn.metrics.mean_absolute_error,"y_pareto, y_pred_lr",
+sklearn.metrics.mean_squared_error,"y_pareto, y_pred_lr",
+sklearn.metrics.mean_absolute_error,"y_pareto, y_pred_qr",
+sklearn.metrics.mean_squared_error,"y_pareto, y_pred_qr",
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"diabetes_X_train, diabetes_y_train",
+sklearn.linear_model._base.LinearModel.predict,diabetes_X_test,
+sklearn.metrics.mean_squared_error,"diabetes_y_test, diabetes_y_pred",
+sklearn.linear_model.BayesianRidge,,"compute_score=True, fit_intercept=False, tol=1e-06"
+sklearn.linear_model._bayes.BayesianRidge.fit,"X_train, y_train",
+sklearn.linear_model._bayes.BayesianRidge.predict,X_test,return_std=True
+sklearn.base.BaseEstimator.set_params,,"alpha_init=**, lambda_init=**"
+sklearn.datasets.make_regression,,"coef=True, n_features=1, n_informative=1, n_samples=n_samples, noise=10, random_state=0"
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.linear_model.RANSACRegressor,,
+sklearn.linear_model._ransac.RANSACRegressor.fit,"X, y",
+sklearn.linear_model._base.LinearModel.predict,line_X,
+sklearn.linear_model._ransac.RANSACRegressor,line_X,
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.linear_model.LogisticRegression,,"C=C, penalty=l1, solver=saga, tol=0.01"
+sklearn.linear_model.LogisticRegression,,"C=C, penalty=l2, solver=saga, tol=0.01"
+sklearn.linear_model.LogisticRegression,,"C=C, l1_ratio=l1_ratio, penalty=elasticnet, solver=saga, tol=0.01"
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.linear_model._logistic.LogisticRegression,,
+sklearn.linear_model._logistic.LogisticRegression,,
+sklearn.linear_model._logistic.LogisticRegression,,
+sklearn.preprocessing.StandardScaler,,
+sklearn.linear_model.Ridge,,
+sklearn.datasets.make_regression,,"bias=3.5, coef=True, n_features=10, n_samples=10, random_state=1"
+sklearn.base.BaseEstimator.set_params,,alpha=a
+sklearn.linear_model._ridge.Ridge.fit,"X, y",
+sklearn.metrics.mean_squared_error,"**, w",
+sklearn.utils._testing.ignore_warnings,,category=ConvergenceWarning
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.5"
+sklearn.linear_model._stochastic_gradient.SGDClassifier,,
+sklearn.datasets.fetch_openml,mnist_784,"as_frame=False, parser=pandas, version=1"
+sklearn.utils.shuffle,"**, **",random_state=42
+sklearn.linear_model.SGDClassifier,,n_iter_no_change=3
+sklearn.linear_model,,"early_stopping=False, n_iter_no_change=3, tol=0.1"
+sklearn.linear_model,,"early_stopping=True, n_iter_no_change=3, tol=0.0001, validation_fraction=0.2"
+sklearn.datasets.make_blobs,,"centers=2, cluster_std=0.6, n_samples=50, random_state=0"
+sklearn.linear_model.SGDClassifier,,"alpha=0.01, loss=hinge, max_iter=200"
+sklearn.linear_model._stochastic_gradient.BaseSGDClassifier.fit,"X, Y",
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,**,
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_plot,
+sklearn.preprocessing._polynomial.PolynomialFeatures.fit,X_train,
+sklearn.preprocessing._polynomial.SplineTransformer.fit,X_train,
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_plot,
+sklearn.preprocessing.SplineTransformer,,"degree=3, n_knots=4"
+sklearn.pipeline.make_pipeline,,alpha=0.001
+sklearn.preprocessing._polynomial.SplineTransformer,X_plot,
+sklearn.pipeline.make_pipeline,"transformer, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_plot_ext,
+sklearn.preprocessing._polynomial.SplineTransformer.transform,X_plot_ext,
+sklearn.pipeline.make_pipeline,degree,
+sklearn.pipeline.make_pipeline,,alpha=0.001
+sklearn.preprocessing.PolynomialFeatures,,degree=3
+sklearn.preprocessing.SplineTransformer,,"degree=3, n_knots=4"
+sklearn.preprocessing.SplineTransformer,,"degree=3, n_knots=10"
+sklearn.preprocessing.SplineTransformer,,"degree=3, extrapolation=periodic, knots=**"
+sklearn.pipeline.make_pipeline,,alpha=0.001
+sklearn.preprocessing.SplineTransformer,,"degree=3, extrapolation=periodic, knots=**"
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.enet_path,"X, y","eps=eps, l1_ratio=0.8"
+sklearn.datasets.make_regression,,"bias=100.0, n_features=1, n_samples=20, noise=4.0, random_state=0"
+sklearn.linear_model.Ridge,,"alpha=0.0, random_state=0"
+sklearn.linear_model._ridge.Ridge.fit,"X, y",
+sklearn.linear_model.HuberRegressor,,"alpha=0.0, epsilon=epsilon"
+sklearn.linear_model._huber.HuberRegressor.fit,"X, y",
+sklearn.datasets.load_iris,,
+sklearn.linear_model.LogisticRegression,,"intercept_scaling=10000.0, max_iter=**, penalty=l1, solver=liblinear, tol=1e-06, warm_start=True"
+sklearn.svm.l1_min_c,"X, y",loss=log
+sklearn.base.BaseEstimator.set_params,,C=c
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.linear_model._logistic.LogisticRegression.fit.coef_,,
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.lars_path,"X, y","method=lasso, verbose=True"
+sklearn.datasets.fetch_openml,mnist_784,"as_frame=False, parser=pandas, return_X_y=True, version=1"
+sklearn.utils.check_random_state,0,
+sklearn.preprocessing.StandardScaler,,
+sklearn.base.TransformerMixin.fit_transform,X_train,
+sklearn.preprocessing._data.StandardScaler.transform,X_test,
+sklearn.linear_model.LogisticRegression,,"C=**, penalty=l1, solver=saga, tol=0.1"
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, y_train",
+sklearn.base.ClassifierMixin.score,"X_test, y_test",
+sklearn.linear_model._logistic.LogisticRegression.fit.coef_,,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.linear_model._bayes.BayesianRidge.fit,"X, y",
+sklearn.linear_model._bayes.ARDRegression.fit,"X, y",
+sklearn.pipeline.Pipeline,"X, y",
+sklearn.pipeline.Pipeline,"X, y",
+sklearn.pipeline.Pipeline.predict,X_plot,return_std=True
+sklearn.pipeline.Pipeline.predict,X_plot,return_std=True
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model.BayesianRidge,,"compute_score=True, n_iter=30"
+sklearn.linear_model.ARDRegression,,"compute_score=True, n_iter=30"
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.preprocessing.PolynomialFeatures,,"degree=10, include_bias=False"
+sklearn.preprocessing.StandardScaler,,
+sklearn.linear_model.ARDRegression,,
+sklearn.preprocessing.PolynomialFeatures,,"degree=10, include_bias=False"
+sklearn.preprocessing.StandardScaler,,
+sklearn.linear_model.BayesianRidge,,
+sklearn.svm.OneClassSVM,,"gamma=gamma, kernel=rbf, nu=nu"
+sklearn.svm._classes.OneClassSVM.fit,X_train,
+sklearn.svm._classes.OneClassSVM.predict,X_train,
+sklearn.svm._classes.OneClassSVM.predict,X_test,
+sklearn.svm._classes.OneClassSVM.predict,X_outliers,
+sklearn.svm._classes.OneClassSVM.decision_function,**,
+sklearn.kernel_approximation.Nystroem,,"gamma=gamma, random_state=random_state"
+sklearn.linear_model.SGDOneClassSVM,,"fit_intercept=True, nu=nu, random_state=random_state, shuffle=True, tol=0.0001"
+sklearn.pipeline.make_pipeline,"transform, clf_sgd",
+sklearn.pipeline.Pipeline.fit,X_train,
+sklearn.pipeline.Pipeline,X_train,
+sklearn.pipeline.Pipeline,X_test,
+sklearn.pipeline.Pipeline,X_outliers,
+sklearn.pipeline.Pipeline.decision_function,**,
+sklearn.svm._classes.OneClassSVM.decision_function,,
+sklearn.svm._classes.OneClassSVM.decision_function,,
+sklearn.pipeline.Pipeline,,
+sklearn.pipeline.Pipeline,,
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.compose.ColumnTransformer,**,remainder=drop
+sklearn.compose._column_transformer.ColumnTransformer.fit_transform,df,
+sklearn.model_selection.train_test_split,"df, X",random_state=0
+sklearn.linear_model.PoissonRegressor,,"alpha=0.0001, solver=newton-cholesky"
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.fit,"X_train, **",sample_weight=**
+sklearn.linear_model.GammaRegressor,,"alpha=10.0, solver=newton-cholesky"
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.fit,"**, **",sample_weight=**
+sklearn.dummy.DummyRegressor,,strategy=mean
+sklearn.dummy.DummyRegressor.fit,"**, **",sample_weight=**
+sklearn.linear_model.TweedieRegressor,,"alpha=0.1, power=1.9, solver=newton-cholesky"
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.fit,"X_train, **",sample_weight=**
+sklearn.linear_model._glm.glm.TweedieRegressor,X_test,
+sklearn.preprocessing.FunctionTransformer,,func=**
+sklearn.preprocessing.FunctionTransformer,,
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=41214, parser=pandas"
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=41215, parser=pandas"
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,X_train,
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,X_test,
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,X_test,
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,X_test,
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,**,
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.predict,**,
+sklearn.metrics.auc,"ordered_samples, cum_claims",
+sklearn.preprocessing.KBinsDiscretizer,,"n_bins=10, random_state=0, subsample=**"
+sklearn.preprocessing.OneHotEncoder,,
+sklearn.metrics.auc,"ordered_samples, cum_claims",
+sklearn.datasets.load_diabetes,,"as_frame=True, return_X_y=True"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,,criterion=aic
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,cv=20
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,cv=20
+sklearn.datasets.make_regression,,"n_samples=n_samples, noise=0.5, random_state=rng"
+sklearn.linear_model.ElasticNet,,"alpha=0.01, precompute=gram"
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_centered, y",sample_weight=normalized_weights
+sklearn.datasets.load_iris,,
+sklearn.linear_model._stochastic_gradient.BaseSGDClassifier.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=**, response_method=predict, xlabel=**, ylabel=**"
+sklearn.linear_model.SGDClassifier,,"alpha=0.001, max_iter=100"
+sklearn.linear_model.Ridge,,"alpha=a, fit_intercept=False"
+sklearn.linear_model._ridge.Ridge.fit,"X, y",
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.compose._column_transformer.ColumnTransformer,**,remainder=drop
+sklearn.model_selection.train_test_split,df,"random_state=0, test_size=0.33"
+sklearn.pipeline.Pipeline,"df_train, **",regressor__sample_weight=**
+sklearn.pipeline.Pipeline,"df_train, **",regressor__sample_weight=**
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"df_train, **",regressor__sample_weight=**
+sklearn.compose._column_transformer.ColumnTransformer,**,remainder=drop
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"df_train, **",regressor__sample_weight=**
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=41214, parser=pandas"
+sklearn.preprocessing.FunctionTransformer,**,validate=False
+sklearn.preprocessing.FunctionTransformer,,
+sklearn.pipeline.Pipeline.predict,df_test,
+sklearn.pipeline.Pipeline.predict,df_test,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline,**,
+sklearn.utils.gen_even_slices,"**, n_bins",
+sklearn.metrics.auc,"cum_exposure, cum_claims",
+sklearn.preprocessing.KBinsDiscretizer,,"n_bins=10, random_state=0, subsample=**"
+sklearn.preprocessing.OneHotEncoder,,
+sklearn.metrics.mean_squared_error,"**, y_pred",sample_weight=**
+sklearn.metrics.mean_absolute_error,"**, y_pred",sample_weight=**
+sklearn.metrics.mean_poisson_deviance,"**, **",sample_weight=**
+sklearn.linear_model.PoissonRegressor,,"alpha=1e-12, solver=newton-cholesky"
+sklearn.preprocessing.OrdinalEncoder,,
+sklearn.ensemble.HistGradientBoostingRegressor,,"loss=poisson, max_leaf_nodes=128"
+sklearn.metrics.auc,"cum_exposure, cum_claims",
+sklearn.dummy.DummyRegressor,,strategy=mean
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.linear_model.SGDClassifier,,max_iter=110
+sklearn.linear_model.SGDClassifier,,"average=True, max_iter=110"
+sklearn.linear_model.Perceptron,,max_iter=110
+sklearn.linear_model.PassiveAggressiveClassifier,,"C=1.0, loss=hinge, max_iter=110, tol=0.0001"
+sklearn.linear_model.PassiveAggressiveClassifier,,"C=1.0, loss=squared_hinge, max_iter=110, tol=0.0001"
+sklearn.linear_model.LogisticRegression,,"C=**, max_iter=110, solver=sag, tol=0.1"
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.fit,"X_train, y_train",
+sklearn.linear_model.MultiTaskLasso,"X, Y",
+sklearn.linear_model.Lasso,"X, y",
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"X_train, y_train",
+sklearn.linear_model._base.LinearRegression,**,
+sklearn.linear_model._base.LinearRegression,**,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.linear_model._base.LinearModel.predict,**,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.linear_model._base.LinearModel.predict,**,
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model.TheilSenRegressor,,random_state=42
+sklearn.linear_model.RANSACRegressor,,random_state=42
+sklearn.linear_model._theil_sen.TheilSenRegressor,"2, 1",
+sklearn.linear_model._theil_sen.TheilSenRegressor,"2, 1",
+sklearn.model_selection.train_test_split,"X, y","shuffle=False, test_size=0.5"
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_train, y_train",
+sklearn.linear_model._coordinate_descent.Lasso,X_test,
+sklearn.metrics.r2_score,"y_test, y_pred_lasso",
+sklearn.linear_model._bayes.ARDRegression.fit,"X_train, y_train",
+sklearn.linear_model._bayes.ARDRegression.predict,X_test,
+sklearn.metrics.r2_score,"y_test, y_pred_ard",
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_train, y_train",
+sklearn.linear_model._base.LinearModel.predict,X_test,
+sklearn.metrics.r2_score,"y_test, y_pred_enet",
+sklearn.linear_model.Lasso,,alpha=0.14
+sklearn.linear_model.ARDRegression,,
+sklearn.linear_model.ElasticNet,,"alpha=0.08, l1_ratio=0.5"
+sklearn.linear_model.LogisticRegression,,C=100000.0
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, y",
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.linear_model.SGDClassifier,,"alpha=0.01, max_iter=100"
+sklearn.linear_model._stochastic_gradient.BaseSGDClassifier.fit,"X, y",
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,**,
+sklearn.linear_model.SGDClassifier,,"alpha=0.01, max_iter=100"
+sklearn.linear_model._stochastic_gradient.BaseSGDClassifier.fit,"X, y",sample_weight=sample_weight
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,**,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,,
+sklearn.linear_model._base.LinearClassifierMixin.decision_function,,
+sklearn.datasets.make_regression,,"n_features=5000, n_samples=200, random_state=0"
+sklearn.linear_model.Lasso,,"alpha=alpha, fit_intercept=False, max_iter=1000"
+sklearn.linear_model.Lasso,,"alpha=alpha, fit_intercept=False, max_iter=1000"
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_sp, y",
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X, y",
+sklearn.linear_model.Lasso,,"alpha=alpha, fit_intercept=False, max_iter=10000"
+sklearn.linear_model.Lasso,,"alpha=alpha, fit_intercept=False, max_iter=10000"
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"Xs_sp, y",
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"Xs, y",
+sklearn.datasets.make_blobs,,"centers=centers, n_samples=1000, random_state=40"
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=**, response_method=predict"
+sklearn.linear_model.LogisticRegression,,"max_iter=100, multi_class=multi_class, random_state=42, solver=sag"
+sklearn.datasets.load_diabetes,,"as_frame=True, return_X_y=True"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,,criterion=aic
+sklearn.linear_model._base.LinearRegression.fit,"X_train, y_train",
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model.LinearRegression,,alpha=0.1
+sklearn.linear_model._base.LinearRegression.fit,"this_X, y_train",
+sklearn.datasets.make_sparse_coded_signal,,"n_components=n_components, n_features=n_features, n_nonzero_coefs=n_nonzero_coefs, n_samples=1, random_state=0"
+sklearn.linear_model.OrthogonalMatchingPursuit,,n_nonzero_coefs=n_nonzero_coefs
+sklearn.linear_model._omp.OrthogonalMatchingPursuit.fit,"X, y",
+sklearn.linear_model._omp.OrthogonalMatchingPursuit.fit,"X, y_noisy",
+sklearn.linear_model.OrthogonalMatchingPursuitCV,,
+sklearn.linear_model._omp.OrthogonalMatchingPursuitCV.fit,"X, y_noisy",
+sklearn.datasets.load_iris,,
+sklearn.linear_model.LogisticRegression,,C=100000.0
+sklearn.linear_model._logistic.LogisticRegression.fit,"X, Y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"logreg, X","ax=ax, cmap=**, eps=0.5, plot_method=pcolormesh, response_method=predict, shading=auto, xlabel=Sepal length, ylabel=Sepal width"
+sklearn.datasets.fetch_20newsgroups_vectorized,,"return_X_y=True, subset=all"
+sklearn.linear_model.LogisticRegression,,"max_iter=this_max_iter, multi_class=model, penalty=l1, random_state=42, solver=solver"
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, y_train",
+sklearn.linear_model._logistic.LogisticRegression,X_test,
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model.TheilSenRegressor,,random_state=42
+sklearn.linear_model.RANSACRegressor,,random_state=42
+sklearn.pipeline.make_pipeline,"**, estimator",
+sklearn.pipeline.Pipeline.fit,"this_X, this_y",
+sklearn.metrics.mean_squared_error,"**, y_test",
+sklearn.pipeline.Pipeline.predict,**,
+sklearn.pipeline.make_pipeline,3,
+sklearn.metrics.mean_squared_error,X_test,
+sklearn.model_selection.train_test_split,"X, y",test_size=0.5
+sklearn.linear_model.LinearRegression,,positive=True
+sklearn.linear_model._base.LinearModel.predict,X_test,
+sklearn.metrics.r2_score,"y_test, y_pred_nnls",
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearModel.predict,X_test,
+sklearn.metrics.r2_score,"y_test, y_pred_ols",
+sklearn.linear_model._base.LinearRegression.fit,"X_train, y_train",
+sklearn.linear_model._base.LinearRegression.fit,"X_train, y_train",
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.datasets.fetch_california_housing,,return_X_y=True
+sklearn.ensemble.RandomForestRegressor,,random_state=0
+sklearn.pipeline.make_pipeline,"imputer, regressor",
+sklearn.impute.KNNImputer,,"add_indicator=True, missing_values=**"
+sklearn.impute.SimpleImputer,,"add_indicator=True, missing_values=**, strategy=mean"
+sklearn.impute.IterativeImputer,,"add_indicator=True, max_iter=1, missing_values=**, n_nearest_features=3, random_state=0, sample_posterior=True"
+sklearn.datasets.fetch_california_housing,,return_X_y=True
+sklearn.model_selection.cross_val_score,"br_estimator, X_full, y_full","cv=N_SPLITS, scoring=neg_mean_squared_error"
+sklearn.linear_model.BayesianRidge,,
+sklearn.ensemble.RandomForestRegressor,,"bootstrap=True, max_depth=10, max_samples=0.5, n_estimators=4, n_jobs=2, random_state=0"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.neighbors.KNeighborsRegressor,,n_neighbors=15
+sklearn.impute.SimpleImputer,,"missing_values=**, strategy=strategy"
+sklearn.kernel_approximation.Nystroem,,"degree=2, kernel=polynomial, random_state=0"
+sklearn.kernel_approximation.Nystroem,,alpha=1000.0
+sklearn.impute.IterativeImputer,,"estimator=impute_estimator, max_iter=25, random_state=0, tol=tol"
+sklearn.covariance.MinCovDet,X,
+sklearn.covariance.EmpiricalCovariance,X,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance,zz,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.mahalanobis,**,
+sklearn.covariance.EmpiricalCovariance,,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance,"X, 0",
+sklearn.covariance.MinCovDet,X,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.error_norm,**,
+sklearn.covariance.EmpiricalCovariance,pure_X,
+sklearn.covariance.EmpiricalCovariance,n_features,
+sklearn.covariance._robust_covariance.MinCovDet,,
+sklearn.covariance.EmpiricalCovariance,X,
+sklearn.covariance.EmpiricalCovariance,,
+sklearn.covariance.empirical_covariance,X_train,
+sklearn.model_selection.GridSearchCV,"**, tuned_parameters",
+sklearn.model_selection._search.BaseSearchCV.fit,X_train,
+sklearn.covariance.LedoitWolf,,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.score,X_test,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.score,X_test,
+sklearn.covariance.log_likelihood,"emp_cov, **",
+sklearn.model_selection.GridSearchCV,,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.score,X_test,
+sklearn.covariance.log_likelihood,real_cov,
+sklearn.covariance._shrunk_covariance.LedoitWolf,X_train,
+sklearn.covariance._shrunk_covariance.OAS,X_train,
+sklearn.covariance._shrunk_covariance.ShrunkCovariance.fit,X_train,
+sklearn.covariance.ShrunkCovariance,,shrinkage=s
+sklearn.covariance.LedoitWolf,,"assume_centered=True, store_precision=False"
+sklearn.covariance._shrunk_covariance.LedoitWolf,X,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.error_norm,real_cov,scaling=False
+sklearn.covariance.OAS,,"assume_centered=True, store_precision=False"
+sklearn.covariance._shrunk_covariance.OAS,X,
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.error_norm,real_cov,scaling=False
+sklearn.datasets.make_sparse_spd_matrix,n_features,"alpha=0.98, largest_coef=0.7, random_state=prng, smallest_coef=0.4"
+sklearn.covariance.GraphicalLassoCV,,
+sklearn.covariance._graph_lasso.GraphicalLassoCV.fit,X,
+sklearn.covariance.ledoit_wolf,X,
+sklearn.datasets.fetch_openml,yeast,"parser=pandas, return_X_y=True, version=4"
+sklearn.model_selection.train_test_split,"X, Y","random_state=0, test_size=0.2"
+sklearn.linear_model.LogisticRegression,,
+sklearn.multiclass.OneVsRestClassifier,base_lr,
+sklearn.multiclass.OneVsRestClassifier.fit,"X_train, Y_train",
+sklearn.multiclass.OneVsRestClassifier.predict,X_test,
+sklearn.metrics.jaccard_score,"Y_test, Y_pred_ovr",average=samples
+sklearn.multioutput.ClassifierChain,base_lr,"order=random, random_state=i"
+sklearn.multioutput.ClassifierChain.fit,"X_train, Y_train",
+sklearn.metrics.jaccard_score,"Y_test, **",average=samples
+sklearn.datasets.make_multilabel_classification,,"allow_unlabeled=True, n_classes=2, n_labels=1, random_state=1"
+sklearn.datasets.make_multilabel_classification,,"allow_unlabeled=False, n_classes=2, n_labels=1, random_state=1"
+sklearn.multiclass.OneVsRestClassifier,**,
+sklearn.multiclass.OneVsRestClassifier.fit,"X, Y",
+sklearn.decomposition._pca.PCA.fit_transform,X,
+sklearn.multiclass.OneVsRestClassifier,,kernel=linear
+sklearn.cross_decomposition._pls.CCA,X,
+sklearn.decomposition.PCA,,n_components=2
+sklearn.cross_decomposition.CCA,,n_components=2
+sklearn.datasets.fetch_kddcup99,,"percent10=True, random_state=rng, subset=dataset_name"
+sklearn.preprocessing.LabelBinarizer,,
+sklearn.utils._bunch.Bunch,,
+sklearn.neighbors.LocalOutlierFactor,,"contamination=auto, n_neighbors=20"
+sklearn.neighbors._lof.LocalOutlierFactor,X,
+sklearn.ensemble.IsolationForest,,"contamination=auto, random_state=rng"
+sklearn.ensemble._iforest.IsolationForest.decision_function,X,
+sklearn.metrics.RocCurveDisplay,"y, y_pred","ax=**, chance_level_kw=**, linewidth=linewidth, name=model_name, plot_chance_level=**, pos_label=pos_label"
+sklearn.preprocessing._label.LabelBinarizer.fit_transform,**,
+sklearn.preprocessing._label.LabelBinarizer,str,
+sklearn.preprocessing._label.LabelBinarizer.fit_transform,**,
+sklearn.preprocessing._label.LabelBinarizer.fit_transform,**,
+sklearn.preprocessing._label.LabelBinarizer.fit_transform,**,
+sklearn.preprocessing._label.LabelBinarizer,str,
+sklearn.preprocessing._label.LabelBinarizer,str,
+sklearn.preprocessing._label.LabelBinarizer,str,
+sklearn.random_projection.johnson_lindenstrauss_min_dim,n_samples_range,eps=eps
+sklearn.random_projection.johnson_lindenstrauss_min_dim,n_samples,eps=eps_range
+sklearn.random_projection.SparseRandomProjection,,n_components=n_components
+sklearn.random_projection.SparseRandomProjection,data,
+sklearn.metrics.pairwise.euclidean_distances,data,squared=True
+sklearn.datasets.load_digits,,
+sklearn.datasets.fetch_20newsgroups_vectorized,,
+sklearn.metrics.pairwise.euclidean_distances,projected_data,squared=True
+sklearn.covariance.EllipticEnvelope,,"contamination=outliers_fraction, random_state=42"
+sklearn.svm.OneClassSVM,,"gamma=0.1, kernel=rbf, nu=outliers_fraction"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.ensemble.IsolationForest,,"contamination=outliers_fraction, random_state=42"
+sklearn.neighbors.LocalOutlierFactor,,"contamination=outliers_fraction, n_neighbors=35"
+sklearn.datasets.make_blobs,,"centers=**, cluster_std=0.5, **blobs_params"
+sklearn.datasets.make_blobs,,"centers=**, cluster_std=**, **blobs_params"
+sklearn.datasets.make_blobs,,"centers=**, cluster_std=**, **blobs_params"
+sklearn.pipeline.Pipeline,X,
+sklearn.kernel_approximation.Nystroem,,"gamma=0.1, n_components=150, random_state=42"
+sklearn.linear_model.SGDOneClassSVM,,"fit_intercept=True, nu=outliers_fraction, random_state=42, shuffle=True, tol=1e-06"
+sklearn.pipeline.Pipeline,X,
+sklearn.pipeline.Pipeline,X,
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.predict,**,
+sklearn.datasets.make_moons,,"n_samples=n_samples, noise=0.05, random_state=0"
+sklearn.model_selection.GridSearchCV,**,param_grid=**
+sklearn.model_selection.GridSearchCV,**,param_grid=**
+sklearn.model_selection._search.BaseSearchCV.fit,"**, **",
+sklearn.model_selection._search.BaseSearchCV.fit,"**, **",
+sklearn.model_selection._search.BaseSearchCV.predict,X_plot,
+sklearn.model_selection._search.BaseSearchCV.predict,X_plot,
+sklearn.svm.SVR,,"C=10.0, gamma=0.1, kernel=rbf"
+sklearn.kernel_ridge.KernelRidge,,"alpha=0.1, gamma=0.1, kernel=rbf"
+sklearn.model_selection._plot.LearningCurveDisplay.from_estimator,svr,**common_params
+sklearn.model_selection._plot.LearningCurveDisplay.from_estimator,kr,**common_params
+sklearn.svm.SVR,,"gamma=0.1, kernel=rbf"
+sklearn.kernel_ridge.KernelRidge,,"gamma=0.1, kernel=rbf"
+sklearn.svm._base.BaseLibSVM.fit,"**, **",
+sklearn.kernel_ridge.KernelRidge.predict,**,
+sklearn.kernel_ridge.KernelRidge,,"alpha=0.01, gamma=10, kernel=rbf"
+sklearn.svm.SVR,,"C=100.0, gamma=10, kernel=rbf"
+sklearn.utils.check_random_state,0,
+sklearn.isotonic.IsotonicRegression,,out_of_bounds=clip
+sklearn.base.TransformerMixin.fit_transform,"x, y",
+sklearn.linear_model.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"**, y",
+sklearn.linear_model._base.LinearModel.predict,**,
+sklearn.isotonic.IsotonicRegression,x_test,
+sklearn.set_config,,enable_metadata_routing=True
+sklearn.utils.metadata_routing.get_routing_for_object,self,
+sklearn.utils.validation.check_is_fitted,self,
+sklearn.utils.metadata_routing.get_routing_for_object,self,
+sklearn.utils.metadata_routing.MetadataRouter,,"estimator=**, method_mapping=one-to-one"
+sklearn.utils.metadata_routing.get_routing_for_object,self,
+sklearn.utils.validation.check_is_fitted,self,
+sklearn.utils.metadata_routing.get_routing_for_object,self,
+sklearn.utils.metadata_routing.MetadataRouter,,"classifier=**, method_mapping=one-to-one"
+sklearn.utils.metadata_routing.process_routing,"self, fit, fit_params",
+sklearn.utils.metadata_routing.process_routing,"self, predict, predict_params",
+sklearn.utils.metadata_routing.process_routing,"self, fit, fit_params",
+sklearn.utils.metadata_routing.process_routing,"self, fit, fit_params",sample_weight=sample_weight
+sklearn.utils.metadata_routing.MetadataRouter,,"estimator=**, method_mapping=one-to-one"
+sklearn.utils.metadata_routing.MetadataRouter,,owner=**
+sklearn.utils.metadata_routing.MetadataRouter,,"method_mapping=**, transformer=**"
+sklearn.utils.metadata_routing.MetadataRouter,,owner=**
+sklearn.utils.metadata_routing.MetadataRouter,,owner=**
+sklearn.utils.metadata_routing.MetadataRouter,,owner=**
+sklearn.utils.metadata_routing.MetadataRouter,,owner=**
+sklearn.datasets.load_wine,,return_X_y=True
+sklearn.model_selection.train_test_split,"X, y",random_state=42
+sklearn.svm.SVC,,random_state=42
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"svc, X_test, y_test",
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=10, random_state=42"
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"rfc, X_test, y_test","alpha=0.8, ax=ax"
+sklearn.datasets.load_iris,,"as_frame=True, return_X_y=True"
+sklearn.model_selection.train_test_split,"X, y","random_state=0, stratify=y"
+sklearn.utils._set_output._SetOutputMixin.set_output,,transform=pandas
+sklearn.preprocessing.StandardScaler,,
+sklearn.preprocessing._data.StandardScaler.fit,X_train,
+sklearn.preprocessing._data.StandardScaler.transform,X_test,
+sklearn.utils._set_output._SetOutputMixin.set_output,,transform=pandas
+sklearn.preprocessing._data.StandardScaler.transform,X_test,
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.set_config,,transform_output=pandas
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.compose.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.pipeline.make_pipeline,"ct, **, **",
+sklearn.set_config,,transform_output=default
+sklearn.preprocessing.StandardScaler,,
+sklearn.preprocessing._data.StandardScaler.fit,**,
+sklearn.preprocessing._data.StandardScaler.transform,**,
+sklearn.preprocessing.StandardScaler,,
+sklearn.feature_selection.SelectPercentile,,percentile=75
+sklearn.preprocessing._data.StandardScaler,,
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,
+sklearn.feature_selection.SelectPercentile,,percentile=50
+sklearn.pipeline.make_pipeline,,
+sklearn.config_context,,transform_output=pandas
+sklearn.preprocessing._data.StandardScaler.transform,**,
+sklearn.preprocessing.StandardScaler,,
+sklearn.preprocessing.OneHotEncoder,,"drop=if_binary, handle_unknown=ignore, sparse_output=False"
+sklearn.datasets.load_diabetes,,
+sklearn.tree.DecisionTreeRegressor,,
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.pipeline.Pipeline.fit,"X, y",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"tree, X, **",ax=ax
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"mlp, X, **","ax=ax, line_kw=**"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"tree, X, **",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"mlp, X, **","ax=**, line_kw=**"
+sklearn.preprocessing.StandardScaler,,
+sklearn.neural_network.MLPRegressor,,"hidden_layer_sizes=**, max_iter=500, random_state=0, tol=0.01"
+sklearn.pipeline.Pipeline,steps,
+sklearn.set_config,,display=diagram
+sklearn.set_config,,display=text
+sklearn.set_config,,display=diagram
+sklearn.pipeline.Pipeline,steps,
+sklearn.pipeline.Pipeline,steps,
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.compose.ColumnTransformer,**,
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.compose.ColumnTransformer,**,
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.model_selection.GridSearchCV,pipe,"n_jobs=1, param_grid=param_grid"
+sklearn.compose._column_transformer.ColumnTransformer,,max_iter=500
+sklearn.linear_model.LogisticRegression,,
+sklearn.preprocessing.PolynomialFeatures,,degree=3
+sklearn.linear_model.LogisticRegression,,C=2.0
+sklearn.impute.SimpleImputer,,"missing_values=**, strategy=mean"
+sklearn.impute.SimpleImputer,,"fill_value=missing, strategy=constant"
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.impute.SimpleImputer,,"missing_values=**, strategy=mean"
+sklearn.impute.SimpleImputer,,"fill_value=missing, strategy=constant"
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.datasets.load_digits,,n_class=9
+sklearn.svm.SVC,,gamma=0.2
+sklearn.svm.LinearSVC,,dual=auto
+sklearn.kernel_approximation.RBFSampler,,"gamma=0.2, random_state=1"
+sklearn.kernel_approximation.Nystroem,,"gamma=0.2, random_state=1"
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline,**,
+sklearn.svm._base.BaseLibSVM.fit,"data_train, targets_train",
+sklearn.base.ClassifierMixin.score,"data_test, targets_test",
+sklearn.svm._classes.LinearSVC.fit,"data_train, targets_train",
+sklearn.base.ClassifierMixin.score,"data_test, targets_test",
+sklearn.decomposition._pca.PCA.fit,data_train,
+sklearn.pipeline.Pipeline.set_params,,feature_map__n_components=D
+sklearn.pipeline.Pipeline.set_params,,feature_map__n_components=D
+sklearn.pipeline.Pipeline.fit,"data_train, targets_train",
+sklearn.pipeline.Pipeline.fit,"data_train, targets_train",
+sklearn.pipeline.Pipeline.score,"data_test, targets_test",
+sklearn.pipeline.Pipeline.score,"data_test, targets_test",
+sklearn.decomposition.PCA,,n_components=8
+sklearn.kernel_approximation.RBFSampler,,dual=auto
+sklearn.kernel_approximation.Nystroem,,dual=auto
+sklearn.datasets.fetch_openml,,"data_id=1464, parser=pandas, return_X_y=True"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_test,
+sklearn.metrics.confusion_matrix,"y_test, y_pred",
+sklearn.metrics.ConfusionMatrixDisplay,,
+sklearn.pipeline.Pipeline.decision_function,X_test,
+sklearn.metrics.roc_curve,"y_test, y_score",pos_label=**
+sklearn.metrics.precision_recall_curve,"y_test, y_score",pos_label=**
+sklearn.pipeline.make_pipeline,,
+sklearn.preprocessing.StandardScaler,,random_state=0
+sklearn.metrics.ConfusionMatrixDisplay,cm,
+sklearn.metrics.RocCurveDisplay,,"fpr=fpr, tpr=tpr"
+sklearn.metrics.PrecisionRecallDisplay,,"precision=prec, recall=recall"
+sklearn.datasets.fetch_olivetti_faces,,return_X_y=True
+sklearn.utils.validation.check_random_state,4,
+sklearn.ensemble._forest.ExtraTreesRegressor,,
+sklearn.ensemble.ExtraTreesRegressor,,"max_features=32, n_estimators=10, random_state=0"
+sklearn.neighbors.KNeighborsRegressor,,
+sklearn.linear_model._base.LinearRegression.fit,"X_train, y_train",
+sklearn.linear_model.LogisticRegression,,penalty=l1
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.compose.make_column_transformer,"**, **",
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.impute.SimpleImputer,,strategy=median
+sklearn.pipeline.make_pipeline,,
+sklearn.impute.SimpleImputer,,"fill_value=missing, strategy=constant"
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.pipeline.make_pipeline,,
+sklearn.datasets.make_classification,,"class_sep=0.8, n_classes=8, n_clusters_per_class=1, n_features=15, n_informative=3, n_redundant=2, n_repeated=0, n_samples=500, random_state=0"
+sklearn.linear_model.LogisticRegression,,
+sklearn.model_selection.StratifiedKFold,5,
+sklearn.feature_selection._rfe.RFECV,,"cv=cv, estimator=clf, min_features_to_select=min_features_to_select, n_jobs=2, scoring=accuracy, step=1"
+sklearn.feature_selection._rfe.RFECV.fit,"X, y",
+sklearn.datasets.load_digits,,
+sklearn.svm.SVC,,"C=1, kernel=linear"
+sklearn.feature_selection.RFE,,"estimator=svc, n_features_to_select=1, step=1"
+sklearn.feature_selection._rfe.RFE.fit,"X, y",
+sklearn.datasets.load_iris,,return_X_y=True
+sklearn.model_selection.train_test_split,"X, y","random_state=0, stratify=y"
+sklearn.feature_selection.SelectKBest,f_classif,k=4
+sklearn.feature_selection._univariate_selection._BaseFilter.fit,"X_train, y_train",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.svm._classes.LinearSVC.fit.coef_,,axis=0
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline,,axis=0
+sklearn.pipeline.make_pipeline,,
+sklearn.preprocessing.MinMaxScaler,,dual=auto
+sklearn.feature_selection.SelectKBest,f_classif,k=4
+sklearn.feature_selection.SelectKBest,,
+sklearn.feature_selection.f_classif,,dual=auto
+sklearn.pipeline.Pipeline.score,"X_test, y_test",
+sklearn.pipeline.Pipeline.score,"X_test, y_test",
+sklearn.feature_selection._univariate_selection.SelectKBest,,
+sklearn.datasets.load_diabetes,,
+sklearn.linear_model._ridge.RidgeCV.fit,"X, y",
+sklearn.feature_selection._from_model.SelectFromModel.fit,"X, y",
+sklearn.feature_selection._sequential.SequentialFeatureSelector,"X, y",
+sklearn.feature_selection._sequential.SequentialFeatureSelector,"X, y",
+sklearn.linear_model.RidgeCV,,alphas=**
+sklearn.feature_selection.SelectFromModel,ridge,threshold=threshold
+sklearn.feature_selection.SequentialFeatureSelector,ridge,"direction=forward, n_features_to_select=2"
+sklearn.feature_selection.SequentialFeatureSelector,ridge,"direction=backward, n_features_to_select=2"
+sklearn.feature_selection._sequential.SequentialFeatureSelector,,
+sklearn.feature_selection._sequential.SequentialFeatureSelector,,
+sklearn.feature_selection.f_regression,"X, y",
+sklearn.feature_selection.mutual_info_regression,"X, y",
+sklearn.datasets.make_classification,,"n_classes=2, n_clusters_per_class=2, n_features=20, n_informative=3, n_redundant=0, random_state=42"
+sklearn.model_selection.train_test_split,"X, y",random_state=42
+sklearn.feature_selection.SelectKBest,f_classif,k=3
+sklearn.svm.LinearSVC,,dual=auto
+sklearn.pipeline.make_pipeline,"anova_filter, clf",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.predict,X_test,
+sklearn.pipeline.Pipeline.inverse_transform,**,
+sklearn.metrics.classification_report,"y_test, y_pred",
+sklearn.datasets.fetch_openml,Bike_Sharing_Demand,"as_frame=True, parser=pandas, version=2"
+sklearn.compose._column_transformer.ColumnTransformer,,transform=pandas
+sklearn.pipeline.make_pipeline,"mlp_preprocessor, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"mlp_model, X_train","ax=ax, **common_params"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model, X_train","ax=ax, **common_params"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model, X_train","ax=ax, **common_params"
+sklearn.base.clone,"X_train, y_train",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model_without_interactions, X_train","ax=ax, **common_params"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model, X_train","ax=ax, **common_params"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model_without_interactions, X_train","ax=ax, **common_params"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"hgbdt_model, X_train","ax=ax, **common_params"
+sklearn.inspection.partial_dependence,"hgbdt_model, X_train","features=features, grid_resolution=10, kind=average"
+sklearn.neural_network.MLPRegressor,,"early_stopping=True, hidden_layer_sizes=**, learning_rate_init=0.01, random_state=0"
+sklearn.ensemble.HistGradientBoostingRegressor,,"categorical_features=categorical_features, max_iter=50, random_state=0"
+sklearn.compose._column_transformer.ColumnTransformer,,"sparse_threshold=1, transformers=**, verbose_feature_names_out=False"
+sklearn.pipeline.Pipeline,"X_test, y_test",
+sklearn.preprocessing.QuantileTransformer,,n_quantiles=100
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.base.clone,hgbdt_model,
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.2"
+sklearn.linear_model._base.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"**, y_train",
+sklearn.linear_model._base.LinearModel.predict,**,
+sklearn.metrics.r2_score,"y_test, y_pred_with_ability",
+sklearn.linear_model._base.LinearRegression,,
+sklearn.linear_model._base.LinearRegression.fit,"**, y_train",
+sklearn.linear_model._base.LinearModel.predict,**,
+sklearn.metrics.r2_score,"y_test, y_pred_without_ability",
+sklearn.datasets.load_breast_cancer,,
+sklearn.model_selection.train_test_split,"X, y",random_state=42
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=100, random_state=42"
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.inspection.permutation_importance,"clf, X_train, y_train","n_repeats=10, random_state=42"
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=100, random_state=42"
+sklearn.ensemble._forest.BaseForest.fit,"X_train_sel, y_train",
+sklearn.utils._bunch.Bunch,,
+sklearn.base.ClassifierMixin.score,"X_test_sel, y_test",
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.model_selection.train_test_split,"X, y","random_state=42, stratify=y"
+sklearn.preprocessing._encoders.OrdinalEncoder,,"encoded_missing_value=**, handle_unknown=use_encoded_value, unknown_value=**"
+sklearn.impute.SimpleImputer,,strategy=mean
+sklearn.compose.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.get_feature_names_out,,
+sklearn.inspection.permutation_importance,"rf, X_test, y_test","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.inspection.permutation_importance,"rf, X_train, y_train","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.inspection.permutation_importance,"rf, X_train, y_train","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.inspection.permutation_importance,"rf, X_test, y_test","n_jobs=2, n_repeats=10, random_state=42"
+sklearn.pipeline.Pipeline.set_params,,classifier__min_samples_leaf=20
+sklearn.ensemble.RandomForestClassifier,,random_state=42
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=534, parser=pandas"
+sklearn.model_selection.train_test_split,"X, y",random_state=42
+sklearn.compose.make_column_transformer,**,"remainder=passthrough, verbose_feature_names_out=False"
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.metrics.median_absolute_error,"y_train, **",
+sklearn.metrics.median_absolute_error,"y_test, y_pred",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred","ax=ax, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.model_selection.RepeatedKFold,,"n_repeats=5, n_splits=5, random_state=0"
+sklearn.model_selection.cross_validate,"model, X, y","cv=cv, n_jobs=2, return_estimator=True"
+sklearn.model_selection.cross_validate,"model, **, y","cv=cv, n_jobs=2, return_estimator=True"
+sklearn.compose.make_column_transformer,"**, **",
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.metrics.median_absolute_error,"y_train, **",
+sklearn.metrics.median_absolute_error,"y_test, y_pred",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred","ax=ax, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.model_selection.cross_validate,"model, X, y","cv=cv, n_jobs=2, return_estimator=True"
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.metrics.median_absolute_error,"y_train, **",
+sklearn.metrics.median_absolute_error,"y_test, y_pred",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred","ax=ax, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.model_selection.cross_validate,"model, X, y","cv=cv, n_jobs=2, return_estimator=True"
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.metrics.median_absolute_error,"y_train, **",
+sklearn.metrics.median_absolute_error,"y_test, y_pred",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,"y_test, y_pred","ax=ax, kind=actual_vs_predicted, scatter_kwargs=**"
+sklearn.model_selection.cross_validate,"model, X, y","cv=cv, n_jobs=2, return_estimator=True"
+sklearn.compose.TransformedTargetRegressor,,"func=**, inverse_func=**, regressor=**"
+sklearn.metrics.median_absolute_error,X_train,
+sklearn.compose.TransformedTargetRegressor,,"func=**, inverse_func=**, regressor=**"
+sklearn.metrics.median_absolute_error,X_train,
+sklearn.compose.TransformedTargetRegressor,,"func=**, inverse_func=**, regressor=**"
+sklearn.metrics.median_absolute_error,X_train,
+sklearn.compose.TransformedTargetRegressor,,"func=**, inverse_func=**, regressor=**"
+sklearn.metrics.median_absolute_error,X_train,
+sklearn.preprocessing.OneHotEncoder,,drop=if_binary
+sklearn.preprocessing.OneHotEncoder,,drop=if_binary
+sklearn.preprocessing.StandardScaler,,
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.linear_model.LassoCV,,"alphas=alphas, max_iter=100000"
+sklearn.svm.NuSVC,,gamma=auto
+sklearn.svm._base.BaseLibSVM.fit,"X, Y",
+sklearn.svm._base.BaseSVC.decision_function,**,
+sklearn.svm._base.BaseSVC.decision_function,,
+sklearn.svm._base.BaseSVC.decision_function,,
+sklearn.datasets.make_blobs,,"centers=2, n_samples=40, random_state=6"
+sklearn.svm.SVC,,"C=1000, kernel=linear"
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.5, ax=ax, colors=k, levels=**, linestyles=**, plot_method=contour"
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,kernel=my_kernel
+sklearn.svm._base.BaseLibSVM.fit,"X, Y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=**, plot_method=pcolormesh, response_method=predict, shading=auto"
+sklearn.svm.SVC,,"C=penalty, kernel=linear"
+sklearn.svm._base.BaseLibSVM.fit,"X, Y",
+sklearn.svm._base.BaseSVC.decision_function,xy,
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"C=C, kernel=linear"
+sklearn.svm.LinearSVC,,"C=C, dual=auto, max_iter=10000"
+sklearn.svm.SVC,,"C=C, gamma=0.7, kernel=rbf"
+sklearn.svm.SVC,,"C=C, degree=3, gamma=auto, kernel=poly"
+sklearn.svm._classes.SVC,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.8, ax=ax, cmap=**, response_method=predict, xlabel=**, ylabel=**"
+sklearn.datasets.load_iris,,return_X_y=True
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.set_params,,anova__percentile=percentile
+sklearn.model_selection.cross_val_score,"clf, X, y",
+sklearn.feature_selection.SelectPercentile,f_classif,
+sklearn.svm.SVC,,gamma=auto
+sklearn.datasets.load_iris,,
+sklearn.preprocessing.StandardScaler,,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.base.TransformerMixin.fit_transform,X_2d,
+sklearn.model_selection.StratifiedShuffleSplit,,"n_splits=5, random_state=42, test_size=0.2"
+sklearn.model_selection.GridSearchCV,**,"cv=cv, param_grid=param_grid"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.model_selection._search.GridSearchCV,,
+sklearn.model_selection._search.GridSearchCV,C_range,
+sklearn.model_selection._search.BaseSearchCV.fit.cv_results_,gamma_range,
+sklearn.svm.SVC,,"C=C, gamma=gamma"
+sklearn.svm._base.BaseLibSVM.fit,"X_2d, y_2d",
+sklearn.datasets.make_blobs,,"centers=centers, cluster_std=clusters_std, n_samples=**, random_state=0, shuffle=False"
+sklearn.svm.SVC,,"C=1.0, kernel=linear"
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.svm.SVC,,"class_weight=**, kernel=linear"
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.5, ax=ax, colors=k, levels=**, linestyles=**, plot_method=contour"
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"wclf, X","alpha=0.5, ax=ax, colors=r, levels=**, linestyles=**, plot_method=contour"
+sklearn.svm.OneClassSVM,,"gamma=0.1, kernel=rbf, nu=0.1"
+sklearn.svm._classes.OneClassSVM.fit,X_train,
+sklearn.svm._classes.OneClassSVM.predict,X_train,
+sklearn.svm._classes.OneClassSVM.predict,X_test,
+sklearn.svm._classes.OneClassSVM.predict,X_outliers,
+sklearn.svm._classes.OneClassSVM.decision_function,**,
+sklearn.svm._classes.OneClassSVM.decision_function,,
+sklearn.svm._classes.OneClassSVM.decision_function,,
+sklearn.datasets.make_classification,,"n_features=n_features, n_informative=5, n_samples=n_samples, random_state=1"
+sklearn.svm.LinearSVC,,"dual=False, loss=squared_hinge, penalty=l1, tol=0.001"
+sklearn.svm.LinearSVC,,"dual=True, loss=squared_hinge, penalty=l2"
+sklearn.model_selection.ShuffleSplit,,"n_splits=50, random_state=1, test_size=0.3, train_size=train_size"
+sklearn.model_selection.ShuffleSplit,,"n_splits=50, random_state=1, test_size=0.3, train_size=train_size"
+sklearn.datasets.make_blobs,,random_state=27
+sklearn.svm._base.BaseSVC.predict,**,
+sklearn.svm.SVC,,"gamma=2, kernel=kernel"
+sklearn.svm._base.BaseLibSVM.fit,"X, Y",
+sklearn.svm._base.BaseSVC.decision_function,**,
+sklearn.svm._classes.SVC,,
+sklearn.svm._classes.SVC,,
+sklearn.svm.SVR,,"C=100, epsilon=0.1, gamma=0.1, kernel=rbf"
+sklearn.svm.SVR,,"C=100, gamma=auto, kernel=linear"
+sklearn.svm.SVR,,"C=100, coef0=1, degree=3, epsilon=0.1, gamma=auto, kernel=poly"
+sklearn.svm._base.BaseLibSVM.predict,X,
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.datasets.make_blobs,,"centers=2, n_samples=40, random_state=0"
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.5, ax=ax, colors=k, grid_resolution=50, levels=**, linestyles=**, plot_method=contour"
+sklearn.svm.LinearSVC,,"C=C, dual=auto, loss=hinge, random_state=42"
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.svm,,gamma=1
+sklearn.svm._base.BaseLibSVM.fit,"X, y",sample_weight=sample_weight_last_ten
+sklearn.svm._base.BaseSVC.decision_function,**,
+sklearn.svm._classes.SVC,,
+sklearn.svm._classes.SVC,,
+sklearn.metrics.euclidean_distances,X_true,
+sklearn.manifold,,"dissimilarity=precomputed, eps=1e-09, max_iter=3000, n_components=2, n_jobs=1, normalized_stress=auto, random_state=seed"
+sklearn.manifold,,"dissimilarity=precomputed, eps=1e-12, max_iter=3000, metric=False, n_components=2, n_init=1, n_jobs=1, normalized_stress=auto, random_state=seed"
+sklearn.manifold._mds.MDS.fit_transform,similarities,init=pos
+sklearn.decomposition.PCA,,n_components=2
+sklearn.decomposition._pca.PCA.fit_transform,X_true,
+sklearn.decomposition._pca.PCA.fit_transform,pos,
+sklearn.decomposition._pca.PCA.fit_transform,npos,
+sklearn.manifold._mds.MDS.fit,similarities,
+sklearn.datasets.make_s_curve,n_samples,random_state=0
+sklearn.manifold.LocallyLinearEmbedding,,"method=standard, **params"
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.fit_transform,S_points,
+sklearn.manifold.LocallyLinearEmbedding,,"method=ltsa, **params"
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.fit_transform,S_points,
+sklearn.manifold.LocallyLinearEmbedding,,"method=hessian, **params"
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.fit_transform,S_points,
+sklearn.manifold.LocallyLinearEmbedding,,"method=modified, **params"
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.fit_transform,S_points,
+sklearn.manifold.Isomap,,"n_components=n_components, n_neighbors=n_neighbors, p=1"
+sklearn.manifold._isomap.Isomap.fit_transform,S_points,
+sklearn.manifold._mds.MDS.fit_transform,S_points,
+sklearn.manifold.SpectralEmbedding,,"n_components=n_components, n_neighbors=n_neighbors"
+sklearn.manifold._spectral_embedding.SpectralEmbedding.fit_transform,S_points,
+sklearn.manifold,,"init=random, n_components=n_components, n_iter=250, perplexity=30, random_state=0"
+sklearn.manifold._t_sne.TSNE.fit_transform,S_points,
+sklearn.datasets.load_digits,,n_class=6
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.manifold.Isomap,,"n_components=2, n_neighbors=n_neighbors"
+sklearn.neighbors.NeighborhoodComponentsAnalysis,,"init=pca, n_components=2, random_state=0"
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,"data, y",
+sklearn.ensemble.RandomTreesEmbedding,,"max_depth=5, n_estimators=200, random_state=0"
+sklearn.decomposition.TruncatedSVD,,n_components=2
+sklearn.preprocessing.MinMaxScaler,,
+sklearn.utils.check_random_state,0,
+sklearn.manifold.MDS,2,"max_iter=100, n_init=1, normalized_stress=auto"
+sklearn.manifold.SpectralEmbedding,,"n_components=2, n_neighbors=n_neighbors"
+sklearn.manifold.TSNE,,"n_components=2, random_state=0"
+sklearn.manifold.Isomap,sphere_data,
+sklearn.manifold._mds.MDS.fit_transform,sphere_data,
+sklearn.manifold._spectral_embedding.SpectralEmbedding.fit_transform,sphere_data,
+sklearn.manifold._t_sne.TSNE.fit_transform,sphere_data,
+sklearn.manifold.LocallyLinearEmbedding,sphere_data,
+sklearn.manifold.Isomap,,"n_components=2, n_neighbors=n_neighbors"
+sklearn.manifold.LocallyLinearEmbedding,,"method=method, n_components=2, n_neighbors=n_neighbors"
+sklearn.datasets.make_swiss_roll,,"n_samples=1500, random_state=0"
+sklearn.manifold.locally_linear_embedding,sr_points,"n_components=2, n_neighbors=12"
+sklearn.manifold._t_sne.TSNE.fit_transform,sr_points,
+sklearn.datasets,,"hole=True, n_samples=1500, random_state=0"
+sklearn.manifold.locally_linear_embedding,sh_points,"n_components=2, n_neighbors=12"
+sklearn.manifold,sh_points,
+sklearn.manifold.TSNE,,"n_components=2, perplexity=40, random_state=0"
+sklearn.manifold,,"init=random, n_components=2, perplexity=40, random_state=0"
+sklearn.datasets.make_circles,,"factor=0.5, n_samples=n_samples, noise=0.05, random_state=0"
+sklearn.datasets.make_s_curve,n_samples,random_state=0
+sklearn.manifold,,"init=random, n_components=n_components, n_iter=300, perplexity=perplexity, random_state=0"
+sklearn.manifold._t_sne.TSNE.fit_transform,X,
+sklearn.manifold,,"init=random, learning_rate=auto, n_components=n_components, n_iter=300, perplexity=perplexity, random_state=0"
+sklearn.manifold._t_sne.TSNE.fit_transform,X,
+sklearn.manifold,,"init=random, n_components=n_components, n_iter=400, perplexity=perplexity, random_state=0"
+sklearn.manifold._t_sne.TSNE.fit_transform,X,
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.Lasso,,"max_iter=10000, random_state=0"
+sklearn.model_selection.GridSearchCV,"lasso, tuned_parameters","cv=n_folds, refit=False"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.linear_model.LassoCV,,"alphas=alphas, max_iter=10000, random_state=0"
+sklearn.linear_model._coordinate_descent.LinearModelCV.fit,"**, **",
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.neighbors.KNeighborsClassifier,,
+sklearn.linear_model.LogisticRegression,,max_iter=1000
+sklearn.neighbors._classification.KNeighborsClassifier,"X_train, y_train",
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, y_train",
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.svm.SVC,,kernel=linear
+sklearn.model_selection.cross_val_score,"svc, X, y",n_jobs=1
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"gamma=10, kernel=kernel"
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.svm._base.BaseSVC.decision_function,**,
+sklearn.svm._classes.SVC,,
+sklearn.svm._classes.SVC,,
+sklearn.datasets.fetch_lfw_people,,"min_faces_per_person=70, resize=0.4"
+sklearn.preprocessing.StandardScaler,,
+sklearn.base.TransformerMixin.fit_transform,X_train,
+sklearn.preprocessing._data.StandardScaler.transform,X_test,
+sklearn.decomposition._pca.PCA.fit,X_train,
+sklearn.decomposition._base._BasePCA.transform,X_train,
+sklearn.decomposition._base._BasePCA.transform,X_test,
+sklearn.model_selection.RandomizedSearchCV,"**, param_grid",n_iter=10
+sklearn.model_selection._search.BaseSearchCV.fit,"X_train_pca, y_train",
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_estimator,"clf, X_test_pca, y_test","display_labels=target_names, xticks_rotation=vertical"
+sklearn.svm.SVC,,"class_weight=balanced, kernel=rbf"
+sklearn.metrics.classification_report,"y_test, y_pred",target_names=target_names
+sklearn.decomposition.PCA,,"n_components=n_components, svd_solver=randomized, whiten=True"
+sklearn.covariance.EllipticEnvelope,,"contamination=0.25, support_fraction=1.0"
+sklearn.svm.OneClassSVM,,"gamma=0.35, nu=0.25"
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.fit,X1,
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.decision_function,**,
+sklearn.datasets.load_wine,,
+sklearn.datasets.load_wine,,
+sklearn.covariance.GraphicalLassoCV,,alphas=alphas
+sklearn.covariance._graph_lasso.GraphicalLassoCV.fit,X,
+sklearn.cluster.affinity_propagation,**,random_state=0
+sklearn.manifold.LocallyLinearEmbedding,,"eigen_solver=dense, n_components=2, n_neighbors=6"
+sklearn.covariance._graph_lasso.GraphicalLassoCV,,
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.fit_transform,**,
+sklearn.feature_extraction.text.HashingVectorizer,,"alternate_sign=False, decode_error=ignore, n_features=**"
+sklearn.feature_extraction.text.HashingVectorizer.transform,X_test_text,
+sklearn.linear_model.SGDClassifier,,max_iter=5
+sklearn.naive_bayes.MultinomialNB,,alpha=0.01
+sklearn.linear_model.PassiveAggressiveClassifier,,
+sklearn.feature_extraction.text.HashingVectorizer.transform,X_train_text,
+sklearn.naive_bayes._BaseDiscreteNB.partial_fit,"X_train, y_train",classes=all_classes
+sklearn.utils.shuffle,"X_train, y_train",random_state=random_seed
+sklearn.preprocessing.StandardScaler,,
+sklearn.base.TransformerMixin.fit_transform,X_train,
+sklearn.preprocessing._data.StandardScaler.transform,X_test,
+sklearn.preprocessing.StandardScaler,,
+sklearn.ensemble._forest.ForestRegressor.predict,instance,
+sklearn.ensemble._forest.ForestRegressor.predict,X_test,
+sklearn.base.TransformerMixin.fit_transform,**,
+sklearn.preprocessing._data.StandardScaler.transform,**,
+sklearn.linear_model._stochastic_gradient.BaseSGDRegressor.fit,"X_train, y_train",
+sklearn.linear_model._stochastic_gradient.BaseSGDRegressor.fit,"X_train, y_train",
+sklearn.linear_model._ridge.Ridge.fit,"X_train, y_train",
+sklearn.ensemble._forest.ForestRegressor.predict,**,
+sklearn.utils.Bunch,,name=**
+sklearn.datasets.fetch_species_distributions,,
+sklearn.svm.OneClassSVM,,"gamma=0.5, kernel=rbf, nu=0.1"
+sklearn.svm._classes.OneClassSVM.fit,train_cover_std,
+sklearn.svm._classes.OneClassSVM.decision_function,**,
+sklearn.svm._classes.OneClassSVM.decision_function,**,
+sklearn.metrics,"fpr, tpr",
+sklearn.decomposition.randomized_svd,"X, 5",n_iter=3
+sklearn.model_selection.TimeSeriesSplit,,"gap=48, max_train_size=10000, n_splits=5, test_size=1000"
+sklearn.preprocessing.OrdinalEncoder,,categories=categories
+sklearn.pipeline.Pipeline,,transform=pandas
+sklearn.preprocessing.OneHotEncoder,,"handle_unknown=ignore, sparse_output=False"
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.compose._column_transformer.ColumnTransformer,,"remainder=**, transformers=**"
+sklearn.pipeline.Pipeline,"cyclic_cossin_transformer, **",
+sklearn.base.TransformerMixin.fit_transform,hour_df,
+sklearn.compose._column_transformer.ColumnTransformer,,"remainder=**, transformers=**"
+sklearn.pipeline.Pipeline,"cyclic_spline_transformer, **",
+sklearn.pipeline.Pipeline.fit,"**, **",
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"**, **",
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"**, **",
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"**, **",
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"**, **",
+sklearn.pipeline.Pipeline.predict,**,
+sklearn.compose.ColumnTransformer,,"remainder=**, transformers=**"
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.compose.ColumnTransformer,,"remainder=**, transformers=**"
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.preprocessing.SplineTransformer,,"degree=degree, extrapolation=periodic, include_bias=True, knots=**, n_knots=n_knots"
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.compose.ColumnTransformer,**,
+sklearn.preprocessing.PolynomialFeatures,,"degree=2, include_bias=False, interaction_only=True"
+sklearn.pipeline.FeatureUnion,**,
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.kernel_approximation.Nystroem,,"degree=2, kernel=poly, n_components=300, random_state=0"
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.compose.ColumnTransformer,,"remainder=passthrough, transformers=**"
+sklearn.kernel_approximation.Nystroem,,"degree=2, kernel=poly, n_components=300, random_state=0"
+sklearn.linear_model.RidgeCV,,alphas=alphas
+sklearn.pipeline.Pipeline,"**, **",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,,"ax=ax, kind=kind, scatter_kwargs=**, y_pred=pred, y_true=**"
+sklearn.compose.ColumnTransformer,,"remainder=passthrough, transformers=**, verbose_feature_names_out=False"
+sklearn.ensemble.HistGradientBoostingRegressor,,"categorical_features=categorical_columns, random_state=42"
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.preprocessing.FunctionTransformer,**,
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.svm._base.BaseLibSVM.fit,"**, **",
+sklearn.datasets.fetch_20newsgroups_vectorized,,"return_X_y=True, subset=all"
+sklearn.svm._base.BaseLibSVM.predict,**,
+sklearn.datasets.dump_svmlight_file,"X, y, file",
+sklearn.svm._base.BaseSVC.decision_function,**,
+sklearn.svm._classes.OneClassSVM,,"coef0=coef0, degree=degree, gamma=gamma, kernel=**"
+sklearn.svm._classes.SVC,"X, y",
+sklearn.linear_model.Ridge,,alpha=0.2
+sklearn.linear_model._ridge.Ridge.fit,"proj_operator, **",
+sklearn.linear_model.Lasso,,alpha=0.001
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"proj_operator, **",
+sklearn.linear_model._ridge.Ridge.fit,,
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,,
+sklearn.datasets.fetch_openml,,"as_frame=False, data_id=41082, parser=pandas, return_X_y=True"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.decomposition.PCA,,"n_components=32, random_state=42"
+sklearn.decomposition._kernel_pca.KernelPCA,,"alpha=0.005, fit_inverse_transform=True, gamma=0.001, kernel=rbf, n_components=400, random_state=42"
+sklearn.decomposition._pca.PCA.fit,X_train_noisy,
+sklearn.decomposition._kernel_pca.KernelPCA.fit,X_train_noisy,
+sklearn.decomposition._base._BasePCA.inverse_transform,**,
+sklearn.decomposition._kernel_pca.KernelPCA.transform,X_test_noisy,
+sklearn.decomposition._base._BasePCA.inverse_transform,X_test_noisy,
+sklearn.preprocessing.MinMaxScaler,,
+sklearn.datasets.fetch_20newsgroups,,"random_state=1, remove=**, return_X_y=True, shuffle=True"
+sklearn.feature_extraction.text.TfidfVectorizer,,"max_df=0.95, max_features=n_features, min_df=2, stop_words=english"
+sklearn.feature_extraction.text.TfidfVectorizer.fit_transform,data_samples,
+sklearn.feature_extraction.text.CountVectorizer.fit_transform,data_samples,
+sklearn.decomposition._nmf.NMF,tfidf,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.decomposition._nmf.NMF,tfidf,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.decomposition._nmf.MiniBatchNMF,tfidf,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.decomposition._nmf.MiniBatchNMF,tfidf,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.decomposition.LatentDirichletAllocation,,"learning_method=online, learning_offset=50.0, max_iter=5, n_components=n_components, random_state=0"
+sklearn.decomposition._lda.LatentDirichletAllocation.fit,tf,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.decomposition._nmf.NMF,,"alpha_H=5e-05, alpha_W=5e-05, beta_loss=frobenius, init=init, l1_ratio=1, n_components=n_components, random_state=1"
+sklearn.decomposition._nmf.NMF,,"alpha_H=5e-05, alpha_W=5e-05, beta_loss=kullback-leibler, init=init, l1_ratio=0.5, max_iter=1000, n_components=n_components, random_state=1, solver=mu"
+sklearn.decomposition.MiniBatchNMF,,"alpha_H=5e-05, alpha_W=5e-05, batch_size=batch_size, beta_loss=frobenius, init=init, l1_ratio=0.5, n_components=n_components, random_state=1"
+sklearn.decomposition.MiniBatchNMF,,"alpha_H=5e-05, alpha_W=5e-05, batch_size=batch_size, beta_loss=kullback-leibler, init=init, l1_ratio=0.5, n_components=n_components, random_state=1"
+sklearn.mixture.BayesianGaussianMixture,,"init_params=random, max_iter=1500, mean_precision_prior=0.8, n_components=**, random_state=random_state, reg_covar=0, weight_concentration_prior_type=dirichlet_distribution"
+sklearn.mixture.BayesianGaussianMixture,,"init_params=random, max_iter=1500, mean_precision_prior=0.8, n_components=**, random_state=random_state, reg_covar=0, weight_concentration_prior_type=dirichlet_process"
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture,X,
+sklearn.datasets.load_iris,,
+sklearn.model_selection.StratifiedKFold,,n_splits=4
+sklearn.mixture.GaussianMixture,,"covariance_type=cov_type, max_iter=20, n_components=n_classes, random_state=0"
+sklearn.mixture._gaussian_mixture.GaussianMixture,**,
+sklearn.mixture._base.BaseMixture.fit,X_train,
+sklearn.mixture._gaussian_mixture.GaussianMixture,X_train,
+sklearn.mixture._gaussian_mixture.GaussianMixture,X,
+sklearn.mixture._base.BaseMixture.predict,X,
+sklearn.mixture.GaussianMixture,,"covariance_type=full, n_components=5"
+sklearn.mixture.BayesianGaussianMixture,,"covariance_type=full, n_components=5"
+sklearn.model_selection._search.BaseSearchCV.fit,X,
+sklearn.model_selection._search.BaseSearchCV.predict,X,
+sklearn.mixture.GaussianMixture,,
+sklearn.mixture.GaussianMixture,,"covariance_type=full, n_components=2"
+sklearn.mixture._base.BaseMixture.fit,X_train,
+sklearn.mixture._base.BaseMixture.score_samples,XX,
+sklearn.datasets._samples_generator.make_blobs,,"centers=4, cluster_std=0.6, n_samples=4000, random_state=0"
+sklearn.utils.extmath.row_norms,X,squared=True
+sklearn.mixture.GaussianMixture,,"init_params=init_params, max_iter=0, n_components=4, random_state=r, tol=1e-09"
+sklearn.mixture.GaussianMixture,,"max_iter=2000, means_init=ini, n_components=4, random_state=r, tol=1e-09"
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture,X,
+sklearn.mixture._base.BaseMixture.sample,,n_samples=2000
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture,X,
+sklearn.mixture._base.BaseMixture.sample,,n_samples=2000
+sklearn.mixture._base.BaseMixture.predict,X,
+sklearn.mixture._base.BaseMixture.predict,X,
+sklearn.mixture._base.BaseMixture.predict,X,
+sklearn.mixture.GaussianMixture,,"covariance_type=full, max_iter=100, n_components=10"
+sklearn.mixture.BayesianGaussianMixture,,"covariance_prior=**, covariance_type=full, init_params=random, max_iter=100, mean_precision_prior=0.01, n_components=10, random_state=2, weight_concentration_prior=0.01, weight_concentration_prior_type=dirichlet_process"
+sklearn.mixture.BayesianGaussianMixture,,"covariance_prior=**, covariance_type=full, init_params=kmeans, max_iter=100, mean_precision_prior=0.01, n_components=10, random_state=2, weight_concentration_prior=100.0, weight_concentration_prior_type=dirichlet_process"
+sklearn.datasets.load_iris,,
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.datasets.make_circles,,"factor=0.5, noise=0.2, random_state=1"
+sklearn.datasets.make_moons,,"noise=0.3, random_state=0"
+sklearn.neural_network.MLPClassifier,,"max_iter=max_iter, random_state=0, **param"
+sklearn.preprocessing.MinMaxScaler,,
+sklearn.neural_network._multilayer_perceptron.MLPClassifier,"X, y",
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.preprocessing.minmax_scale,X,feature_range=**
+sklearn.model_selection.train_test_split,"X, Y","random_state=0, test_size=0.2"
+sklearn.linear_model.LogisticRegression,,"solver=newton-cg, tol=1"
+sklearn.neural_network.BernoulliRBM,,"random_state=0, verbose=True"
+sklearn.pipeline.Pipeline,,steps=**
+sklearn.pipeline.Pipeline.fit,"X_train, Y_train",
+sklearn.linear_model._logistic.LogisticRegression,logistic,
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, Y_train",
+sklearn.pipeline.Pipeline.predict,X_test,
+sklearn.linear_model._base.LinearClassifierMixin.predict,X_test,
+sklearn.metrics.classification_report,"Y_test, Y_pred",
+sklearn.metrics.classification_report,"Y_test, Y_pred",
+sklearn.datasets.fetch_openml,mnist_784,"as_frame=False, parser=pandas, return_X_y=True, version=1"
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.7"
+sklearn.neural_network.MLPClassifier,,"alpha=0.0001, hidden_layer_sizes=**, learning_rate_init=0.2, max_iter=8, random_state=1, solver=sgd, verbose=10"
+sklearn.neural_network._multilayer_perceptron.BaseMultilayerPerceptron.fit,"X_train, y_train",
+sklearn.neural_network._multilayer_perceptron.BaseMultilayerPerceptron._fit_stochastic.coefs_,,
+sklearn.neural_network._multilayer_perceptron.BaseMultilayerPerceptron._fit_stochastic.coefs_,,
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0, random_state=0"
+sklearn.datasets.make_moons,,"noise=0.3, random_state=0"
+sklearn.datasets.make_circles,,"factor=0.5, noise=0.2, random_state=1"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.preprocessing.StandardScaler,,
+sklearn.neural_network.MLPClassifier,,"alpha=alpha, early_stopping=True, hidden_layer_sizes=**, max_iter=2000, random_state=1, solver=lbfgs"
+sklearn.datasets.load_iris,,"as_frame=True, return_X_y=True"
+sklearn.compose._column_transformer.ColumnTransformer,,transform=pandas
+sklearn.compose._column_transformer.ColumnTransformer.fit_transform,X,
+sklearn.datasets.load_diabetes,,"as_frame=True, return_X_y=True"
+sklearn.ensemble.HistGradientBoostingRegressor,,"interaction_cst=**, random_state=0"
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.BaseHistGradientBoosting.fit,"X, y",
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_estimator,"hist_no_interact, X, y","ax=**, kind=actual_vs_predicted"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_estimator,"hist_no_interact, X, y","ax=**, kind=residual_vs_predicted"
+sklearn.model_selection._plot.LearningCurveDisplay.from_estimator,"hist_no_interact, X, y","cv=5, n_jobs=2, train_sizes=**"
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"model, X","ax=ax, categorical_features=categorical_features, features=**"
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.compose.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.compose.ColumnTransformer,,"remainder=passthrough, transformers=**"
+sklearn.ensemble.HistGradientBoostingRegressor,,random_state=0
+sklearn.preprocessing.KBinsDiscretizer,,encode=ordinal
+sklearn.datasets.make_classification,,"n_samples=700, random_state=rng"
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=10, random_state=rng"
+sklearn.model_selection.HalvingRandomSearchCV,,"estimator=clf, factor=2, param_distributions=param_dist, random_state=rng"
+sklearn.model_selection._search_successive_halving.BaseSuccessiveHalving.fit,"X, y",
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"gamma=auto, probability=True"
+sklearn.semi_supervised.SelfTrainingClassifier,svc,
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.fit,"**, **",
+sklearn.datasets.load_iris,,"as_frame=True, return_X_y=True"
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=3
+sklearn.feature_selection.SequentialFeatureSelector,knn,n_features_to_select=2
+sklearn.feature_selection._sequential.SequentialFeatureSelector.fit,"X, y",
+sklearn.datasets.fetch_covtype,,return_X_y=True
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.pipeline.Pipeline.score,"X_test, y_test",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.score,"X_test, y_test",
+sklearn.datasets.fetch_california_housing,,"as_frame=True, return_X_y=True"
+sklearn.ensemble.RandomForestRegressor,,n_estimators=10
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"est, X, features","grid_resolution=20, kind=individual, n_jobs=3, random_state=0, subsample=50"
+sklearn.model_selection.train_test_split,"X, y",random_state=rng
+sklearn.tree.DecisionTreeRegressor,,"criterion=poisson, random_state=0"
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X_train, y_train",
+sklearn.preprocessing.MinMaxScaler,,
+sklearn.kernel_approximation.PolynomialCountSketch,,"degree=2, n_components=300"
+sklearn.linear_model.LogisticRegression,,max_iter=1000
+sklearn.pipeline.Pipeline,,
+sklearn.preprocessing.MinMaxScaler,,max_iter=1000
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.model_selection.train_test_split,"X, y",random_state=rng
+sklearn.linear_model.PoissonRegressor,,
+sklearn.ensemble.HistGradientBoostingRegressor,,"learning_rate=0.01, loss=poisson"
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.fit,"X_train, y_train",
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.BaseHistGradientBoosting.fit,"X_train, y_train",
+sklearn.set_config,,display=diagram
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.compose.make_column_transformer,"**, **",
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.datasets.make_blobs,,random_state=rng
+sklearn.model_selection.train_test_split,"X, y",random_state=rng
+sklearn.cluster._kmeans.KMeans.fit,X_train,
+sklearn.ensemble.HistGradientBoostingRegressor,"X, y",
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"gbdt_no_cst, X","feature_names=**, features=**, line_kw=**"
+sklearn.inspection._plot.partial_dependence.PartialDependenceDisplay.from_estimator,"gbdt_cst, X","ax=**, features=**, line_kw=**"
+sklearn.datasets.make_regression,"n_samples, n_features",random_state=rng
+sklearn.linear_model.Lasso,,
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_train, y_train",sample_weight=sw_train
+sklearn.linear_model._glm.glm._GeneralizedLinearRegressor.score,"X_test, y_test",
+sklearn.base.RegressorMixin.score,"X_test, y_test",
+sklearn.impute.SimpleImputer,,strategy=median
+sklearn.pipeline.make_pipeline,,
+sklearn.impute.SimpleImputer,,"fill_value=missing, strategy=constant"
+sklearn.preprocessing.OneHotEncoder,,handle_unknown=ignore
+sklearn.pipeline.make_pipeline,,
+sklearn.metrics.completeness_score,"**, y_test",
+sklearn.base.RegressorMixin.score,"X_test, y_test, sw_test",
+sklearn.cluster.KMeans,,n_init=auto
+sklearn.metrics.completeness_score,X_test,
+sklearn.ensemble.HistGradientBoostingRegressor,,
+sklearn.ensemble.HistGradientBoostingRegressor,,monotonic_cst=**
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, return_X_y=True, version=1"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.compose.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.pipeline.make_pipeline,"preprocessor, **, **",
+sklearn.pipeline.Pipeline.fit,"X, y",
+sklearn.preprocessing._encoders.OneHotEncoder,X,
+sklearn.decomposition.MiniBatchNMF,,"n_components=n_components, random_state=0"
+sklearn.decomposition._nmf.MiniBatchNMF.transform,X,
+sklearn.datasets.make_blobs,,"centers=2, n_samples=1000, random_state=0"
+sklearn.cluster._kmeans.KMeans.fit,X,
+sklearn.pipeline.make_pipeline,,strategy=median
+sklearn.pipeline.make_pipeline,,k=7
+sklearn.pipeline.make_pipeline,,
+sklearn.decomposition._nmf.MiniBatchNMF.partial_fit,X,
+sklearn.preprocessing.OneHotEncoder,,"min_frequency=6, sparse_output=False"
+sklearn.cluster.KMeans,,"n_clusters=5, n_init=auto, random_state=0"
+sklearn.cluster.BisectingKMeans,,"n_clusters=5, random_state=0"
+sklearn.preprocessing.OneHotEncoder,,"handle_unknown=ignore, sparse_output=False"
+sklearn.preprocessing.SplineTransformer,,"degree=2, n_knots=3"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.preprocessing.StandardScaler,X,
+sklearn.compose._column_transformer.ColumnTransformer,X,
+sklearn.compose._column_transformer.ColumnTransformer.get_feature_names_out,,
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.pipeline.Pipeline.fit,"X, y",
+sklearn.pipeline.Pipeline.get_feature_names_out,,
+sklearn.pipeline.make_pipeline,,
+sklearn.preprocessing.StandardScaler,,
+sklearn.compose.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.datasets.make_classification,,random_state=0
+sklearn.model_selection.train_test_split,"X, y",random_state=42
+sklearn.svm.SVC,,random_state=42
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.ensemble.RandomForestClassifier,,random_state=42
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"svc, X_test, y_test",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"rfc, X_test, y_test",ax=**
+sklearn.datasets.load_iris,,return_X_y=True
+sklearn.ensemble.StackingClassifier,,"estimators=estimators, final_estimator=**"
+sklearn.model_selection.train_test_split,"X, y","random_state=42, stratify=y"
+sklearn.datasets.make_classification,,"n_features=5, n_informative=3, random_state=0"
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.inspection.permutation_importance,"rf, X, y","n_jobs=2, n_repeats=10, random_state=0"
+sklearn.ensemble._hist_gradient_boosting.gradient_boosting.BaseHistGradientBoosting.fit,"X, y",
+sklearn.datasets.make_classification,,random_state=0
+sklearn.impute.KNNImputer,,n_neighbors=2
+sklearn.datasets.make_classification,,random_state=0
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.ensemble._forest.BaseForest.fit,"X, y",
+sklearn.datasets.fetch_openml,titanic,"as_frame=True, parser=pandas, version=1"
+sklearn.utils.estimator_checks.parametrize_with_checks,**,
+sklearn.datasets.make_classification,,"n_classes=4, n_informative=16"
+sklearn.svm._base.BaseLibSVM.fit,"X, y",
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.metrics.roc_auc_score,"y, **",multi_class=ovo
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=10, random_state=42"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.ensemble.StackingClassifier,,
+sklearn.ensemble._stacking.StackingClassifier.fit,"X_train, y_train",
+sklearn.ensemble.RandomForestClassifier,,random_state=0
+sklearn.ensemble.HistGradientBoostingClassifier,,min_samples_leaf=1
+sklearn.neighbors.KNeighborsTransformer,,"mode=distance, n_neighbors=10"
+sklearn.manifold.Isomap,,"metric=precomputed, n_neighbors=10"
+sklearn.ensemble.RandomForestClassifier,,"ccp_alpha=0, random_state=0"
+sklearn.ensemble.RandomForestClassifier,,"ccp_alpha=0.05, random_state=0"
+sklearn.utils.estimator_checks.parametrize_with_checks,,
+sklearn.utils.estimator_checks.parametrize_with_checks,,
+sklearn.svm.SVC,,"decision_function_shape=ovo, probability=True"
+sklearn.metrics.roc_auc_score,X,
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,random_state=42
+sklearn.preprocessing.PowerTransformer,,method=box-cox
+sklearn.preprocessing.PowerTransformer,,method=yeo-johnson
+sklearn.preprocessing.QuantileTransformer,,"n_quantiles=500, output_distribution=normal, random_state=rng"
+sklearn.model_selection.train_test_split,X,test_size=0.5
+sklearn.preprocessing._data.PowerTransformer,X_test,
+sklearn.preprocessing._data.PowerTransformer,X_test,
+sklearn.preprocessing._data.QuantileTransformer,X_test,
+sklearn.preprocessing.KBinsDiscretizer,,"encode=ordinal, n_bins=n_categories, random_state=rng, strategy=uniform"
+sklearn.base.TransformerMixin.fit_transform,**,
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.set_config,,transform_output=pandas
+sklearn.linear_model.Ridge,,"alpha=1e-06, fit_intercept=False, solver=lsqr"
+sklearn.linear_model._ridge.Ridge.fit,"X_train, y_train",
+sklearn.pipeline.make_pipeline,"**, ridge",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.preprocessing.TargetEncoder,,random_state=0
+sklearn.linear_model._ridge.Ridge.fit,"X_train_no_cv_encoding, y_train",
+sklearn.base.TransformerMixin.fit_transform,"**, 1",
+sklearn.pipeline.make_pipeline,,random_state=0
+sklearn.datasets.make_moons,,"n_samples=n_samples, noise=0.2, random_state=0"
+sklearn.datasets.make_circles,,"factor=0.5, n_samples=n_samples, noise=0.2, random_state=1"
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0, n_samples=n_samples, random_state=2"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.model_selection.GridSearchCV,,"estimator=estimator, param_grid=param_grid"
+sklearn.model_selection._search.BaseSearchCV.score,"X_test, y_test",
+sklearn.pipeline.make_pipeline,,
+sklearn.preprocessing.StandardScaler,,random_state=0
+sklearn.pipeline.make_pipeline,,
+sklearn.preprocessing._data.StandardScaler,,"dual=auto, random_state=0"
+sklearn.preprocessing.StandardScaler,,
+sklearn.preprocessing.KBinsDiscretizer,,encode=onehot
+sklearn.linear_model.LogisticRegression,,random_state=0
+sklearn.preprocessing.StandardScaler,,
+sklearn.preprocessing.KBinsDiscretizer,,encode=onehot
+sklearn.svm.LinearSVC,,"dual=auto, random_state=0"
+sklearn.preprocessing.StandardScaler,,
+sklearn.ensemble.GradientBoostingClassifier,,"n_estimators=5, random_state=0"
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,random_state=0
+sklearn.utils._testing.ignore_warnings,,category=ConvergenceWarning
+sklearn.model_selection._search.BaseSearchCV.fit,"X_train, y_train",
+sklearn.model_selection._search.BaseSearchCV.decision_function,**,
+sklearn.model_selection._search.BaseSearchCV.predict_proba,**,
+sklearn.datasets.make_blobs,,"centers=centers_0, cluster_std=0.5, n_samples=**, random_state=random_state"
+sklearn.datasets.make_blobs,,"centers=centers_1, cluster_std=0.5, n_samples=**, random_state=random_state"
+sklearn.preprocessing.KBinsDiscretizer,,"encode=ordinal, n_bins=4, strategy=strategy"
+sklearn.preprocessing._discretization.KBinsDiscretizer,X,
+sklearn.datasets.fetch_openml,,"as_frame=True, data_id=42074, parser=pandas"
+sklearn.compose._column_transformer.ColumnTransformer,**,verbose_feature_names_out=False
+sklearn.compose._column_transformer.ColumnTransformer.set_output,,transform=pandas
+sklearn.pipeline.make_pipeline,"mixed_encoded_preprocessor, **",
+sklearn.model_selection.cross_validate,"pipe, X, y","cv=n_cv_folds, return_train_score=True, scoring=neg_root_mean_squared_error"
+sklearn.pipeline.make_pipeline,"preprocessor, **",
+sklearn.ensemble.HistGradientBoostingRegressor,,"categorical_features=low_cardinality_features, max_iter=max_iter, random_state=0"
+sklearn.preprocessing.OrdinalEncoder,,"handle_unknown=use_encoded_value, unknown_value=**"
+sklearn.preprocessing.OneHotEncoder,,"handle_unknown=ignore, max_categories=20, sparse_output=False"
+sklearn.preprocessing.TargetEncoder,,target_type=continuous
+sklearn.ensemble.HistGradientBoostingRegressor,,"max_iter=max_iter, random_state=0"
+sklearn.preprocessing.TargetEncoder,,target_type=continuous
+sklearn.preprocessing.OrdinalEncoder,,"handle_unknown=use_encoded_value, unknown_value=**"
+sklearn.datasets.load_wine,,"as_frame=True, return_X_y=True"
+sklearn.utils._set_output._SetOutputMixin.set_output,,transform=pandas
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=20
+sklearn.decomposition._pca.PCA.fit,X_train,
+sklearn.decomposition._pca.PCA.fit,scaled_X_train,
+sklearn.decomposition._pca.PCA,scaled_X_train,
+sklearn.pipeline.make_pipeline,"pca, **",
+sklearn.pipeline.make_pipeline,"scaler, pca, **",
+sklearn.neighbors._classification.KNeighborsClassifier.fit,"X_plot, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X_plot","alpha=0.5, ax=ax, response_method=predict"
+sklearn.pipeline.make_pipeline,,Cs=Cs
+sklearn.pipeline.make_pipeline,,Cs=Cs
+sklearn.preprocessing.StandardScaler,,
+sklearn.decomposition.PCA,,n_components=2
+sklearn.decomposition.PCA,,n_components=2
+sklearn.metrics.accuracy_score,"y_test, y_pred",
+sklearn.metrics.accuracy_score,"y_test, y_pred_scaled",
+sklearn.metrics.log_loss,"y_test, y_proba",
+sklearn.metrics.log_loss,"y_test, y_proba_scaled",
+sklearn.preprocessing.KBinsDiscretizer,,"encode=onehot, n_bins=10"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.linear_model._base.LinearRegression.fit,"X, y",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X, y",
+sklearn.preprocessing._discretization.KBinsDiscretizer.transform,line,
+sklearn.linear_model._base.LinearRegression.fit,"X_binned, y",
+sklearn.tree._classes.DecisionTreeRegressor.fit,"X_binned, y",
+sklearn.linear_model._base.LinearRegression,line,
+sklearn.tree._classes.DecisionTreeRegressor,line,
+sklearn.linear_model._base.LinearModel.predict,line_binned,
+sklearn.tree._classes.BaseDecisionTree.predict,line_binned,
+sklearn.linear_model.LinearRegression,,
+sklearn.tree.DecisionTreeRegressor,,"min_samples_split=3, random_state=0"
+sklearn.linear_model.LinearRegression,,
+sklearn.tree.DecisionTreeRegressor,,"min_samples_split=3, random_state=0"
+sklearn.preprocessing._discretization.KBinsDiscretizer.fit.bin_edges_,,
+sklearn.datasets.fetch_california_housing,,
+sklearn.preprocessing.minmax_scale,y_full,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.preprocessing._data.PowerTransformer.fit_transform,X,
+sklearn.preprocessing._data.PowerTransformer.fit_transform,X,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.preprocessing.RobustScaler,,quantile_range=**
+sklearn.preprocessing.PowerTransformer,,method=yeo-johnson
+sklearn.preprocessing.PowerTransformer,,method=box-cox
+sklearn.preprocessing.QuantileTransformer,,output_distribution=uniform
+sklearn.preprocessing.QuantileTransformer,,output_distribution=normal
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, return_X_y=True, subset=train"
+sklearn.feature_extraction.DictVectorizer,,
+sklearn.feature_extraction._dict_vectorizer.DictVectorizer.fit_transform,**,
+sklearn.feature_extraction.FeatureHasher,,n_features=**
+sklearn.feature_extraction._hash.FeatureHasher.transform,**,
+sklearn.feature_extraction.FeatureHasher,,n_features=**
+sklearn.feature_extraction._hash.FeatureHasher.transform,**,
+sklearn.feature_extraction.FeatureHasher,,"input_type=string, n_features=**"
+sklearn.feature_extraction._hash.FeatureHasher.transform,**,
+sklearn.feature_extraction.text.CountVectorizer,,
+sklearn.feature_extraction.text.CountVectorizer.fit_transform,raw_data,
+sklearn.feature_extraction.text.HashingVectorizer,,n_features=**
+sklearn.feature_extraction.text.HashingVectorizer.fit_transform,raw_data,
+sklearn.feature_extraction.text.TfidfVectorizer,,
+sklearn.feature_extraction.text.TfidfVectorizer.fit_transform,raw_data,
+sklearn.feature_extraction._dict_vectorizer.DictVectorizer.fit_transform,d,
+sklearn.feature_extraction._hash.FeatureHasher.transform,d,
+sklearn.feature_extraction._hash.FeatureHasher.transform,d,
+sklearn.feature_extraction._hash.FeatureHasher,d,
+sklearn.feature_extraction._dict_vectorizer.DictVectorizer.get_feature_names_out,,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, remove=**, shuffle=True, subset=all"
+sklearn.feature_extraction.text.TfidfVectorizer,,"max_df=0.5, min_df=5, stop_words=english"
+sklearn.feature_extraction.text.TfidfVectorizer.fit_transform,**,
+sklearn.cluster._kmeans.KMeans,,"max_iter=100, n_clusters=true_k, n_init=5"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit_transform,X_tfidf,
+sklearn.decomposition._truncated_svd.TruncatedSVD.fit_transform.explained_variance_ratio_,,
+sklearn.cluster._kmeans.KMeans,,"max_iter=100, n_clusters=true_k, n_init=1"
+sklearn.cluster._kmeans.MiniBatchKMeans,,"batch_size=1000, init_size=1000, n_clusters=true_k, n_init=1"
+sklearn.decomposition._truncated_svd.TruncatedSVD.inverse_transform,**,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.pipeline.Pipeline,"**, **, **, **",
+sklearn.pipeline.Pipeline.fit_transform,**,
+sklearn.decomposition.TruncatedSVD,,n_components=100
+sklearn.decomposition.TruncatedSVD,,copy=False
+sklearn.feature_extraction.text.HashingVectorizer,,"n_features=50000, stop_words=english"
+sklearn.feature_extraction.text.TfidfTransformer,,
+sklearn.decomposition.TruncatedSVD,,"n_components=100, random_state=0"
+sklearn.preprocessing.Normalizer,,copy=False
+sklearn.base.BaseEstimator.set_params,,random_state=seed
+sklearn.cluster._kmeans.KMeans,X,
+sklearn.metrics,"labels, **",
+sklearn.metrics,"labels, **",
+sklearn.metrics,"labels, **",
+sklearn.metrics.adjusted_rand_score,"labels, **",
+sklearn.metrics.silhouette_score,"X, **",sample_size=2000
+sklearn.linear_model.RidgeClassifier,,"solver=sparse_cg, tol=0.01"
+sklearn.linear_model._ridge.RidgeClassifier.fit,"X_train, y_train",
+sklearn.linear_model._ridge._RidgeClassifierMixin.predict,X_test,
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_predictions,"y_test, pred",ax=ax
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, shuffle=True, subset=train"
+sklearn.linear_model.RidgeClassifier,,"solver=sparse_cg, tol=0.01"
+sklearn.linear_model._ridge.RidgeClassifier.fit,"X_train, y_train",
+sklearn.linear_model._ridge._RidgeClassifierMixin.predict,X_test,
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_predictions,"y_test, pred",ax=ax
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, remove=remove, shuffle=True, subset=train"
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, remove=remove, shuffle=True, subset=test"
+sklearn.feature_extraction.text.TfidfVectorizer.fit_transform,**,
+sklearn.feature_extraction.text.TfidfVectorizer.transform,**,
+sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out,,
+sklearn.neighbors._nearest_centroid.NearestCentroid.fit,"X_train, y_train",
+sklearn.linear_model._base.LinearClassifierMixin.predict,X_test,
+sklearn.metrics.accuracy_score,"y_test, pred",
+sklearn.linear_model._stochastic_gradient.BaseSGDClassifier._fit_binary.coef_,,
+sklearn.linear_model.LogisticRegression,,"C=5, max_iter=1000"
+sklearn.linear_model.RidgeClassifier,,"alpha=1.0, solver=sparse_cg"
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=100
+sklearn.ensemble.RandomForestClassifier,,
+sklearn.svm.LinearSVC,,"C=0.1, dual=False, max_iter=1000"
+sklearn.linear_model.SGDClassifier,,"alpha=0.0001, early_stopping=True, loss=log_loss, n_iter_no_change=3"
+sklearn.neighbors.NearestCentroid,,
+sklearn.naive_bayes.ComplementNB,,alpha=0.1
+sklearn.naive_bayes.ComplementNB,**,
+sklearn.datasets.load_iris,,
+sklearn.model_selection.train_test_split,"X, y","random_state=0, stratify=y, test_size=0.5"
+sklearn.linear_model.LogisticRegression,,
+sklearn.linear_model._logistic.LogisticRegression.predict_proba,X_test,
+sklearn.preprocessing.LabelBinarizer,y_train,
+sklearn.preprocessing._label.LabelBinarizer.transform,y_test,
+sklearn.preprocessing._label.LabelBinarizer.transform,**,
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions,"**, **","color=darkorange, name=**, plot_chance_level=True"
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions,"**, **","color=darkorange, name=micro-average OvR, plot_chance_level=True"
+sklearn.metrics.roc_curve,"**, **",
+sklearn.metrics.auc,"**, **",
+sklearn.metrics.auc,"**, **",
+sklearn.metrics.roc_curve,"**, **",
+sklearn.metrics.auc,"**, **",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions,"**, **","ax=ax, color=color, name=**, plot_chance_level=**"
+sklearn.metrics.roc_curve,"a_true, **",
+sklearn.metrics.roc_curve,"b_true, **",
+sklearn.metrics.auc,"fpr_grid, **",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions,"a_true, **","ax=ax, name=**"
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions,"b_true, **","ax=ax, name=**, plot_chance_level=True"
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, y_train",
+sklearn.preprocessing._label.LabelBinarizer,,
+sklearn.datasets.load_iris,,
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.svm._base.BaseLibSVM.fit,"X_train, y_train",
+sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay.from_estimator,"classifier, X_test, y_test","cmap=**, display_labels=class_names, normalize=normalize"
+sklearn.svm.SVC,,"C=0.01, kernel=linear"
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,"kernel=linear, random_state=7"
+sklearn.model_selection.StratifiedKFold,2,"random_state=0, shuffle=True"
+sklearn.datasets.make_regression,,"coef=True, n_features=n_features, n_informative=50, n_samples=**, noise=1.0, shuffle=False"
+sklearn.linear_model.ElasticNet,,"l1_ratio=0.7, max_iter=10000"
+sklearn.base.BaseEstimator.set_params,,alpha=alpha_optim
+sklearn.base.BaseEstimator.set_params,,alpha=alpha
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X_train, y_train",
+sklearn.linear_model._coordinate_descent.ElasticNet.fit,"X, y",
+sklearn.linear_model._coordinate_descent.ElasticNet,"X_train, y_train",
+sklearn.linear_model._coordinate_descent.ElasticNet,"X_test, y_test",
+sklearn.datasets.make_classification,,"n_samples=1000, random_state=rng"
+sklearn.svm.SVC,,random_state=rng
+sklearn.model_selection.HalvingGridSearchCV,,"estimator=clf, factor=2, param_grid=param_grid, random_state=rng"
+sklearn.model_selection._search_successive_halving.BaseSuccessiveHalving.fit,"X, y",
+sklearn.model_selection.GridSearchCV,,"estimator=clf, param_grid=param_grid"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.datasets.load_iris,,
+sklearn.model_selection.StratifiedKFold,,n_splits=n_splits
+sklearn.svm.SVC,,"kernel=linear, probability=True, random_state=random_state"
+sklearn.metrics.auc,"mean_fpr, mean_tpr",
+sklearn.svm._base.BaseLibSVM.fit,"**, **",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"classifier, **, **","alpha=0.3, ax=ax, lw=1, name=**, plot_chance_level=**"
+sklearn.preprocessing.PolynomialFeatures,,"degree=**, include_bias=False"
+sklearn.linear_model._base.LinearRegression,,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"**, y",
+sklearn.model_selection.cross_val_score,"pipeline, **, y","cv=10, scoring=neg_mean_squared_error"
+sklearn.pipeline.Pipeline.predict,**,
+sklearn.datasets.make_classification,,"n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0, n_samples=1000, random_state=1"
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.4"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.ensemble.RandomForestClassifier,,"max_depth=5, max_features=1, n_estimators=10"
+sklearn.ensemble._forest.BaseForest.fit,"X_train, y_train",
+sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator,"clf, X_test, y_test","ax=ax_roc, name=name"
+sklearn.metrics._plot.det_curve.DetCurveDisplay.from_estimator,"clf, X_test, y_test","ax=ax_det, name=name"
+sklearn.pipeline.make_pipeline,,"C=0.025, dual=auto"
+sklearn.datasets.make_classification,,"n_features=12, n_samples=400, random_state=rng"
+sklearn.ensemble.RandomForestClassifier,,"n_estimators=20, random_state=rng"
+sklearn.model_selection.HalvingRandomSearchCV,,"estimator=clf, factor=2, param_distributions=param_dist, random_state=rng"
+sklearn.model_selection._search_successive_halving.BaseSuccessiveHalving.fit,"X, y",
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.svm.SVC,,
+sklearn.datasets.load_diabetes,,return_X_y=True
+sklearn.linear_model.LinearRegression,,
+sklearn.model_selection.cross_val_predict,"lr, X, y",cv=10
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,y,"ax=**, kind=actual_vs_predicted, random_state=0, subsample=100, y_pred=y_pred"
+sklearn.metrics._plot.regression.PredictionErrorDisplay.from_predictions,y,"ax=**, kind=residual_vs_predicted, random_state=0, subsample=100, y_pred=y_pred"
+sklearn.datasets.make_moons,,"n_samples=100, noise=0.352, random_state=1"
+sklearn.svm.SVC,,random_state=0
+sklearn.model_selection.RepeatedStratifiedKFold,,"n_repeats=10, n_splits=10, random_state=0"
+sklearn.model_selection.GridSearchCV,,"cv=cv, estimator=svc, param_grid=param_grid, scoring=roc_auc"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.model_selection.KFold,n_splits,
+sklearn.model_selection._split.KFold,,n_splits=n_splits
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, remove=**, shuffle=True, subset=train"
+sklearn.datasets.fetch_20newsgroups,,"categories=categories, random_state=42, remove=**, shuffle=True, subset=test"
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.RandomizedSearchCV,,"estimator=pipeline, n_iter=40, n_jobs=2, param_distributions=parameter_grid, random_state=0, verbose=1"
+sklearn.model_selection._search.BaseSearchCV.fit,"**, **",
+sklearn.model_selection._search.BaseSearchCV.fit.best_estimator_,,
+sklearn.model_selection._search.BaseSearchCV.score,"**, **",
+sklearn.datasets.load_digits,,"n_class=3, return_X_y=True"
+sklearn.linear_model.SGDClassifier,,"fit_intercept=True, loss=hinge, penalty=elasticnet"
+sklearn.model_selection.RandomizedSearchCV,clf,"n_iter=n_iter_search, param_distributions=param_dist"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.model_selection.GridSearchCV,clf,param_grid=param_grid
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.naive_bayes.GaussianNB,,
+sklearn.svm.SVC,,"gamma=0.001, kernel=rbf"
+sklearn.model_selection.ShuffleSplit,,"n_splits=50, random_state=0, test_size=0.2"
+sklearn.model_selection._plot.LearningCurveDisplay.from_estimator,estimator,"ax=**, **common_params"
+sklearn.model_selection.ShuffleSplit,,"n_splits=50, random_state=0, test_size=0.2"
+sklearn.datasets.load_iris,,
+sklearn.svm.SVC,,kernel=rbf
+sklearn.model_selection.KFold,,"n_splits=4, random_state=i, shuffle=True"
+sklearn.model_selection.KFold,,"n_splits=4, random_state=i, shuffle=True"
+sklearn.model_selection.GridSearchCV,,"cv=outer_cv, estimator=svm, param_grid=p_grid"
+sklearn.model_selection._search.BaseSearchCV.fit,"X_iris, y_iris",
+sklearn.model_selection.GridSearchCV,,"cv=inner_cv, estimator=svm, param_grid=p_grid"
+sklearn.model_selection.cross_val_score,clf,"X=X_iris, cv=outer_cv, y=y_iris"
+sklearn.datasets.load_iris,,return_X_y=True
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.from_estimator,"classifier, X_test, y_test","name=LinearSVC, plot_chance_level=True"
+sklearn.pipeline.Pipeline.decision_function,X_test,
+sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.from_predictions,"y_test, y_score","name=LinearSVC, plot_chance_level=True"
+sklearn.preprocessing.label_binarize,y,classes=**
+sklearn.multiclass.OneVsRestClassifier,**,
+sklearn.multiclass.OneVsRestClassifier.fit,"X_train, Y_train",
+sklearn.multiclass.OneVsRestClassifier.decision_function,X_test,
+sklearn.metrics.average_precision_score,"Y_test, y_score",average=micro
+sklearn.metrics.PrecisionRecallDisplay,,"average_precision=**, precision=**, prevalence_pos_label=**, recall=**"
+sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.plot,,plot_chance_level=True
+sklearn.metrics.PrecisionRecallDisplay,,"average_precision=**, precision=**, recall=**"
+sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.plot,,"ax=ax, color=gold, name=Micro-average precision-recall"
+sklearn.preprocessing.StandardScaler,,
+sklearn.svm.LinearSVC,,"dual=auto, random_state=random_state"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.metrics.precision_recall_curve,"**, **",
+sklearn.metrics.average_precision_score,"**, **",
+sklearn.metrics.PrecisionRecallDisplay,,"average_precision=**, precision=**, recall=**"
+sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.plot,,"ax=ax, color=color, name=**"
+sklearn.pipeline.make_pipeline,,
+sklearn.svm.LinearSVC,,"dual=auto, random_state=random_state"
+sklearn.pipeline.Pipeline,**,
+sklearn.model_selection.GridSearchCV,pipe,"cv=10, n_jobs=1, param_grid=param_grid, refit=best_low_complexity, scoring=accuracy"
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.svm.LinearSVC,,"C=0.01, dual=auto, random_state=42"
+sklearn.datasets.make_classification,,"n_samples=10000, random_state=0, weights=**"
+sklearn.model_selection.train_test_split,"X, y",random_state=0
+sklearn.linear_model._logistic.LogisticRegression.fit,"X_train, y_train",
+sklearn.linear_model._base.LinearClassifierMixin.predict,X_test,
+sklearn.metrics.class_likelihood_ratios,"y_test, y_pred",
+sklearn.linear_model.LogisticRegression,,
+sklearn.dummy.DummyClassifier,,"random_state=1234, strategy=stratified"
+sklearn.dummy.DummyClassifier,,strategy=most_frequent
+sklearn.linear_model.LogisticRegression,,
+sklearn.datasets.make_classification,,"n_samples=300, random_state=0, weights=**"
+sklearn.datasets.make_classification,,"weights=**, **common_params"
+sklearn.linear_model.LogisticRegression,"X, y",
+sklearn.metrics.class_likelihood_ratios,"y, y_pred",raise_warning=False
+sklearn.model_selection.cross_validate,"estimator, X, y","cv=10, scoring=scoring"
+sklearn.model_selection.cross_validate,"estimator, X, y","cv=10, scoring=scoring"
+sklearn.model_selection.cross_validate,"estimator, X, y","cv=10, scoring=scoring"
+sklearn.model_selection.cross_validate,"estimator, X, y","cv=10, scoring=scoring"
+sklearn.model_selection.cross_validate,"estimator, X, y","cv=10, scoring=scoring"
+sklearn.datasets.make_classification,,"weights=**, **common_params"
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"estimator, X_plot","alpha=0.5, ax=ax, response_method=predict"
+sklearn.linear_model.LogisticRegression,,
+sklearn.linear_model.LogisticRegression,,
+sklearn.datasets.make_hastie_10_2,,"n_samples=8000, random_state=42"
+sklearn.model_selection.GridSearchCV,**,"n_jobs=2, param_grid=**, refit=AUC, return_train_score=True, scoring=scoring"
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.tree.DecisionTreeClassifier,,random_state=42
+sklearn.datasets.load_digits,,
+sklearn.model_selection.train_test_split,"X, y","random_state=0, test_size=0.5"
+sklearn.model_selection._search.BaseSearchCV.fit,"X_train, y_train",
+sklearn.model_selection._search.BaseSearchCV.predict,X_test,
+sklearn.svm.SVC,,
+sklearn.metrics.classification_report,"y_test, y_pred",
+sklearn.datasets.load_iris,,
+sklearn.decomposition.IncrementalPCA,,"batch_size=10, n_components=n_components"
+sklearn.base.TransformerMixin.fit_transform,X,
+sklearn.decomposition.PCA,,n_components=n_components
+sklearn.decomposition._pca.PCA.fit_transform,X,
+sklearn.datasets.make_circles,,"factor=0.3, n_samples=1000, noise=0.05, random_state=0"
+sklearn.model_selection.train_test_split,"X, y","random_state=0, stratify=y"
+sklearn.decomposition.PCA,,n_components=2
+sklearn.decomposition._kernel_pca.KernelPCA,,"alpha=0.1, fit_inverse_transform=True, gamma=10, kernel=rbf, n_components=None"
+sklearn.decomposition._base._BasePCA.transform,X_test,
+sklearn.decomposition._base._BasePCA.inverse_transform,**,
+sklearn.decomposition._kernel_pca.KernelPCA.inverse_transform,**,
+sklearn.decomposition._pca.PCA,X_train,
+sklearn.decomposition._kernel_pca.KernelPCA,X_train,
+sklearn.datasets.fetch_olivetti_faces,,"random_state=rng, return_X_y=True, shuffle=True"
+sklearn.decomposition,,"n_components=n_components, svd_solver=randomized, whiten=True"
+sklearn.decomposition._pca.PCA.fit,faces_centered,
+sklearn.decomposition.NMF,,"n_components=n_components, tol=0.005"
+sklearn.decomposition._nmf._BaseNMF.fit,faces,
+sklearn.decomposition,,"max_iter=400, n_components=n_components, tol=0.00015, whiten=arbitrary-variance"
+sklearn.decomposition._fastica.FastICA.fit,faces_centered,
+sklearn.decomposition,,"alpha=0.1, batch_size=3, max_iter=100, n_components=n_components, random_state=rng"
+sklearn.decomposition._sparse_pca._BaseSparsePCA.fit,faces_centered,
+sklearn.decomposition.MiniBatchDictionaryLearning,,"alpha=0.1, batch_size=3, max_iter=50, n_components=n_components, random_state=rng"
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.fit,faces_centered,
+sklearn.cluster,,"batch_size=20, max_iter=50, n_clusters=n_components, n_init=auto, random_state=rng, tol=0.001"
+sklearn.cluster._kmeans.MiniBatchKMeans.fit,faces_centered,
+sklearn.decomposition.FactorAnalysis,,"max_iter=20, n_components=n_components"
+sklearn.decomposition._factor_analysis.FactorAnalysis.fit,faces_centered,
+sklearn.decomposition.MiniBatchDictionaryLearning,,"alpha=0.1, batch_size=3, max_iter=50, n_components=n_components, positive_dict=True, random_state=rng"
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.fit,faces_centered,
+sklearn.decomposition.MiniBatchDictionaryLearning,,"alpha=0.1, batch_size=3, fit_algorithm=cd, max_iter=50, n_components=n_components, positive_code=True, random_state=rng"
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.fit,faces_centered,
+sklearn.decomposition.MiniBatchDictionaryLearning,,"alpha=0.1, batch_size=3, fit_algorithm=cd, max_iter=50, n_components=n_components, positive_code=True, positive_dict=True, random_state=rng"
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.fit,faces_centered,
+sklearn.datasets.load_iris,,
+sklearn.decomposition.PCA,,n_components=2
+sklearn.decomposition._base._BasePCA.transform,X,
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,n_components=2
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.transform,X,
+sklearn.decomposition._pca.PCA,X,
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.fit,"X, y",
+sklearn.feature_extraction.image.extract_patches_2d,"**, patch_size",
+sklearn.decomposition.MiniBatchDictionaryLearning,,"alpha=1.0, batch_size=200, max_iter=10, n_components=50"
+sklearn.feature_extraction.image.extract_patches_2d,"**, patch_size",
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.fit,data,
+sklearn.base.BaseEstimator.set_params,,"transform_algorithm=transform_algorithm, **kwargs"
+sklearn.decomposition._dict_learning._BaseSparseCoding.transform,data,
+sklearn.decomposition.PCA,,svd_solver=full
+sklearn.decomposition.FactorAnalysis,,
+sklearn.model_selection.GridSearchCV,"**, **",
+sklearn.decomposition.PCA,,"n_components=mle, svd_solver=full"
+sklearn.decomposition._pca.PCA.fit,X,
+sklearn.model_selection.GridSearchCV,,
+sklearn.model_selection.cross_val_score,"**, X",
+sklearn.model_selection.cross_val_score,"**, X",
+sklearn.datasets.load_iris,,
+sklearn.decomposition.PCA,,n_components=3
+sklearn.decomposition._pca.PCA.fit,X,
+sklearn.decomposition._base._BasePCA.transform,X,
+sklearn.decomposition.FastICA,,"n_components=3, whiten=arbitrary-variance"
+sklearn.decomposition._fastica.FastICA.fit_transform,X,
+sklearn.decomposition.PCA,,n_components=3
+sklearn.decomposition._pca.PCA.fit_transform,X,
+sklearn.decomposition.PCA,,n_components=3
+sklearn.decomposition._pca.PCA.fit,Y,
+sklearn.datasets.load_iris,,
+sklearn.base.TransformerMixin.fit_transform,**,
+sklearn.preprocessing.StandardScaler,,
+sklearn.decomposition.FactorAnalysis,,rotation=varimax
+sklearn.decomposition._dict_learning.SparseCoder.transform,**,
+sklearn.decomposition._dict_learning.SparseCoder,,"dictionary=D, transform_algorithm=algo, transform_alpha=alpha, transform_n_nonzero_coefs=n_nonzero"
+sklearn.decomposition._dict_learning.SparseCoder.transform,**,
+sklearn.decomposition._dict_learning.SparseCoder.transform,"1, **",
+sklearn.decomposition._dict_learning.SparseCoder,"1, **",
+sklearn.decomposition._base._BasePCA.transform,X,
+sklearn.decomposition.FastICA,,"random_state=rng, whiten=arbitrary-variance"
+sklearn.decomposition._fastica.FastICA.transform,X,
+sklearn.decomposition._pca.PCA,X,
+sklearn.decomposition._fastica.FastICA,X,
+sklearn.decomposition._pca.PCA,X,
+sklearn.model_selection.train_test_split,"X, y",random_state=rng
+sklearn.pipeline.make_pipeline,"**, **, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.cross_decomposition.PLSRegression,,n_components=1
+sklearn.cross_decomposition._pls.PLSRegression.fit,"X_train, y_train",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.make_pipeline,,
+sklearn.pipeline.make_pipeline,,n_components=1
+sklearn.pipeline.make_pipeline,,
+sklearn.cross_decomposition._pls._PLS.transform,X_test,
+sklearn.cross_decomposition._pls._PLS.transform,X_test,
+sklearn.pipeline.make_pipeline,,n_components=2
+sklearn.pipeline.make_pipeline,,
+sklearn.decomposition.PCA,,n_components=2
+sklearn.decomposition._pca.PCA._fit_full.components_,,size=n_samples
+sklearn.pipeline.Pipeline,"X_test, y_test",
+sklearn.cross_decomposition._pls.PLSRegression,"X_test, y_test",
+sklearn.cross_decomposition.PLSCanonical,,n_components=2
+sklearn.cross_decomposition._pls._PLS.fit,"X_train, Y_train",
+sklearn.cross_decomposition._pls._PLS.transform,"X_train, Y_train",
+sklearn.cross_decomposition._pls._PLS.transform,"X_test, Y_test",
+sklearn.cross_decomposition.PLSRegression,,n_components=3
+sklearn.cross_decomposition._pls.PLSRegression.fit,"X, Y",
+sklearn.cross_decomposition._pls._PLS.predict,X,
+sklearn.cross_decomposition.PLSRegression,,n_components=3
+sklearn.cross_decomposition._pls.PLSRegression.fit,"X, y",
+sklearn.cross_decomposition.CCA,,n_components=2
+sklearn.cross_decomposition._pls._PLS.fit,"X_train, Y_train",
+sklearn.cross_decomposition._pls._PLS.transform,"X_train, Y_train",
+sklearn.cross_decomposition._pls._PLS.transform,"X_test, Y_test",
+sklearn.datasets.fetch_species_distributions,,
+sklearn.neighbors.KernelDensity,,"algorithm=ball_tree, bandwidth=0.04, kernel=gaussian, metric=haversine"
+sklearn.neighbors._kde.KernelDensity.fit,**,
+sklearn.datasets.load_iris,,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline,**,
+sklearn.pipeline.Pipeline.fit,"X_train, y_train",
+sklearn.pipeline.Pipeline.score,"X_test, y_test",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","alpha=0.8, ax=ax, cmap=cmap_light, plot_method=pcolormesh, response_method=predict, shading=auto"
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=n_neighbors
+sklearn.neighbors.NeighborhoodComponentsAnalysis,,
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=n_neighbors
+sklearn.datasets.load_iris,,
+sklearn.neighbors.NearestCentroid,,shrink_threshold=shrinkage
+sklearn.neighbors._nearest_centroid.NearestCentroid.fit,"X, y",
+sklearn.neighbors._nearest_centroid.NearestCentroid,X,
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=cmap_light, response_method=predict"
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.neighbors.KNeighborsTransformer,,"mode=distance, n_neighbors=**"
+sklearn.neighbors.KNeighborsClassifier,,metric=precomputed
+sklearn.pipeline.Pipeline,,"memory=tmpdir, steps=**"
+sklearn.model_selection.GridSearchCV,"full_model, param_grid",
+sklearn.model_selection._search.BaseSearchCV.fit,"X, y",
+sklearn.neighbors.KNeighborsTransformer,n_neighbors_list,
+sklearn.datasets.load_digits,,return_X_y=True
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.neighbors.KNeighborsClassifier,,n_neighbors=n_neighbors
+sklearn.pipeline.make_pipeline,,
+sklearn.decomposition.PCA,,"n_components=2, random_state=random_state"
+sklearn.pipeline.make_pipeline,,
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis,,n_components=2
+sklearn.preprocessing.StandardScaler,,
+sklearn.neighbors.NeighborhoodComponentsAnalysis,,"n_components=2, random_state=random_state"
+sklearn.neighbors._classification.KNeighborsClassifier.fit,"**, y_train",
+sklearn.base.ClassifierMixin.score,"**, y_test",
+sklearn.base.ClassifierMixin.score,X_test,
+sklearn.neighbors.LocalOutlierFactor,,"contamination=0.1, n_neighbors=20"
+sklearn.neighbors._lof.LocalOutlierFactor.fit_predict,X,
+sklearn.datasets.make_classification,,"class_sep=1.0, n_classes=3, n_clusters_per_class=1, n_features=2, n_informative=2, n_redundant=0, n_samples=9, random_state=0"
+sklearn.neighbors.NeighborhoodComponentsAnalysis,,"max_iter=30, random_state=0"
+sklearn.neighbors._nca.NeighborhoodComponentsAnalysis.fit,"X, y",
+sklearn.neighbors._nca.NeighborhoodComponentsAnalysis,X,
+sklearn.neighbors.LocalOutlierFactor,,"contamination=0.1, n_neighbors=20, novelty=True"
+sklearn.neighbors._lof.LocalOutlierFactor.fit,X_train,
+sklearn.neighbors._lof.LocalOutlierFactor.predict,X_test,
+sklearn.neighbors._lof.LocalOutlierFactor.predict,X_outliers,
+sklearn.neighbors._lof.LocalOutlierFactor.decision_function,**,
+sklearn.neighbors._lof.LocalOutlierFactor.decision_function,,
+sklearn.neighbors._lof.LocalOutlierFactor.decision_function,,
+sklearn.neighbors.KNeighborsRegressor,n_neighbors,weights=weights
+sklearn.neighbors._regression.KNeighborsRegressor.predict,T,
+sklearn.neighbors._regression.KNeighborsRegressor,"X, y",
+sklearn.datasets.load_iris,,
+sklearn.neighbors.KNeighborsClassifier,n_neighbors,weights=weights
+sklearn.neighbors._classification.KNeighborsClassifier.fit,"X, y",
+sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator,"clf, X","ax=ax, cmap=cmap_light, plot_method=pcolormesh, response_method=predict, shading=auto, xlabel=**, ylabel=**"
+sklearn.neighbors._kde.KernelDensity,X,
+sklearn.neighbors._kde.KernelDensity.score_samples,X_plot,
+sklearn.neighbors._kde.KernelDensity,X,
+sklearn.neighbors._kde.KernelDensity.score_samples,X_plot,
+sklearn.neighbors._kde.KernelDensity.score_samples,X_plot,
+sklearn.neighbors._kde.KernelDensity.score_samples,X_plot,
+sklearn.neighbors.KernelDensity,,"bandwidth=0.75, kernel=tophat"
+sklearn.neighbors.KernelDensity,,"bandwidth=0.75, kernel=gaussian"
+sklearn.neighbors.KernelDensity,,"bandwidth=0.5, kernel=kernel"
+sklearn.neighbors.KernelDensity,,kernel=kernel
+sklearn.datasets.fetch_openml,mnist_784,"as_frame=False, parser=pandas"
+sklearn.utils.shuffle,"**, **",random_state=2
+sklearn.neighbors.KNeighborsTransformer,,"metric=metric, mode=distance, n_neighbors=n_neighbors"
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.make_pipeline,"**, **",
+sklearn.pipeline.Pipeline.fit_transform,X,
+sklearn.neighbors.KNeighborsTransformer,,"metric=metric, mode=distance, n_neighbors=n_neighbors"
+sklearn.manifold.TSNE,,"metric=precomputed, **tsne_params"
+sklearn.manifold.TSNE,,"metric=precomputed, **tsne_params"
+sklearn.datasets.load_digits,,
+sklearn.decomposition.PCA,,"n_components=15, whiten=False"
+sklearn.decomposition._pca.PCA.fit_transform,**,
+sklearn.model_selection.GridSearchCV,"**, params",
+sklearn.model_selection._search.BaseSearchCV.fit,data,
+sklearn.decomposition._base._BasePCA.inverse_transform,new_data,
+sklearn.model_selection.GridSearchCV,,
