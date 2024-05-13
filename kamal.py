@@ -151,7 +151,7 @@ def main():
     parser = get_argparser()
     args = parser.parse_args()
 
-    if importlib.util.find_spec("sklearn") is None:
+    if importlib.util.find_spec(args.module) is None:
         sys.exit(f"Install the '{args.module}' module to collect statistics about its usage.")
 
     with open(args.output, "w", newline="") as csvfile:
